@@ -1,0 +1,3103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="app_name">Member</string>
+    <!--微信公众号营销主要列表的 string-->
+    <string name="wx_official_account_not_authorized">公众号未授权</string>
+    <string name="wx_official_account_not_authorized_memo">授权后才能正常使用功能</string>
+    <string name="wx_official_account_open">开通公众号</string>
+    <string name="wx_official_account_tools">公众号营销工具</string>
+    <string name="wx_official_account_open_memo">将会员、卡等放到公众号中</string>
+    <string name="wx_official_account_menu_setting">公众号菜单设置</string>
+    <string name="wx_official_count_marketing">店家微信公众号运营</string>
+    <string name="mb_wx_official_count_marketing_shoppingmall">商场微信公众号运营</string>
+    <string name="wx_official_count_authorize">店家公众号授权</string>
+    <string name="wx_pay_merchant">微信支付特约商户</string>
+    <string name="wx_pay_merchant_apply">微信支付特约商户申请</string>
+    <string name="wx_pay_merchant_apply_note">包括微信直连、支付即关注等功能</string>
+    <string name="wx_pay_merchant_tip">开通微信支付特约商户，即微信直连</string>
+    <string name="wx_pay_authorize_tip">将微信公众号授权给二维火，可用您的公众号发消息、设置您的公众号菜单等</string>
+    <string name="wx_pay_merchant_drawback">特约商户退款功能</string>
+    <string name="wx_pay_merchant_drawback_title">申请微信公众号托管</string>
+    <string name="wx_pay_merchant_drawback_tip">向微信申请特约商户（直连）退款功能</string>
+    <string name="wx_pay_auto_follow">支付后关注公众号</string>
+    <string name="wx_pay_auto_follow_tip">开通自动关注店家公众号功能</string>
+    <string name="wx_marketing_not_open">未开通</string>
+    <string name="wx_marketing_open">已开通</string>
+    <string name="wx_marketing_open_s">已开通%s个</string>
+    <string name="wx_marketing_account_open_s">已授权%s个</string>
+
+    <string name="wx_marketing_not_auth">未授权</string>
+    <string name="wx_marketing_permission">你没有%s的权限</string>
+    <string name="wx_new">新</string>
+    <string name="wx_boom">爆</string>
+    <string name="wx_level_up">升级</string>
+    <string name="wx_add_up_new_fans">累计新增粉丝:</string>
+
+
+    <!--微信特约商户-->
+    <string name="wx_special_shop">微信特约商户</string>
+    <string name="wx_special_shop_memo">微信支付直连通道开通</string>
+    <!--扫码就餐自动提醒-->
+    <string name="wx_scan_code_notice">订单消息自动推送</string>
+    <string name="wx_scan_code_notice_memo">下单、支付等消息自动发送</string>
+    <!--打通微信卡券-->
+    <string name="wx_open_weixin_card">打通微信卡券</string>
+    <string name="wx_open_weixin_card_memo">微信卡包功能对接</string>
+    <string name="wx_sync_card">同步会员卡到微信卡券</string>
+    <string name="wx_sync_card_memo">将会员卡同步到微信，可在卡包中查看</string>
+    <string name="wx_sync_coupon">同步优惠券到微信卡券</string>
+    <string name="wx_sync_coupon_memo">将优惠券同步到微信，领券用户可收到期提醒</string>
+    <!--吸粉工具集锦-->
+    <string name="wx_attract_fan_tools">吸粉工具集锦</string>
+    <string name="wx_attract_fan_tools_memo">多种方式帮公众号吸粉</string>
+    <string name="follow_before_scan">扫桌码点餐前需关注公众号</string>
+    <string name="follow_before_scan_memo">此功能需额外付费，请根据引导到淘宝店购买</string>
+    <string name="follow_send_gifts">关注公众号送卡/券/积分</string>
+    <string name="follow_send_gifts_memo">扫码送卡/券/积分活动专用二维码</string>
+    <string name="follow_send_gifts_des">点击下方添加，可以根据条件生成不同的关注公众号二维码，如关注后可送卡/券/积分，请将二维码生成后发送到邮箱中自行打印。此码优惠每人只能领取一次。</string>
+    <string name="scan_and_follow">扫普通桌码关注公众号</string>
+    <string name="scan_and_follow_memo">扫桌码时网页出现二维码让用户关注公众号</string>
+    <string name="play_game_and_follow">玩游戏关注公众号</string>
+    <string name="play_game_and_follow_memo">专为公众号设计，先关注公众号再玩游戏</string>
+    <string name="follow_automatic_reply">关注公众号自动回复消息设置</string>
+    <string name="follow_automatic_reply_memo">可设置关注公众号即可领卡/券/文字</string>
+    <string name="key_words_reply">设置关键词自动回复消息</string>
+    <string name="key_words_reply_memo">顾客在公众号中输入关键词可收到特定消息</string>
+    <string name="orienteering_push_card">定向推送卡/券消息</string>
+    <string name="orienteering_push_card_memo">商家可在公众号中一定范围内发送定向消息</string>
+    <!--公众号分析-->
+    <string name="wx_official_account_analyze">公众号分析</string>
+    <string name="wx_official_account_analyze_memo">智能分析公众号营销效果</string>
+    <string name="wx_official_account_analyze_line_chart">以上数据都是次日产生，只能查看斤7天的数据，如需查看更多数据，请前往公众号后台。</string>
+    <!--支付即关注-->
+    <string name="wx_pay_and_follow">支付即关注</string>
+    <string name="wx_pay_and_follow_memo">微信支付后自动关注公众号</string>
+    <!--关注公众号自动回复-->
+    <string name="auto_reply">关注公众号自动回复</string>
+    <string name="text_end_add_link">文末添加链接</string>
+    <string name="add_link">输入链接</string>
+    <string name="link_name">链接名称</string>
+    <string name="keep_on_adding_reply">继续添加回复内容</string>
+    <string name="setting_auto_reply">设置自动回复内容%d</string>
+    <string name="setting_auto_reply_title">设置自动回复内容</string>
+    <string name="setting_auto_reply_hint">请输入消息内容～</string>
+
+    <!--关注公众号可领卡/券/积分-->
+    <string name="follow_official_account">关注公众号可领卡/券/积分</string>
+    <string name="follow_official_account_title">关注公众号可领卡/券</string>
+    <string name="follow_official_account_title1">这个二维码能做什么？</string>
+    <string name="follow_official_account_content1">商家如果有需要进行“关注公众号送优惠券”或卡或积分的活动时，可以在此处添加并创建关注后可得的福利，设置好对应的条件后可以获得此二维码，所有顾客在领取商家设置好的福利前都需要先关注公众号，帮助商家达到吸粉的目的。</string>
+    <string name="follow_official_account_title2">二维码到期后会怎样？</string>
+    <string name="follow_official_account_content2">如果已经过了商家设置的活动时间，那顾客扫码后仍为关注公众号的提示，但是关注后将无法获得任何优惠，但是码还是可以正常扫正常关注。</string>
+    <string name="follow_official_account_title3">这个码我要如何使用？</string>
+    <string name="follow_official_account_content3">商家可以根据自己的需要，把码做成海报等物料放在店里、商场里，用卡、券或积分等方法吸引顾客扫码关注。一个活动对应一个二维码，扫其他码都是无法获得优惠的。</string>
+    <string name="already_lost_efficacy">已失效</string>
+    <string name="lose_efficacy">使失效</string>
+    <string name="send_to_email">发送到邮箱</string>
+    <string name="activity_qr_name">活动二维码名称</string>
+    <string name="edit_require">必填</string>
+    <string name="select_member_card">选择会员卡</string>
+    <string name="select_discount_coupon">选择优惠券</string>
+    <string name="type_in_gift_point_count">输入赠送积分数量（个）</string>
+    <string name="follow_official_account_get">关注公众号可领取</string>
+    <string name="activity_start_date">活动开始时间</string>
+    <string name="activity_end_date">活动结束时间</string>
+    <string name="follow_send_gift">"关注送%s"</string>
+    <!--高级接口对接-->
+    <string name="wx_advanced_interface_joint">高级接口对接</string>
+    <string name="wx_advanced_interface_joint_memo">针对性的发券/卡，不占额度</string>
+    <string name="wx_advanced_interface_joint_notice">店家创建的所有活动，如开卡有礼、消费有礼、卡充值提醒等，都可以在顾客下单、支付后提醒顾客领券，领券后有到账提醒、到期提醒，提醒顾客二次消费。以下提醒会在设置相应活动后生效。</string>
+    <string name="mb_wx_advanced_interface_joint_notice_shoppingmall">商场创建的活动，如卡充值，可以在用户卡内余额降到50元以下的预警值的时候提醒顾客及时进行充值。提醒会在设置开关打开之后生效。</string>
+    <string name="consume_gift_warn">消费有礼提醒</string>
+    <string name="consume_gift_warn_memo">当顾客达到满额/满次的条件可以领取优惠券/积分/卡余额，将在店家公众号中给顾客发送提醒（支付宝下单顾客请在支付宝与微信中绑定同一个手机号）。</string>
+
+
+    <string name="new_card_gift_warn">开卡有礼提醒</string>
+    <string name="new_card_gift_warn_memo">店家的开卡有礼活动，在顾客未领取相应优惠时会在店家公众号中给顾客发送提醒。</string>
+    <string name="card_recharge_discount_warn">卡充值优惠提醒</string>
+    <string name="card_recharge_discount_warn_memo">当顾客消费会员卡且会员卡余额少于50元时，每次卡消费都会在店家公众号中给顾客发送提醒，顾客可直接对相应卡进行充值。</string>
+    <!--微信公众号消息推送设置-->
+    <string name="wx_msg_push_setting">店家公众号消息推送设置</string>
+    <string name="mb_wx_msg_push_setting_shoppingmall">商场公众号消息推送设置</string>
+    <string name="wx_msg_push_setting_tip">通过店家公众号推送消息给顾客</string>
+    <string name="wx_msg_push_memo">顾客使用在线点单、结账、排队等功能时，会收到公众号推送的消息。所有消息都需要顾客在公众号内点餐领卡后才能收到。以下开关打开时使用店家公众号推送，关闭时使用二维火公众号推送。</string>
+    <string name="mb_wx_msg_push_memo_shoppingmall">顾客在使用会员卡消费和储值、领取优惠券时，会收到公众号推送的消息。所有消息都需要顾客在公众号内领卡后才可以收到。以下开关打开时会使用店家的公众号推送，关闭时使用二维火的公众号进行推送。</string>
+    <string name="wx_authorized_now">立即去授权</string>
+    <string name="wx_authorized_note">需要完成公众号授权后，才能使用此功能</string>
+    <string name="wx_authorized_note1">注：以下消息均为模板消息，此类消息仅限已认证的服务号可以发送。如发送不成功，请到微信公众号后台检查您的公众号。查看详细教程图</string>
+    <string name="wx_phone_marketing">公众号营销</string>
+    <string name="wx_custom_menu">店家公众号菜单自定义</string>
+    <string name="mb_wx_custom_menu_shoppingmall">商场公众号菜单自定义</string>
+    <string name="wx_custom_menu_tip">在微信公众号中加入菜单导航，如本店菜单、本店会员卡等</string>
+    <string name="wx_no_authorized_note">您尚未授权，无法开启开关</string>
+    <string name="wx_go_authorized_btn">去授权</string>
+    <string name="wx_msg_push_setting_memo">您可选择开启使用店家公众号给顾客发送订单状态变化的系统消息，也可以推送卡/券/促销活动消息给您的公众号粉丝。</string>
+    <string name="wx_orderstatus_sysmsg">订单状态系统消息</string>
+    <string name="wx_orderstatus_sysmsg_tip">订单、排队等消息</string>
+    <string name="wx_directionalpush">定向推送卡/券/促销活动</string>
+    <string name="wx_directionalpushCoupon">定向推送优惠券</string>
+    <string name="wx_directionalpush_tip">推送消息给微信粉丝</string>
+    <string name="wx_directpush_memo">您可选择对应的公众号粉丝发送您需要的消息，本消息可根据粉丝特点定向发送，选择对应的标签即可。此类消息每位粉丝每月最多可收到4条。</string>
+    <string name="wx_directpush_name">公众号：%s</string>
+    <string name="wx_directpush_group">发送对象：#%1$s#共%2$s人</string>
+    <string name="wx_directpush_authorized_noitem">您还没有通过二维火发送任何消息给微信粉丝</string>
+    <string name="wx_directpush_not_authorized_noitem">当前公众号未授权，无法发送消息</string>
+    <string name="wx_push_content_detail_coupon">选择要推送的券</string>
+    <string name="wx_push_content_detail_card">选择要推送的卡</string>
+    <string name="wx_push_content_detail_sale">选择促销活动推送</string>
+    <string name="wx_not_authorized">当前公众号未授权，无法发送消息</string>
+    <string name="wx_not_authorized_keyword">当前公众号未授权，无法设置关键词的回复</string>
+    <string name="wx_keyword_reply_setting">设置关键词自动回复</string>
+    <string name="wx_keyword_reply_setting_memo">公众号里回复特定文字可以收到卡/券/消息</string>
+    <string name="wx_keyword_replay_note">关键词回复可设置多个规则，不会占用公众号的发送额度。此功能所有的公众号都可以用。关键词回复可以发券/卡/文字消息。此功能可以用来与顾客互动，帮助店家更好的与顾客交流。</string>
+    <string name="wx_keyword_rule_name">规则名称：</string>
+    <string name="wx_keyword_rule_name1">规则名称</string>
+    <string name="wx_keyword">关键词：</string>
+    <string name="wx_keyword1">关键词</string>
+    <string name="wx_keyword_auto_reply">自动回复：</string>
+    <string name="wx_keyword_auto_reply_content">自动回复内容</string>
+    <string name="wx_keyword_auto_reply_input">输入要回复的文字</string>
+    <string name="wx_keyword_card_rule_memo">此处的会员卡仅限已同步到微信卡包的会员卡。</string>
+    <string name="wx_keyword_coupon_rule_memo">此处的优惠券仅限已同步到微信卡券的优惠券。</string>
+    <string name="wx_keyword_text_rule_memo">此处文字最多不可超过60个字。</string>
+    <string name="wx_keyword_delete">删除此规则</string>
+    <string name="wx_keyword_rule_setting">关键词规则设置</string>
+    <string name="wx_keyword_rule_empty">您还没有任何关键词回复设置</string>
+    <string name="wx_keyword_type_card">会员卡</string>
+    <string name="wx_keyword_type_card_name">选择要回复的会员卡</string>
+    <string name="wx_keyword_type_coupon_name">选择要回复的优惠券</string>
+    <string name="wx_keyword_type_coupon">优惠券</string>
+    <string name="wx_keyword_type_text">纯文字</string>
+
+    <string name="wx_keyword_edit_num">最多60个字</string>
+    <string name="wx_keyword_delete_memo">确定要删除此规则吗？</string>
+    <string name="wx_keyword_help_1">关键词是顾客关注公众号后，在公众号中发出指定文字，就能收到设置好的消息的方式；</string>
+    <string name="wx_keyword_help_2">关键词回复内容可以是会员卡、优惠券或者文字消息，此消息不会占用公众号的额度；</string>
+    <string name="wx_keyword_help_3">关键词回复适合用来与关注公众号的粉丝做互动游戏，比如回复关键词限时抢购、回复关键词参与抢红包等等。
+</string>
+
+
+    <!--扫码点餐关注公众号-->
+    <string name="wx_public_account_qrcode">扫码点餐关注公众号</string>
+    <string name="wx_public_card">会员卡</string>
+    <string name="wx_authorized_first">请先进行公众号授权</string>
+    <string name="wx_select_card_or_coupon">选择卡/券</string>
+    <string name="wx_please_select_card_or_coupon">请选择要发送的卡/券</string>
+    <string name="wx_please_select_send_object">请选择发送对象</string>
+    <string name="wx_public_coupon">优惠券</string>
+    <string name="wx_scan_code_attract_fans">扫码吸粉</string>
+    <string name="wx_public_account_qrcode_tip">顾客在您店里支付后可以看到此二维码</string>
+    <string name="wx_qrcode_memo_not_authorized">您的公众号二维码会在顾客微信点菜并结账后展示，有助于您的微信公众号吸收粉丝。由于您的公众号未授权给二维火，需要手动上传二维码。</string>
+    <string name="wx_scan_code_attract_fans_head_memo">以下为桌码结合公众号二维码的模板，发送此桌贴模版到邮箱，自行打印后将右下角的二维码与桌位绑定，替换原来的桌码可以快速吸粉哦。</string>
+    <string name="wx_scan_code_attract_fans_send_to_email">发送此桌帖模板到邮箱</string>
+    <string name="wx_change_module">换一个模板</string>
+    <string name="wx_qrcode_memo_authorized">您的公众号二维码会在顾客微信点菜并结账后展示，有助于您的微信公众号吸收粉丝。</string>
+    <string name="wx_upload_qrcode">上传公众号二维码</string>
+    <string name="wx_qrcode_not_authorized_note">本店公众号未授权，无法自动获取二维码，需手动上传</string>
+    <string name="wx_qrcode_entrance_change_qr_style">更换桌帖样式，吸引顾客到店关注公众号 &gt;</string>
+    <string name="wx_qrcode_entrance_change_no_au">您还没有授权，无法使用此功能</string>
+    <string name="wx_qrcode_order_scan_can_follow">用户点餐时可扫码关注微信公众号</string>
+    <string name="wx_qrcode_pay_scan_can_follow">用户支付成功时可扫码关注微信公众号</string>
+    <string name="wx_qrcode_scan_follow_memo">注：当顾客扫桌码/店码时，可以看到店家公众号二维码，店家可以引导顾客在此关注公众号。</string>
+    <string name="wx_qrcode_scan_can_get_card_and_coupon">扫此二维码可领卡/券</string>
+    <string name="wx_qrcode_send_card_and_coupon">发送卡/券</string>
+    <string name="wx_qrcode_send_object">发送对象</string>
+    <string name="wx_download_qrcode">下载二维码到手机</string>
+    <string name="wx_reload_qrcode">重新获取公众号二维码</string>
+    <string name="wx_qrcode_note_title">公众号二维码获取方式：</string>
+    <string name="wx_qrcode_note">\n1.打开微信公众平台后台，在公众号管理中心，找到并点击“公众号设置”；\n
+                                  2.在账号详情页面，找到“二维码”，点击“下载更多尺寸”，建议下载边长12cm的二维码；\n
+                                  3.将下载的二维码通过QQ、微信网页版等方式从电脑传到手机上，然后在此处上传。</string>
+
+
+    <!--店家公众号授权-->
+    <string name="public_account_authorize">店家公众号授权</string>
+    <string name="mb_public_account_authorize_shoppingmall">商场公众号授权</string>
+    <string name="public_account_authorize_2">选择您要设置的公众号</string>
+    <string name="public_account_memo">店家微信公众号授权后，可在掌柜中直接设置微信公众号菜单内容；可通过店家微信公众号推送订单下厨、支付和会员消费等信息给顾客；可自动获取店家公众号二维码，在顾客在线支付成功后展示。</string>
+    <string name="mb_public_account_memo_shoppingmall">商场微信公众号授权后，可在掌柜中直接设置微信公众号菜单内容；可通过商场微信公众号推送会员储值、余额变更和会员消费等信息给顾客。</string>
+    <string name="public_account_memo1">请按照以下步骤申请公众号授权：</string>
+    <string name="public_account_memo2">请在完成第1、2步后，点击下方按钮：</string>
+    <string name="public_account_apply_for_authorize">申请微信公众号授权</string>
+    <string name="public_account_go_detail">查看详细教程</string>
+    <string name="public_account_authorized_permission">已授给二维火的权限：</string>
+    <string name="public_account_memo3">说明：如需解绑，请登陆微信公众号后台，可取消授权</string>
+    <string name="public_account_memo4">您已授权成功，如您的公众号添加了新功能组件或账号有变更，请重新授权图</string>
+    <string name="public_account_list_memo">以下为您已授权的公众号与对应的品牌，一个品牌可以绑定一个公众号，并且与品牌之下的门店绑定。您可以设置品牌公众号的菜单、推送消息等。</string>
+    <string name="public_account_store_num">共计绑定%d家门店</string>
+    <string name="public_account_store_num1">共计%d家门店</string>
+    <string name="public_account_select_shop">选公众号绑定门店</string>
+    <string name="public_account_no_permission">抱歉，您没有更改特约商户绑定门店的权限</string>
+    <string name="merchant_select_shop">选门店绑定特约商户</string>
+    <string name="public_account_authorized_help">您可以使用另一台手机打开微信，扫描以下二维码；或者将此页面截屏，打开微信扫一扫，从相册中选择图片进行识别。扫码时登录的微信号必须是与待授权的公众号绑定的个人微信号。</string>
+    <string name="authorized_occur_problem">授权有问题？</string>
+    <string name="public_account_not_pay_note">该门店尚未开通公众号营销功能，或开通了此功能但由于点券账户余额不足已停用，无法进行绑定。</string>
+
+    <string name="public_account_help">如何授权微信公众号</string>
+
+
+    <!--微信支付特约商户提交整个表单界面的 string-->
+    <string name="wx_pay_merchant_success">以下资料已审核通过并上线</string>
+    <string name="wx_pay_merchant_contact_info">联系信息</string>
+    <string name="wx_pay_merchant_contact">联系人</string>
+    <string name="wx_pay_merchant_contact_phone_number">联系人手机号</string>
+    <string name="wx_pay_merchant_contact_mail">常用邮箱</string>
+
+    <string name="wx_pay_merchant_manage_info">经营信息</string>
+    <string name="wx_pay_merchant_manage_company_name">公司名称</string>
+    <string name="wx_pay_merchant_manage_company_address">注册地址</string>
+    <string name="wx_pay_merchant_manage_abbreviation">商家简称</string>
+    <string name="wx_pay_merchant_manage_company_intro_tip">顾客在您店里用微信支付时可看到该简称。</string>
+    <string name="wx_pay_merchant_manage_trader_type">商户类型</string>
+    <string name="wx_pay_merchant_manage_trader_type_1">企业</string>
+    <string name="wx_pay_merchant_manage_trader_type_2">工商个体户</string>
+    <string name="wx_pay_merchant_manage_business_type">经营类目</string>
+    <string name="wx_pay_merchant_manage_business_type_1">餐饮/食品</string>
+    <string name="wx_pay_merchant_manage_business_type_2">线下零售</string>
+    <string name="wx_pay_merchant_manage_business_sub_type">经营子类目</string>
+    <string name="wx_pay_merchant_manage_business_sub_type_1_1">食品</string>
+    <string name="wx_pay_merchant_manage_business_sub_type_1_2">餐饮</string>
+    <string name="wx_pay_merchant_manage_business_sub_type_2_1">便利店</string>
+    <string name="wx_pay_merchant_manage_business_sub_type_2_2">其他综合零售</string>
+
+    <string name="wx_pay_merchant_manage_special_aptitude">特殊资质</string>
+    <string name="wx_pay_merchant_manage_special_aptitude_memo">特殊资质即《餐饮卫生许可证》或《餐饮流通许可证》</string>
+    <string name="wx_pay_merchant_manage_special_aptitude_memo1">餐饮（可堂食）商户请上传《餐饮服务许可证》或实体店铺的三张照片（1.门头照含店名；2.店内全景照；3.店内收银照)</string>
+    <string name="wx_pay_merchant_manage_special_aptitude_memo2">食品商户请上传《食品流通许可证》或《食品卫生许可证》或《食品经营许可证》或《保健食品经营卫生许可证》（四选一）</string>
+    <string name="wx_pay_merchant_manage_customer_service_phone_number">客服电话</string>
+    <string name="wx_pay_merchant_manage_license_number">营业执照注册号</string>
+    <string name="wx_pay_merchant_manage_business_scope">经营范围</string>
+    <string name="wx_pay_merchant_manage_business_scope_tip">请填写营业执照对应的经营范围。</string>
+    <string name="wx_pay_merchant_manage_license_photo">营业执照照片</string>
+    <string name="wx_pay_merchant_manage_license">营业执照</string>
+    <string name="wx_pay_merchant_company_legal_person">企业法人/经办人</string>
+    <string name="wx_pay_merchant_certificate_holder_type">证件持有人类型</string>
+    <string name="wx_pay_merchant_certificate_holder_type_1">企业法人</string>
+    <string name="wx_pay_merchant_certificate_holder_type_2">经办人</string>
+    <string name="wx_pay_merchant_certificate_holder_name">企业法人/经办人姓名</string>
+    <string name="wx_pay_merchant_certificate_type">证件类型</string>
+    <string name="wx_pay_merchant_certificate_type_1">身份证</string>
+    <string name="wx_pay_merchant_certificate_type_2">护照</string>
+    <string name="wx_pay_merchant_certificate_id_card_photo">身份证图片</string>
+    <string name="wx_pay_merchant_certificate_id_card_photo_front">身份证正面照</string>
+    <string name="wx_pay_merchant_certificate_id_card_photo_back">身份证背面照</string>
+    <string name="wx_pay_merchant_certificate_id_card_photo_memo">注:请本人手持证件拍照上传</string>
+    <string name="wx_pay_merchant_certificate_id_card_front">正面照片</string>
+    <string name="wx_pay_merchant_certificate_id_card_tip">上传彩色图片，需小于2MB，格式为bmp,png,jpeg,jpg或gif</string>
+    <string name="wx_pay_merchant_certificate_account_opening">添加开户许可证</string>
+    <string name="wx_pay_merchant_certificate_id_card_back">背面照片</string>
+    <string name="wx_pay_merchant_certificate_expiry_date">证件有效期开始时间</string>
+    <string name="wx_pay_merchant_certificate_expiry_date_to">证件有效期截止时间</string>
+    <string name="wx_pay_merchant_certificate_number">证件号码</string>
+
+    <string name="wx_pay_merchant_billing_info">结算信息</string>
+    <string name="wx_pay_merchant_account_type">账户类型</string>
+    <string name="wx_pay_merchant_account_type_1">法人账户</string>
+    <string name="wx_pay_merchant_account_type_2">对公账户</string>
+    <string name="wx_pay_merchant_account_name">开户名称</string>
+    <string name="wx_pay_merchant_account_bank">开户银行</string>
+    <string name="wx_pay_merchant_account_bank_province">开户省份</string>
+    <string name="wx_pay_merchant_account_bank_city">开户城市</string>
+    <string name="wx_pay_merchant_account_sub_branch">开户支行</string>
+    <string name="wx_pay_merchant_account_number">银行账号</string>
+    <string name="wx_pay_merchant_form_not_null">%s不能为空!</string>
+    <string name="wx_pay_merchant_form_time_error">证件有效期开始时间不能早于截止时间</string>
+    <string name="wx_pay_merchant_form_mail_error">邮件格式错误!</string>
+    <string name="wx_pay_merchant_form_not_valid">请确认按照要求修改，再提交申请</string>
+    <!--微信支付特约商户 未开通 string-->
+    <string name="wx_pay_merchant_not_open_tip">微信支付特约商户即微信直连账户，开通后顾客使用微信支付成功后，钱款会直接进入您绑定的银行账号中，即时到账。</string>
+    <string name="wx_pay_merchant_chain_plate_tip">以下为您已提交审核/已通过的特约商户信息，您可以变更每个特约商户绑定的店铺，也可以继续增加特约商户，您最多可添加300个特约商户。</string>
+    <string name="wx_pay_merchant_chain_plate_detail_tip">注：特约商户开通后，您的微信支付收款将切换到此特约商户下，您可点击以下链接查看结算账户。特约商户信息无法修改，如结算方式需要变更，请联系二维火在线客服。</string>
+    <string name="wx_pay_merchant_open_tip">本店已开通微信支付特约商户</string>
+    <string name="wx_pay_merchant_not_open_tip_superiority">特约商户的优势有哪些？</string>
+    <string name="wx_pay_merchant_not_open_tip_immediate_to_account">即时到账</string>
+    <string name="wx_pay_merchant_not_open_tip_immediate_to_account_memo">顾客微信付款，即时到您的账户。（非特约商户钱款需要延后1日转到收款账户）</string>
+    <string name="wx_pay_merchant_not_open_tip_immediate_drawback">随时退款</string>
+    <string name="wx_pay_merchant_not_open_tip_immediate_drawback_memo">随时用收银机对微信支付进行退款。（非特约商户仅支持当天24点前退款）</string>
+    <string name="wx_pay_merchant_not_open_tip_get_followers">公众号吸粉</string>
+    <string name="wx_pay_merchant_not_open_tip_get_followers_memo">特约商户开通微信营销工具中级版的支付即关注功能后，可使顾客在微信支付完成后自动关注店家公众号，公众号粉丝量暴增。</string>
+    <string name="wx_pay_merchant_not_open_nav_form">申请开通微信支付特约商户</string>
+    <string name="wx_pay_merchant_upload_image">上传图片</string>
+    <string name="wx_pay_merchant_not_open_tip_means">开通前需准备以下资料：</string>
+    <string name="wx_pay_merchant_not_open_tip_means_1">1.商户特殊资质照片</string>
+    <string name="wx_pay_merchant_not_open_tip_means_2">2.营业执照或个体工商户营业执照照片</string>
+    <string name="wx_pay_merchant_not_open_tip_means_3">3.企业法人/经办人身份证正反面照片</string>
+    <string name="wx_pay_merchant_cur_account_bind">当前公众号已绑定</string>
+    <string name="wx_pay_merchant_cur_merchant_bind">当前特约商户已绑定</string>
+    <string name="wx_pay_merchant_num">共计绑定%d家门店</string>
+    <string name="wx_pay_merchant_finish">已开通</string>
+    <string name="wx_pay_merchant_not_start">未开通</string>
+    <string name="wx_pay_shop_not_pay">未购买</string>
+    <string name="wx_pay_shop_bind_other">已经绑定</string>
+    <string name="wx_pay_shop_no_permission">没有权限</string>
+    <string name="wx_pay_merchant_reviewing1_tip">您的申请资料已成功提交,微信官方会在5个工作日内审核,请耐心等待。</string>
+    <string name="wx_pay_merchant_reviewing2_tip">您的验证申请已成功提交，由于申请的店家较多，微信官方审核出现延误，给您带来的不便深表歉意。我们已通知微信加急处理，请耐心等待。</string>
+    <string name="wx_pay_merchant_reviewing3_tip">特约商户收款账户验证中</string>
+    <string name="wx_pay_merchant_reviewing4_tip">您的验证申请已成功提交，7个工作日内即可开通特约商户（直连账户）</string>
+    <string name="wx_pay_merchant_reviewing5_tip">您的验证申请已成功提交，由于申请的店家较多，微信官方审核出现延误，给您带来的不便深表歉意。我们已通知微信加急处理，请耐心等待。</string>
+    <string name="wx_pay_merchant_success_tip">特约商户号: %s</string>
+    <string name="wx_pay_merchant_apply_time">申请提交时间: %s</string>
+    <!--微信支付特约商户自动退款-->
+    <string name="wx_pay_drawback_not_open_tip">本店成为微信支付特约商户（直连商户）后，即可申请微信支付退款功能。随时用收银机对微信支付进行退款（非特约商户仅支持当天24点前退款）</string>
+
+    <string name="wx_pay_drawback_not_open">我要申请退款功能</string>
+    <string name="wx_pay_drawback_finish">我已完成以上步骤</string>
+    <string name="wx_pay_drawback_reviewing_tip_1">您的审核资料已成功提交,微信会在7个工作日内审核,请耐心等待。</string>
+
+    <string name="wx_pay_drawback_upload_tip">将填好的表格打印并盖章，拍照后上传</string>
+    <string name="wx_pay_drawback_upload_tip_2">请保证您的图片中的公章清晰</string>
+    <string name="wx_pay_drawback_upload">确认上传</string>
+    <string name="wx_pay_drawback_upload_tip_3">准备上传申请表</string>
+    <string name="wx_pay_drawback_upload_tip_4">请再次确认申请表，保证您的图片中的公章清晰</string>
+    <string name="wx_pay_drawback_failure_tip">您的申请未通过，申请微信号为:%s</string>
+    <string name="wx_pay_drawback_failure_tip_2">失败原因: %s</string>
+    <string name="wx_pay_drawback_failure_tip_3">重新申请\"支付后自动关注公众号\"</string>
+    <string name="wx_pay_drawback_operation_tip1">请登陆您的微信商户后台--在“产品大全”、“我授权的产品”中找到“服务商API退款”并授权。</string>
+    <string name="wx_pay_drawback_memo1">您需先申请通过退款功能，才可在微信中使用外卖点餐功能。</string>
+    <string name="wx_pay_apply_submit">您的申请已提交</string>
+    <string name="wx_pay_apply_submit_memo">二维火会在1-3个工作日内对您发起邀请。请登陆您的微信商户后—在“产品大全”、“我授权的产品”中找到“服务商API退款”并授权。</string>
+    <string name="wx_pay_apply_submit_note">您申请后，二维火会在1-3个工作日内在微信支付后台向您发起邀请，请及时确认</string>
+    <string name="wx_pay_already_invite">二维火已对您发起邀请！</string>
+    <string name="wx_pay_already_invite_memo">请登录微信商户后台同意并授权</string>
+    <string name="wx_pay_apply_agree_note">您的申请已提交！二维火会在1-2个工作日内核实，请耐心等候。</string>
+    <string name="wx_pay_wait_reviewing_note">待二维火核实授权状态</string>
+
+
+    <string name="wx_pay_drawback_follow_this">请按照以下步骤申请公众号授权：</string>
+    <!--自动关注-->
+    <string name="wx_pay_auto_follow_not_open_tip">店家开通微信支付特约商户后，如果顾客使用微信进行支付，在支付完成后会自动关注店家设置的公众号。店家可以通过提升扫码点餐和支付率，极速吸纳公众号粉丝。</string>
+    <string name="wx_pay_auto_follow_opened_tip">顾客使用微信付款后，在微信中的支付凭证页面会展示此处设置的公众号，顾客对凭证进行确认时会自动关注此公众号，有助于店家吸纳公众号粉丝。</string>
+    <string name="wx_pay_auto_follow_to_open">立即去开通 &gt;</string>
+    <string name="wx_pay_auto_follow_not_open_tip_2">需开通微信支付特约商户，才能使用此功能</string>
+    <string name="wx_pay_auto_follow_not_open_apply">申请“支付后自动关注公众号”</string>
+    <string name="wx_pay_auto_follow_success_tip">顾客微信支付后自动关注公众号</string>
+    <string name="wx_pay_auto_follow_success_tip_2">我要变更此公众号 &gt;</string>
+    <string name="wx_pay_auto_follow_reviewing_tip_1">您的申请资料已成功提交，微信官方会在5个工作日内审核，请耐心等待。</string>
+    <string name="wx_pay_auto_follow_reviewing_tip_2">您的申请资料已成功提交。由于申请的店家较多，微信官方审核出现延误，给您带来的不便深表歉意。我们已通知微信加急处理，请耐心等待。</string>
+    <string name="wx_pay_auto_follow_change_account_tip">注：请进入微信服务号后台-基本配置-复制您的 appid 到此处,添加的公众号认证主体需与特约商户号经营主体一致，且需为通过微信认证的服务号。</string>
+    <string name="wx_pay_auto_follow_change_account_apply">提交申请</string>
+    <string name="wx_account">微信号</string>
+    <string name="wx_account_type">公众号类型</string>
+    <string name="wx_account_authorize">已授权的公众号</string>
+    <string name="wx_account_other">其他公众号</string>
+
+    <string name="wx_pay_apply_reviewing">您的申请审核中</string>
+    <string name="wx_pay_apply_reviewing_2">您的申请资料需进一步验证</string>
+    <string name="wx_pay_apply_to_detail">查看我提交的申请资料</string>
+
+    <string name="wx_pay_apply_success">申请成功！</string>
+    <string name="wx_pay_apply_success_memo">您可在收银机上发起退款操作</string>
+    <string name="wx_pay_apply_success_tip">您可在使用此特约商户的门店内，在收银机上对微信支付的金额进行“清空支付”或删除。</string>
+    <string name="wx_pay_apply_success_tip1">请确认您特约商户账户内有充足余额便于退款。</string>
+    <string name="wx_pay_apply_failure">申请资料未通过，请重新申请</string>
+    <string name="wx_pay_apply_failure_reason">失败原因：%s</string>
+    <string name="wx_pay_reapply">重新申请</string>
+    <string name="wx_pay_apply_reviewing_2_tip">进入您的邮箱</string>
+    <string name="wx_pay_apply_reviewing_2_tip2">根据微信官方邮件的要\n求验证您的收款账户</string>
+    <string name="wx_pay_apply_reviewing_2_finish">我已完成以上步骤</string>
+    <string name="wx_pay_apply_reviewing_2_finish_tip">请先完成以上步骤，完成后点击此按钮，7个工作日内即可开通特约商户</string>
+
+    <string name="wx_custom_menu_title_1">店家可以在这里对本店公众号菜单进行调整，请点击下图中底部的菜单栏进行添加或修改，保存后会同步到您的公众号。此功能仅限服务号或认证后的订阅号可用。</string>
+    <string name="wx_custom_menu_title_2">如果本店有微信公众号，可以将以下功能加入公众号菜单中。公众号未授权时，需手动复制每个菜单的链接后在微信公众号后台进行设置；公众号授权后，可在此处直接对公众号菜单进行设置。</string>
+    <string name="mb_wx_custom_menu_title_shoppingmall_1">商场可以在这里对公众号菜单进行调整，请点击下图中底部的菜单栏进行添加或者修改，保存后会同步到您的公众号。此功能仅限服务号或者认证后的订阅号可用。</string>
+    <string name="mb_wx_custom_menu_title_shoppingmall_2">如果商场有微信公众号，可以将以下功能加入公众号菜单中。公众号未授权时，需手动复制每个菜单的链接后在微信公众号后台进行设置；公众号授权后，可在此处直接对公众号菜单进行设置。</string>
+    <string name="wx_custom_menu_title_to_detail_1">查看详细教程 &gt;</string>
+    <string name="wx_custom_menu_title_to_detail_2">立即去授权 &gt;</string>
+    <string name="wx_custom_menu_send_toast">发送成功</string>
+    <string name="wx_custom_menu_info_1">您尚未进行公众号授权，需复制链接自行设置</string>
+    <string name="wx_custom_menu_info_2_1">请点击对应菜单，复制链接后在您的微信公众号后台对菜单进行设置。微信公众号后台菜单设置教程 &gt;</string>
+    <string name="wx_custom_menu_set_tip">一键设置公众号菜单</string>
+    <string name="wx_custom_menu_foot_tip">使用“一键设置公众号菜单”，可将所有功能一次性同步到您的公众号。同步完成后您可以按需要对菜单进行编辑和删除操作</string>
+    <string name="wx_custom_menu_name">菜单名称</string>
+    <string name="wx_custom_sub_menu_name">子菜单名称</string>
+    <string name="wx_custom_menu_type">菜单模式</string>
+    <string name="wx_custom_menu_shop">选择对应门店</string>
+    <string name="wx_custom_menu_plate">请选择对应品牌</string>
+    <string name="wx_custom_menu_member">请选择对应会员体系</string>
+    <string name="wx_custom_menu_url">点击此菜单跳到以下页面</string>
+    <string name="wx_custom_menu_msg">选择自动回复的内容</string>
+    <string name="wx_custom_menu_custom_url">自定义链接</string>
+    <string name="wx_custom_menu_url_scope">选择此链接的适用范围</string>
+    <string name="wx_custom_menu_delete">删除此菜单</string>
+    <string name="wx_custom_menu_copy_tip">复制链接后请在您的微信公众号后台对菜单进行设置</string>
+    <string name="wx_custom_menu_copy">复制链接(%s)</string>
+    <string name="wx_custom_menu_with_sub_menu">有子菜单模式</string>
+    <string name="wx_custom_menu_without_sub_menu">无子菜单模式</string>
+    <string name="wx_custom_menu_parent_with_sub_menu">有子菜单模式</string>
+    <string name="wx_custom_menu_parent_no_sub_menu_with_msg">无子菜单、自动回复消息</string>
+    <string name="wx_custom_menu_parent_no_sub_menu_with_url">无子菜单，链接模式</string>
+    <string name="wx_custom_menu_sub_with_msg">自动回复消息</string>
+    <string name="wx_custom_menu_sub_with_url">点击跳转链接</string>
+    <string name="wx_custom_menu_divide_by_lian_suo">按连锁筛选</string>
+    <string name="wx_custom_menu_divide_by_plate">按品牌筛选</string>
+    <string name="wx_custom_menu_divide_by_member_manage">按会员体系筛选</string>
+
+    <string name="wx_custom_menu_setting_url">设置菜单链接</string>
+    <string name="wx_custom_menu_send_all">发送全部链接\n到邮箱</string>
+    <string name="wx_custom_menu_send_all_2">发送全部链接到邮箱 &gt;</string>
+    <string name="wx_custom_menu_copy_all">复制全部链接</string>
+    <string name="wx_custom_menu_copy_toast">链接复制成功，请前往您的微信公众号后台设置！</string>
+    <string name="wx_custom_menu_permission">您当前没有权限进行操作，请用连锁账号登录操作</string>
+    <string name="wx_custom_menu_plate_msg">由于您是连锁账户,将默认您设置其中一家门店的菜单与订单,如需修改,请重新设置</string>
+    <string name="watch_business_report">查看营业流水</string>
+    <string name="wx_custom_menu_not_null">%s不能为空!</string>
+
+    <!--店家公众号授权-->
+    <!--选择门店-->
+    <string name="wx_choose_shop">选择门店</string>
+    <!--<string name="check_result_fail">啊哦~服务器开小差了,请重新体检!</string>-->
+
+
+    <!--微信会员卡同步-->
+    <string name="wx_member_ship">同步会员卡到微信卡包</string>
+    <string name="wx_member_ship_tip">顾客可收到公众号消息领卡，并在卡包中收藏所领到的卡片</string>
+    <string name="wx_member_ship_settings">同步到微信会员卡设置</string>
+    <string name="wx_membership_card_sync_tip">您可将二维火发行的会员卡，同步到微信公众号中，顾客在关注您的公众号或者在您店里使用微信支付后可收到领卡提醒，领卡后可在微信卡包展示。此功能是使用微信营销功能的基础，如您需要在朋友圈投放广告发券或使用微信卡包功能等均可在同步后实现。</string>
+    <string name="wx_membership_card_sync_red_tip">注：卡券同步功能仅限认证服务号可用，请确认您的公众号已认证，并且在公众号后台申请添加卡包组件，卡券即可正常同步。查看详细教程 &gt;</string>
+    <string name="wx_membership_settings_tip_1">此卡未同步到微信卡券</string>
+    <string name="wx_membership_settings_tip_2">此卡已同步到微信卡券</string>
+    <string name="wx_membership_settings_tip_3">此卡正在同步到微信卡券</string>
+    <string name="wx_membership_settings_follow">在顾客关注时发卡</string>
+    <string name="wx_membership_settings_follow_tip">注：该卡同步到您授权的公众号后，顾客关注公众号时，自动给顾客发送1条领卡消息，发卡消息以卡的形式推送给顾客，仅支持同时段设置一张卡为关注时发卡。</string>
+    <string name="wx_membership_settings_pay">在顾客支付时发卡</string>
+    <string name="wx_membership_settings_pay_tip">注：该卡同步到您授权的公众号后，顾客使用微信支付后，将收到消息提醒顾客领取卡，如果已经领过卡，不会发送消息，此项可设置会员卡，仅支持同时段开通1种卡。\n请确认您已开通特约商户，并且您的公众号认证主体与您店里使用的微信支付的认证主体一致，否则消息无法发出。</string>
+    <string name="wx_membership_settings_sDateThaneDate">结束时间不可早于开始时间！</string>
+    <string name="wx_membership_settings_todayThaneDate">结束时间不可早于今天！</string>
+    <string name="wx_membership_settings_active_present_coupon">选择激活可赠送的券</string>
+    <string name="wx_membership_settings_delete">将此卡从列表中删除</string>
+    <string name="wx_membership_settings_send">发送此会员卡二维码到邮箱</string>
+    <string name="wx_membership_settings_delete_msg">删除后此卡也将不再同步到微信卡包</string>
+    <string name="wx_membership_syn">同步</string>
+    <string name="wx_membership_no_card">没有可同步的会员卡</string>
+    <string name="wx_coupon_sync_no_card">您还没有在此公众号中同步任何会员卡</string>
+    <string name="wx_membership_card_focus">关注发卡</string>
+    <string name="wx_membership_card_pay">支付发卡</string>
+
+    <string name="wx_membership_card_sync_success">已同步</string>
+    <string name="wx_membership_card_sync_doing">同步中</string>
+    <string name="wx_membership_card_sync_fail">未同步</string>
+    <string name="wx_membership_sync_fail_reason">失败原因：%s</string>
+    <string name="wx_membership_card_no_sync_tip">此卡未同步到微信，无法设置</string>
+    <string name="wx_membership_card_memo_tip">您可扫码点餐或扫条码使用</string>
+    <string name="wx_membership_card_sync_max_num">单次最多选择50张会员卡同步，本次将同步前50张会员卡，如需增加请再添加会员卡</string>
+    <string name="wx_membership_card_sync_no_num">您还没有选中任何会员卡！</string>
+    <string name="wx_membership_card_choose">选择要同步的卡</string>
+    <string name="wx_membership_card_sync_success_tip">请确认您已在微信公众号后台添加“卡包组件”，添加后几分钟内即可同步</string>
+    <string name="wx_mail_send_success">发送成功!</string>
+    <string name="wx_membership_card_tip">顾客扫码可直接领取会员卡</string>
+
+    <!--微信优惠券同步-->
+    <string name="wx_coupon">同步优惠券到微信卡包</string>
+    <string name="wx_coupon_tip">顾客可在公众号中领券，并在卡包中收藏优惠券</string>
+    <string name="wx_coupon_sync_tip">您可将二维火发行的优惠券，同步到微信公众号中，顾客在激活您的会员卡后可领券，顾客领券后可在您的公众号中收到发券消息。此功能可帮您在公众号中开展活动，或在朋友圈投放广告。</string>
+    <string name="wx_coupon_settings">同步到微信优惠券设置</string>
+    <string name="wx_coupon_settings_tip_1">此券未同步到微信卡券</string>
+    <string name="wx_coupon_settings_tip_2">此券已同步到微信卡券</string>
+    <string name="wx_coupon_settings_tip_3">此券正在同步到微信卡券</string>
+    <string name="wx_coupon_settings_open">开卡成功时发此券</string>
+    <string name="wx_card_settings_active">激活此卡时发券</string>
+    <string name="wx_coupon_settings_open_tip">激活此卡成功时发券注：已领卡的顾客需要输入手机号进行激活，可在顾客激活成功后发1张券，此类操作支持设置5种券，但是领券消息仅发送1条。</string>
+    <string name="wx_coupon_settings_delete">将此券从列表中删除</string>
+    <string name="wx_coupon_settings_send">发送此优惠券二维码到邮箱</string>
+    <string name="wx_coupon_settings_delete_msg">删除后此券也将不再同步到微信卡券</string>
+    <string name="wx_membership_coupon_not_null">赠送的券不能为空！</string>
+    <string name="wx_membership_no_coupon">没有可同步的优惠券</string>
+    <string name="wx_coupon_sync_no_coupon">您还没有在此公众号中同步任何优惠券</string>
+    <string name="wx_membership_coupon_no_sync_tip">此券未同步到微信，无法设置</string>
+    <string name="wx_membership_coupon_sync_max_num">单次最多选择50张优惠券同步，本次将同步前50张优惠券，如需增加请再添加优惠券</string>
+    <string name="wx_membership_coupon_sync_no_num">您还没有选中任何优惠券！</string>
+    <string name="wx_coupon_setting_open">开卡发券</string>
+    <string name="wx_coupon_choose">选择要同步的券</string>
+    <string name="wx_coupon_active_choose">选择激活卡可发的券</string>
+    <string name="wx_coupon_sync_success_tip">请确认您已在微信公众号后台添加“卡包组件”，添加后几分钟内即可同步</string>
+    <string name="wx_select_push_content_tip_coupon">您还没有同步到微信的有效优惠券</string>
+    <string name="wx_select_push_content_tip_activity">您还没有有效的促销活动</string>
+    <string name="wx_select_push_content_tip_member_card">您还没有同步到微信的有效会员卡</string>
+    <string name="wx_select_card">没有可选择的会员卡</string>
+    <string name="wx_select_coupon">没有可选择的优惠券券</string>
+    <string name="wx_mail_not_null">邮箱不能为空!</string>
+    <string name="wx_coupon_settings_tip">顾客扫码可直接领取优惠券</string>
+
+    <!--定向推送卡券-->
+    <string name="wx_add_push_msg">添加推送消息</string>
+    <string name="wx_add_push_object">推送对象</string>
+    <string name="wx_add_push_msg_object">消息推送对象</string>
+    <string name="wx_add_push_msg_object_type">选择推送对象</string>
+    <string name="wx_add_push_msg_object_fans">全部微信粉丝(共%s人)</string>
+    <string name="wx_add_push_msg_object_fans_1">全部微信粉丝</string>
+    <string name="wx_add_push_msg_object_tag">微信标签分组</string>
+    <string name="wx_add_push_msg_object_group">智能分组</string>
+    <string name="wx_add_push_msg_object_tag_or_group">%1$s(共%2$s人)</string>
+    <string name="wx_add_push_msg_object_memo">当前公众号为%1$s,共有粉丝:%2$s人</string>
+    <string name="selectTag">标签选择</string>
+    <string name="wx_add_push_tag_choose_memo">注：此标签与您微信公众号后台设置的粉丝分组标签一致，如需修改，请前往公众号后台</string>
+    <string name="wx_add_push_group_choose">分组选择</string>
+    <string name="wx_add_push_group_choose_memo">注：此为二维火根据数据对您的会员进行智能分组后的顾客，可根据您的需要选择不同分组。</string>
+    <string name="wx_add_push_content_settings">内容设置</string>
+    <string name="wx_add_push_content_type">推送内容</string>
+    <string name="wx_add_push_card_coupon_activity">选择要推送的卡/券/促销</string>
+    <string name="wx_add_push_coupon_activity">选择要推送的优惠券</string>
+    <string name="wx_add_push_content">内容</string>
+    <string name="wx_add_push_choose_content_type">选择推送内容</string>
+    <string name="wx_add_push_content_member_card">会员卡</string>
+    <string name="wx_add_push_content_coupon">优惠券</string>
+    <string name="wx_add_push_content_activity">促销活动</string>
+    <string name="wx_add_push_select_plate">请选择对应等级体系</string>
+
+    <string name="wx_add_push_content_memo">注：推送的卡/券/促销活动链接将自动跟在您输入的文字内容最末。</string>
+
+
+    <!--微信粉丝分析-->
+    <string name="wx_fans">公众号粉丝数据分析</string>
+    <string name="wx_new_fans_count">累计新增粉丝</string>
+    <string name="wx_fans_too_little">粉丝数太少？</string>
+    <string name="wx_fans_get_more_pull">获得更多拉动？</string>
+    <string name="wx_fans_take_card_too_little">领卡太少？</string>
+    <string name="wx_fans_potential_consumer">近两周累计拉动消费</string>
+    <string name="wx_fans_take_card_count">累计领卡</string>
+    <string name="wx_fans_dialog_content_msg_1">方法一：将您的公众号二维码制成物料，分别放在前台，桌位等处；\n方法二：在物料上宣传促销活动，发券效果最佳，可说明关注公众号并领卡成功者，可以发送优惠券，此功能可在会员卡同步到微信的卡设置中设置；\n</string>
+    <string name="wx_fans_dialog_content_msg_2">二维火为商户提供了一系列的促销方案，包括促销活动、优惠券和会员卡。\n方法一：您可以根据您的需要设置活动，然后在定向推送消息功能里对粉丝进行传播。\n方法二：将您的会员卡同步到微信，可以在顾客关注时发卡或者支付时发卡，为了鼓励更多顾客前来领卡，还可以给领卡成功的顾客发送优惠券。\n方法三：在本页面底部饼图选择对应查询条件，点击【转化粉丝】按钮，可以对您的公众号粉丝定向发券，对忠诚度高的可以发券鼓励他经常来消费，对最近消费较少的老客也可以发券提升他的回头率；\n</string>
+    <string name="wx_fans_dialog_content_msg_3">方法一：自动发卡消息\n您可以在【微信公众号营销】——【同步会员卡到微信卡包】中选择同步一张卡，并且同步后点击卡，设置“关注即发此卡”。\n方法二：支付即发卡\n您可以在【微信公众号营销】——【同步会员卡到微信卡包】中选择同步一张卡，并且同步后点击卡，设置“支付成功即发此卡”——要求一定使用微信支付，并且是微信直连商户。\n</string>
+    <string name="wx_fans_dialog_title_1">怎样吸引更多粉丝关注公众号？</string>
+    <string name="wx_fans_dialog_title_2">想要获得更多拉动消费？</string>
+    <string name="wx_fans_dialog_title_3">如何增加更多领卡粉丝？</string>
+
+    <string name="wx_fans_tip">为公众号粉丝的消费行为提供分析，帮助店家获得更多会员</string>
+    <string name="wx_fans_account">公众号</string>
+    <string name="wx_fans_query_builder">查询条件</string>
+    <string name="wx_fans_choose_query_builder">选择查询条件</string>
+    <string name="wx_fans_tip_1">攻略：让更多粉丝成为会员</string>
+    <string name="wx_fans_tip_2">您可根据查询条件，筛选出不同类型的粉丝，可查看您公众号的运营情况，包括：本月生日会员、领卡会员、充值会员与会员等级在您粉丝中的占比。</string>
+    <string name="wx_fans_piechart_tip">本数据为隔日统计，请明日再来查看</string>
+    <string name="wx_fans_unauth">您还没有授权店家微信公众号给二维火，\n无法获取粉丝数据！</string>
+    <string name="wx_fans_transform">转换粉丝</string>
+    <string name="wx_fans_part_all_count">共%s人</string>
+    <string name="wx_fans_part_all_count_2">共%s万人</string>
+    <string name="wx_fans_all_count">粉丝总数:%s人</string>
+    <string name="wx_fans_all_count_2">粉丝总数:%s万人</string>
+    <string name="wx_fans_all_count_3">粉丝会员总数:%s人</string>
+    <string name="wx_fans_all_count_4">粉丝会员总数:%s万人</string>
+    <string name="wx_fans_ratio">占比%s</string>
+    <string name="wx_fans_new_count">每日新增粉丝数</string>
+    <string name="wx_fans_take_coupon_count">每日领取优惠券数量</string>
+
+    <string name="wx_sync_red_tip">需完成公众号授权后,才能使用此功能</string>
+    <string name="weixinhaobunengweikong">微信号不能为空</string>
+
+    <string name="wx_add_up_fans">增粉统计</string>
+    <string name="wx_add_up_fans_detail">查看详细报表</string>
+    <string name="wx_fans_channel">增粉渠道</string>
+
+
+
+
+    <string name="wx_fans_stickiness">公众号粉丝的粘性：</string>
+    <string name="wx_subscribe_book">订阅运营宝典</string>
+    <string name="wx_fans_type">粉丝类型</string>
+    <string name="wx_percent">百分比</string>
+    <string name="wx_send_qr_to_email">发送二维码到邮箱</string>
+    <string name="wx_email">邮箱</string>
+    <string name="wx_email_hint">请输入邮箱地址～</string>
+    <string name="wx_email_memo">每月都有不同的营销案例推送到邮箱。</string>
+
+
+    <!-- 短信营销 start -->
+    <string name="sms_module_name">短信营销</string>
+    <string name="sms_module_content">剩余短信数量</string>
+    <string formatted="false" name="sms_module_count_left">可发中国大陆：%s条\n或可发其他国家和地区：%s条</string>
+    <string name="sms_module_count_china">可发中国大陆：%s条</string>
+    <string name="sms_module_count_foreign">或可发其他国家和地区：%s条</string>
+    <string formatted="false" name="sms_module_send_count">限时购买短信包套餐最多可获赠%s条短信！</string>
+    <string formatted="false" name="sms_module_favourable">此套餐比原价优惠 %s元</string>
+    <string name="sms_module_icon_introduce">商家可以结合店铺的节日营销或者新店开业、新品上市等活动，在具体营销场景的短信模板基础上编辑内容来给用户发放短信提醒。短信通知可以引起顾客注意，为活动带来关注度与参与度的同时。 </string>
+
+    <string name="sms_module_spring_discount">春季促销</string>
+    <string name="sms_customer_name">短信充值</string>
+    <string name="sms_select_customer">选择套餐包</string>
+    <string name="sms_confir">确认</string>
+    <string name="sms_immediate_recharge">立即充值</string>
+    <string name="sms_customer_confir">订单确认</string>
+    <string name="sms_customer_content">订单内容</string>
+    <string name="sms_customer_buy">购买套餐</string>
+    <string name="sms_customer_price">购买价格</string>
+    <string name="sms_pay">支付方式</string>
+    <string name="sms_edit_name">编辑短信</string>
+    <string name="sms_edit_people">接收人群</string>
+    <string name="sms_edit_module">短信模板选择</string>
+    <string name="sms_module_edit">根据摸板编辑</string>
+    <string name="sms_tips">提示：超过67字将分成两条短信发送，营销短信最多不能超过134字。由于短信运营商的模板问题，短信签名标注有【二维火】字样，并算5个字，请悉知。</string>
+    <string name="sms_tips2">提示：超过70个字将以两条发送，短信余额不足时，发卡成功后会员收不到短信通知。</string>
+    <string name="sms_tips3">提示：超过67字将分成两条短信发送，营销短信最多不能超过134字，短信内活动链接自动生成。</string>
+    <string name="sms_edit_content_pre">短信预览</string>
+    <string name="sms_preview_memo">【二维火】尊敬的顾客：您已经成功领取XXXX。&lt;%s&gt;</string>
+    <string name="sms_edit_module_selct">请先选择短信模板</string>
+    <string name="sms_edit_content">短信内容</string>
+    <string name="sms_edit_people_null">接收人群不能为空</string>
+    <string name="sms_content_num">还能输入%s个字</string>
+    <string name="sms_vip_kind_all">全部会员</string>
+    <string name="sms_vip_kind_recharge">全部充值会员</string>
+    <string name="sms_vip_kind__in_twoyears">两年内消费会员</string>
+    <string name="sms_vip_kind_birhday">本月生日会员</string>
+    <string name="sms_vip_kind_in_three_month">3个月未到店会员</string>
+    <string name="sms_vip_kind_top_in_half">半年内累计消费金额top20会员</string>
+    <string name="sms_vip_count">(共%d人)</string>
+    <string name="Sure">"确定"</string>
+    <string name="sms_send_num_detail1">发送短信</string>
+    <string name="sms_send_num_detail2" formatted="false">中国大陆%1$d条(%2$d人)，</string>
+    <string name="sms_send_num_detail3" formatted="false">其他国家和地区%1$d条(%2$d人)，</string>
+    <string name="sms_send_num_detail4">确定要发送吗？</string>
+    <string name="member_xml_hardcode1">充值</string>
+    <string name="sms_module_please_input">请填写</string>
+
+
+    <string name="sms_module_template_error">短信模板有未知错误，请再试一次</string>
+    <string name="textLengthOfTwoSmsTip">您的短信字数超过%d字，将分成两条为顾客发送，同时扣除相应的短信条数。确定继续发送短信？</string>
+    <string name="textLengthOfTwoSmsTip2">您的短信字数超过%d字，将分成两条为顾客发送，同时扣除相应的短信条数。确定继续保存短信消息？</string>
+    <string name="textLengthOfTwoSmsTip3">您的短信字数不得超过%d字。</string>
+    <string name="sms_module_except_emoji_tip">%s不能包含表情符号</string>
+
+    <string name="sms_module_succeed">本次支付成功，可以发短信了。</string>
+
+    <string name="sms_content_num_65">还能输入65个字</string>
+    <string name="sms_module_tip1">请先选择短信模板</string>
+    <!-- 短信营销 end -->
+
+    <!--—————————————————————————- 会员相关参数 ——————————————————————————————————————————————-->
+    <string name="card_opetation">特权卡操作</string>
+    <!--火小二.卡设置-->
+    <string name="lbl_kabaw_kind_card_bg_help_sub_title">如果有会员卡，那么必须先添加会员卡类型，例如金卡、白金卡等等，并添加这种类型卡使用的相关信息。</string>
+    <string name="lbl_kabaw_kind_card_help_title_2">允许所有“火小二”用户主动申领</string>
+    <string name="lbl_kabaw_kind_card_help_content_2">·如果打开开关，那么用户在火小二上找到本店后，就可以直接领卡，成为本店的会员；如果关闭开关，那么用户在火小二上就不能主动领卡，只有在本店主动给会员发卡后，会员才能在火小二上看到本店的会员卡；</string>
+    <string name="lbl_kabaw_kind_card_help_title_3">办卡押金</string>
+    <string name="lbl_kabaw_kind_card_help_content_3">·如果办卡需要押金，那么输入押金金额；</string>
+    <string name="lbl_kabaw_kind_card_help_title_4">优惠方式</string>
+    <string name="lbl_kabaw_kind_card_help_content_4">·使用此类型的会员卡可以享受哪些优惠，有三种优惠方式：固定折扣率、打折方案和会员价；
+\n·固定折扣率，设置折扣率，例如八折，那么这里输入80，如果选中下面的选项不打折商品也打折，所有商品都会打折，如果不勾选，仅仅是允许打折的商品参与打折；
+\n·按会员价，只要在火小二菜单中设置好每个商品的会员价，那么优惠时有会员价的商品就显示根据会员价计价；
+\n·按打折方案，先在打折方案中添加好方案，然后选择对应的方案 ，优惠时根据设置的方案来计价，使用打折方案，不同的分类商品可以设置不同的折扣；
+\n·不打折商品也打折，开启此开关，则使用此会员卡的会员付款时不打折商品也会打折；</string>
+    <string name="lbl_kabaw_kind_card_help_title_5">达到一定积分自动升级</string>
+    <string name="lbl_kabaw_kind_card_help_content_5">·如果打开开关，表示这个卡能升级，那么设置下一次升级到哪种卡，升级需要满多少积分，如果关闭此开关，表示不能升级；</string>
+    <string name="lbl_kabaw_kind_card_help_title_6">使用卡内充值金额消费可积分</string>
+    <string name="lbl_kabaw_kind_card_help_content_6">·如果打开开关，表示使用充值金额支付时可以累积积分，设置每支付多少金额可积1个积分，如果关闭开关，表示使用充值金额支付时不能累积积分；</string>
+    <string name="lbl_kabaw_kind_card_help_title_7">刷卡打折消费积分</string>
+    <string name="lbl_kabaw_kind_card_help_content_7">·如果打开开关，表示使用会员卡打折时可累积积分，设置每消费多少金额可积1个积分，如果关闭开关，表示使用会员卡打折时不能累积积分</string>
+    <string name="lbl_kabaw_kind_card_help_title_8">卡片规格设置</string>
+    <string name="lbl_kabaw_kind_card_help_content_8">·可设置卡片字体颜色、卡片背景，输入用户须知，这些项都会显示在用户的火小二中。</string>
+    <string name="lbl_kabaw_kind_card_help_title_9">连锁会员卡和门店会员卡有什么不同？</string>
+    <string name="lbl_kabaw_kind_card_help_content_9">连锁卡是总部发放的会员卡，基础设置大部分和门店卡相同，连锁卡可适用门店范围为旗下所有门店。用户用连锁卡，可在不同门店进行充值和消费。</string>
+    <string name="lbl_kabaw_kind_card_help_content_10">门店的会员卡只能在门店充值和消费，会员数据也只存在门店里。将门店会员卡升级成连锁卡后，所有数据会一并升级。连锁卡可选择多个适用门店，可在不同门店充值和消费。充值的钱都会打入到连锁账户中。</string>
+    <string name="lbl_kabaw_kind_card_help_title_10">什么是单店卡升级？</string>
+    <string name="wx_authorized_promotion">将公众号授权给二维火，可以帮助店家更好的运营，吸引更多顾客在线点餐或到店消费。</string>
+    <string name="totalFansRise">累计新增粉丝</string>
+    <string name="showPerformance">查看成绩单</string>
+    <string name="totalWxCardMember">微信卡会员</string>
+    <string name="wxPerformancePercent">你成功打败了%s的人</string>
+    <string name="optimumWays">优化方案</string>
+    <string name="wxTip">火掌柜提醒</string>
+    <string name="manual">设置教程</string>
+    <string name="kindTips">友情提示</string>
+    <string name="gotoManual">查看详细教程</string>
+
+    <!--积分改造一期-->
+    <string name="gift_dixian_cost">抵现消费</string>
+    <string name="member_gift_manage">积分管理</string>
+    <string name="member_search_hint">会员卡号/手机号</string>
+    <string name="gift_total_remain">剩余积分总数（截止到昨天）</string>
+    <string name="gift_yesterday_total_push">昨日积分发放汇总（%s）</string>
+    <string name="gift_yesterday_total_cost">昨日积分消费汇总（%s）</string>
+    <string name="gift_set_use_shop">本积分的适用门店</string>
+    <string name="member_card_points_exchange">积分兑换</string>
+    <string name="member_search_customer_null">没有找到会员信息</string>
+
+    <!-- “火小二”.卡设置 -->
+    <string name="title_card_select_mode">选择优惠方式</string>
+    <string name="lbl_default_card_mode">按固定折扣</string>
+    <string name="lbl_default_card_name">****卡</string>
+    <string name="title_card_select_discountplan">选择打折方案</string>
+    <string name="title_card_discountplan">打折方案</string>
+    <string name="title_card_select_next_card">选择下一级卡类型</string>
+    <string name="title_card_select_font_color">选择卡片字体颜色</string>
+    <string name="lbl_kind_card_is_apply">允许所有火小二用户主动申领</string>
+    <string name="lbl_charge_self_is_apply">允许所有火小二用户自助充值</string>
+    <string name="lbl_kind_card_mode">优惠方式</string>
+    <string name="lbl_kind_can_use_card">允许选择门店使用该连锁卡</string>
+    <string name="lbl_kind_can_use_card_memo">所选门店的小二端会出现并可使用该连锁卡</string>
+    <string name="lbl_kind_can_give_card">允许选择门店收银机端发放该连锁卡</string>
+    <string name="lbl_kind_can_give_card_memo">所选门店收银机端可以主动发放给用户该连锁卡并可自主充值</string>
+    <string name="lbl_kind_card_default_ratio">默认折扣率(%)</string>
+    <string name="lbl_kind_card_force_ratio">不打折商品也打折</string>
+    <string name="lbl_kind_card_next">下一级卡类型</string>
+    <string name="lbl_kind_card_updegree">升级所需积分(分)</string>
+    <string name="lbl_kind_card_pledge">办卡押金(元)</string>
+    <string name="lbl_kind_card_is_prefeedegree">使用卡内充值金额消费可积分</string>
+    <string name="lbl_kind_card_is_prefeedegree_memo">顾客使用此卡支付时，赠送积分。请注意，如果在同一家店同时有消费有礼送积分、会员管理消费积分奖励或者使用此卡支付可积分，那么顾客消费一笔可获得多笔赠分。</string>
+    <string name="lbl_kind_card_exchangedegree">充值金额消费几元得1个积分(元)</string>
+    <string name="lbl_kind_card_is_ratiofee">打折消费（不包含卡内充值金额）可积分</string>
+    <string name="lbl_kind_card_is_ratiofee_memo">顾客使用此卡打折时，赠送积分。请注意，如果在同一家店同时有消费有礼、会员管理消费积分奖励或者此卡打折可积分，那么顾客消费一笔可获得多笔赠分。</string>
+    <string name="lbl_kind_card_is_ratioexchangedegress">打折消费几元得1个积分(元)</string>
+    <string name="lbl_kind_card_cover">请选择卡片背景</string>
+    <string name="lbl_kind_card_help">用户须知</string>
+    <string name="lbl_kind_card_font_color">卡片字体颜色</string>
+
+    <string name="valid_card_name_is_empty">会员卡名称不能为空!</string>
+    <string name="valid_card_mode_is_null">请选择优惠方式!</string>
+    <string name="valid_card_plan_is_null">请选择打折方案!</string>
+    <string name="valid_card_ratio_is_null">请输入折扣率!</string>
+    <string name="valid_card_ratio_area">折扣率的取值范围是[0,100]!</string>
+    <string name="valid_card_up_card_is_null">请选择下一级卡类型</string>
+    <string name="valid_card_exchange_degree_is_null">请输入预充值消费兑换1积分所需消费额!</string>
+    <string name="valid_card_exchange_degree_gt_0">预充值消费兑换1积分所需消费额大于0!</string>
+    <string name="valid_card_ratio_exchange_degree_is_null">请输入刷卡打折消费兑换1积分所需消费额!</string>
+    <string name="valid_card_ratio_exchange_degree_is_num">刷卡打折消费兑换1积分所需消费额不是数字!</string>
+    <string name="valid_card_ratio_exchange_degree_gt_0">刷卡打折消费兑换1积分所需消费额大于0!</string>
+    <string name="valid_card_ratio_update_degree_is_null">请输入升级所需积分!</string>
+    <string name="valid_card_validity_day_null">请输入距离上一次使用指定天数!</string>
+    <string name="valid_card_ratio_update_degree_is_num">升级所需积分不是数字!</string>
+    <string name="valid_card_ratio_update_degree_gt_0">升级所需积分必须大于0!</string>
+    <string name="valid_card_validity_day_0">距离上一次使用指定天数内有效必须大于0!</string>
+
+    <string name="member_add_card_name_is_empty">卡名称不能为空!</string>
+    <string name="member_add_Card_name_is_length">卡名称不能超过30个字</string>
+    <string name="member_add_card_mode_is_null">请选择优惠方式!</string>
+    <string name="member_add_card_plan_is_null">请选择打折方案!</string>
+    <string name="member_add_card_ratio_is_null">请输入折扣率!</string>
+    <string name="member_add_card_ratio_area">折扣率的取值范围是[0,100]!</string>
+
+    <string name="member_add_card_color_is_null">卡片字体颜色不能为空</string>
+    <string name="member_add_card_rule_is_null">卡积分规则不能为空</string>
+    <string name="member_level_title">等级V</string>
+    <string name="member_level_setting_warn">V0成长值固定为0，不可修改</string>
+    <string formatted="false" name="level_up_value_setting_valid">V%s的成长值不能大于或等于V%s的成长值</string>
+
+    <!--储值扣点-->
+    <string name="stored_points_tdf_protocol">二维火商户推广储值卡协议</string>
+    <string name="stored_points_tdf_protocol_agree">确定</string>
+    <string name="stored_points_abandon">我要放弃</string>
+    <string name="stored_points_agree">开通储值</string>
+    <string name="stored_points_check_info_title">请核对您的收款信息</string>
+    <string name="stored_points_check_info_desc">请仔细核对，会员卡充值款项将打入以下账户，如有问题请及时前往火掌柜—电子收款账户中进行变更。</string>
+    <string name="stored_points_account_format">开户名称：%s</string>
+    <string name="stored_points_bank_format">开户银行：%s</string>
+    <string name="stored_points_bank_number_format">银行账户：%s</string>
+    <string name="stored_points_bind_dialog_desc">您还没有绑定在线支付收款账户，无法开启此功能。</string>
+    <string name="stored_points_bind_dialog_bind">去绑定</string>
+    <string name="stored_points_bind_dialog_cancel">取消</string>
+    <string name="stored_points_read_protocol_continue">继续</string>
+    <string name="stored_points_read_and_agree_protocol">我已阅读并同意以上协议</string>
+    <!--end储值扣点-->
+
+    <string name="useShopListEmptyTip">允许选择门店使用该连锁卡不能为空</string>
+    <string name="valid_money_adjust">本金和赠送金扣款设置不能为空！</string>
+    <string name="valid_money_adjust_2">赠送金占本金的比例不能为空！</string>
+    <string name="valid_money_adjust_3">赠送金占付款金额的比例不能为空！</string>
+    <string name="member_recharge_balance_is_empty">%s不能为空</string>
+    <string name="member_recharge_balance_child_2">使用余额扣款额度(元)</string>
+    <string name="member_recharge_balance_child_3">使用余额扣款占比(%)</string>
+    <string name="member_card_selfcharge_tip">在“会员-充值优惠设置”中设置了此卡的充值金额及充值优惠后，顾客就可以对此卡进行充值了。</string>
+
+    <!--会员本金和赠送金-->
+    <string name="money_adjust_setting">余额扣款设置</string>
+    <string name="money_adjust_setting1">先扣本金后扣赠送金</string>
+    <string name="money_adjust_setting_memo1">选择此项，在会员卡扣款时，会先把卡内的本金部分扣完后，再扣赠送金额。</string>
+    <string name="money_adjust_setting2">赠送金与本金占比扣款</string>
+    <string name="money_adjust_memo2">此处选择赠送金与本金占比扣款，在会员卡扣款时，本金和赠送金额会同时扣，赠送金额根据与本金的占比扣款，例如设置10%，本金扣款100元，赠送金额扣10，合计扣110。</string>
+    <string name="money_adjust_setting3">赠送金与账单占比扣款</string>
+    <string name="money_adjust_txt2">赠送金占本金的比例（%）</string>
+    <string name="money_adjust_memo3">选择此项，在会员卡扣款时，本金和赠送金额会同时扣，赠送金额根据与支付总额的占比扣款，例如设置10%，账单金额100元，本金扣款90元，赠送金额扣10。
+    </string>
+    <string name="money_adjust_txt3">赠送金占付款金额的比例（%）</string>
+
+    <string name="money_adjust_principle">本金</string>
+    <string name="money_adjust_gift">赠送金</string>
+
+    <!--会员充值-->
+    <string name="member_recharge_cash_debit">收银机任意扣款设置</string>
+    <string name="member_recharge_cash_debit_memo">打开此项，在会员卡扣款时，收银机端可以任意设置本金和赠送金的扣减额度。</string>
+    <string name="member_recharge_balance_debit">余额扣款个性化设置</string>
+    <string name="member_recharge_balance_debit_memo">%s\n余额扣款个性化设置仅针对新领卡用户生效，修改余额扣款方式可能会影响客户权益，请务必慎重修改。修改后请及时跟客户进行同步告知！\n</string>
+    <string name="money_adjust_setting4">先扣赠送金后扣本金</string>
+    <string name="money_adjust_setting_memo4">选择此项，在会员卡扣款时，会先把卡内的赠送金部分扣完后，再扣本金金额。</string>
+    <string name="member_recharge_balance_1">无附加扣款条件</string>
+    <string name="member_recharge_balance_2">限制首次使用余额的额度</string>
+    <string name="member_recharge_balance_3">限制首次使用余额的比例</string>
+    <string name="member_recharge_balance_4">限制每次使用余额的额度</string>
+    <string name="member_recharge_balance_5">限制每次使用余额的比例</string>
+    <string name="member_recharge_balance_6">分消费额区间设置每单可用余额</string>
+    <string name="member_recharge_balance_7">不可用当天的赠送金</string>
+    <string name="member_recharge_balance_memo_1">选择此项，在会员卡扣款时，会以上面余额扣款设置定义的条件扣款，无其他附加扣款条件。</string>
+    <string name="member_recharge_balance_memo_2">选择此项，在会员卡扣款时，限制用户首次使用余额扣款的额度。</string>
+    <string name="member_recharge_balance_memo_3">选择此项，在会员卡扣款时，限制用户首次使用余额扣款占余额总额的比例。</string>
+    <string name="member_recharge_balance_memo_4">选择此项，在会员卡扣款时，限制用户每次使用余额扣款的额度。</string>
+    <string name="member_recharge_balance_memo_5">选择此项，在会员卡扣款时，限制用户每次使用余额扣款占余额总额的比例。</string>
+    <string name="member_recharge_balance_memo_6">选择此项，在会员卡扣款时，会根据用户单笔消费金额所处区间来限制余额扣款额度。</string>
+    <string name="member_recharge_balance_memo_7">选择此项，在充值当天消费时，只能从本金和历史赠送金中扣除，不能用当天的赠送金。</string>
+    <string name="member_recharge_balance_child_memo_2">限制用户首次使用余额消费的扣款不高于此额度。</string>
+    <string name="member_recharge_balance_child_memo_3">限制用户首次使用余额消费的扣款与余额总额的占比不高于此比例。</string>
+    <string name="member_recharge_balance_child_memo_4">限制用户每次使用余额消费的扣款不高于此额度。</string>
+    <string name="member_recharge_balance_child_memo_5">限制用户每次使用余额消费的扣款与余额总额的占比不高于此比例。</string>
+    <string formatted="false" name="money_section_item_1">消费区间: %s元 - %s元</string>
+    <string name="money_section_item_2">消费区间: %s元以上</string>
+    <string name="balance_upper_limit_item">扣款上限额度：%s元</string>
+
+    <string name="tip_upload_file_failure">文件上传失败!</string>
+
+    <!-- 会员卡充值-->
+    <string name="chargeDiscountSetting">卡充值优惠设置</string>
+
+    <!--会员模块whc-->
+    <string name="member_info_title">会员信息</string>
+    <string name="member_info_title_tip">会员说明</string>
+    <string name="member_dfire_data">二维火账户资料</string>
+    <string name="member_card_detail">卡详情</string>
+    <string name="member_point_operate">积分操作</string>
+    <string name="vip_preferencetype">优惠方式</string>
+    <string name="vip_firstmoney">办卡押金</string>
+    <string name="vip_sendtime">发卡日期</string>
+    <string name="vip_send_operator">发卡人</string>
+    <string name="vipinfo_by_main">会员补充资料</string>
+    <string name="member_detail_name">姓名</string>
+    <string name="member_detail_sex">性别</string>
+    <string name="member_detail_birthday">生日</string>
+    <string name="member_detail_email">邮箱</string>
+    <string name="member_detail_certificate">身份证号</string>
+    <string name="member_detail_job">职业</string>
+    <string name="member_detail_memo">备注</string>
+    <string name="member_card_privilege_name">特权卡类型</string>
+    <string name="member_card_privilege_tips">说明：特权卡即特权会员卡，它是和会员等级绑定的，仅可在“会员-会员等级特权”模块中使用，当会员达到相应的等级即可获得对应的特权卡。普通会员卡还是在“发会员卡”模块中人工发放给会员。</string>
+    <string name="member_card_privilege_delete">删除此特权</string>
+    <string name="member_card_privilege">特权卡</string>
+    <string name="member_card_privilege_manage">特权卡管理</string>
+    <string name="member_card_choose_empty">特权卡类型不能为空</string>
+    <string name="member_card_privilege_list_title">特权会员卡</string>
+    <string name="member_card_list_title">特权会员卡，简称特权卡，是和会员等级绑定的，仅可在“会员-会员等级特权”模块中使用，当会员达到相应的等级即可获得对应的特权会员卡。</string>
+    <string name="member_card_add_setting_title">基本设置</string>
+    <string name="member_card_add_name">卡名称</string>
+    <string name="member_card_add_charge">允许所有火小二用户自助充值</string>
+    <string name="member_card_add_charge_memo">此开关打开，并且在“会员-充值优惠设置”中设置了此卡的充值金额及充值优惠后，顾客就可以使用微信、支付宝或二维火小二客户端对此卡进行充值。</string>
+    <string name="member_card_add_rule">卡积分规则</string>
+    <string name="member_card_add_rule_memo">消费1元得一个积分，卡积分与会员等级和特权无关，卡积分仅可在“积分兑换”中兑换设置的物品和卡余额。</string>
+    <string name="member_card_add_coupon_setting">优惠设置</string>
+    <string name="member_card_add_coupon_type">优惠方式</string>
+    <string name="member_card_add_discount">默认折扣率（%）</string>
+    <string name="member_card_add_use_discount">不打折商品也打折</string>
+    <string name="member_card_add_reduce_setting">扣款设置</string>
+
+
+    <string name="member_card_add_other_setting">其他设置</string>
+    <string name="member_card_add_other_consume_sms">消费卡余额时短信通知会员</string>
+    <string name="member_card_add_other_color">卡片字体颜色</string>
+    <string name="member_card_add_other_back">请选择卡片背景</string>
+    <string name="member_card_add_other_use">使用须知</string>
+    <string name="member_card_add_tips">提示：请描述会员卡使用规则，如：使用本店金卡，本店所有商品除酒水海鲜之外全部85折</string>
+    <string name="member_card_add_privilege_title">添加特权会员卡</string>
+    <string name="member_card_add_card_rule1">仅使用卡内余额消费时可积分</string>
+    <string name="member_card_add_card_rule2">使用此卡打折或消费时均可积分</string>
+    <string name="member_privilege_head_shop_manage_title">门店会员权益管理</string>
+    <string name="member_privilege_head_shop_manage_shop">使用此品牌权益的门店</string>
+    <string name="member_privilege_head_shop_manage_tips">门店默认使用所属品牌的权益体系，您可以在此切换为门店自己的权益体系。</string>
+    <string name="member_privilege_copy">当前等级已有特权将会被覆盖，确定复制V%s的所有特权吗？</string>
+    <string name="member_privilege_choose_tip">特权卡将在次日0点生效，确定保存吗？</string>
+    <string name="member_privilege_all_shop">全部门店</string>
+    <string name="member_privilege_kind_card_update">修改特权卡后，关联此卡的会员权益将会同步更新，老会员获得此卡的，也会更新，确定修改吗？</string>
+    <string name="member_privilege_kind_card_delete">删除特权卡后，关联此卡的会员权益也将删除，已获得此卡的会员不受影响，确定删除吗？</string>
+
+
+
+    <string name="member_charge_amount_day">充值金额</string>
+    <string name="member_charge_times_day">充值次数</string>
+    <string name="member_receive_card_day">领卡数</string>
+    <string name="member_amount_count_total">会员充值总额</string>
+
+    <string name="member_kind_card_list_title1">会员卡名称</string>
+    <string name="member_kind_card_can_update">达到一定积分可升级</string>
+    <string name="member_kind_card_tip">提示:请描述会员卡使用规则，如：使用本店金卡，本店所有商品除酒水海鲜外全部打85折。</string>
+    <string name="member_kind_brand_card_tip">提示:请描述会员卡使用规则，如：使用我们的连锁会员卡，可在我们旗下所有的连锁门店享受会员优惠。</string>
+    <string name="member_kind_card_base_setting">基本设置</string>
+    <string name="member_kind_card_youhui">优惠设置</string>
+    <string name="member_kind_card_jifen">积分设置</string>
+    <string name="member_kind_card_spec">其他设置</string>
+    <string name="member_king_card_sendMsg">卡消费变动（含红冲）短信通知会员</string>
+    <string name="member_add_card_type">添加卡类型</string>
+    <string name="member_search_title">会员查询</string>
+
+    <string name="member_mobile_is_not_app">未注册火小二无法查看消费记录</string>
+
+    <string name="member_no_card_to_publish">此会员还没有领本店会员卡，需要为会员发卡吗？</string>
+
+    <string name="member_card_recharge">会员充值</string>
+    <string name="member_card_points_detail">积分明细</string>
+    <string name="member_card_exchange">会员换卡</string>
+    <string name="member_card_quit">会员退卡</string>
+    <string name="member_card_exchange_pwd">改卡密码</string>
+    <string name="member_card_chongzhihongchong">充值红冲</string>
+    <string name="member_card_zengfenhongchong">赠分红冲</string>
+
+    <string name="member_give_away_points">赠送积分</string>
+    <string formatted="false" name="member_give_away_points_sms_content">尊敬的顾客：您已获赠%s积分，积分余额为%s分。感谢您对本店的支持。【%s】</string>
+    <string name="member_card_fee_setting">扣款设置</string>
+    <string name="member_card_fee_description">消费时赠送金额与本金按比例扣款</string>
+    <string name="member_card_fee_ratio">扣款比例（%）</string>
+    <string name="member_card_fee_tip">打开此开关，消费金额根据比例分为本金和赠送金额两部分，例如设置为10%，本金扣款100元，赠送金额扣款10元，合计扣卡内余额110元。</string>
+
+
+    <!--会员 danta-->
+    <string name="btn_nav_member">会员</string>
+    <string name="member_level_setting_tip">建议您根据客单价设置成长值，比如客单价为50元，那么消费一次可获取约50成长值。成长值切忌频繁修改，一旦修改了，会影响老会员的等级。</string>
+    <string name="member_level_setting">等级设置</string>
+    <string name="member_level_setting_name_title">名称</string>
+    <string name="member_level_setting_value_title">成长值</string>
+    <string name="member_publish_card2">发电子会员卡</string>
+    <string name="member_level_setting_chinese_valid">名称只能是汉字或英文字母</string>
+    <string name="member_level_setting_name_empty_valid">名称不能为空</string>
+    <string name="member_level_setting_up_value_valid">成长值不能为空</string>
+    <string name="member_level_setting_save_tip">所有修改将会在次日0点生效，若成长值修改了，会影响老会员的等级，确定修改吗？</string>
+    <string name="member_level_setting_valid_head">等级V</string>
+    <string name="member_level_up_value_setting_v1">V0成长值固定为0，不可修改</string>
+    <string name="member_level_setting_length_valid">名称不能超过3个字</string>
+    <!--会员等级特权-->
+    <string name="member_level_add_new_privilege">添选新特权</string>
+    <string name="member_privilege_card_delete_tip">删除此特权后，已获得此特权卡的会员不受影响，新升级到此等级的会员，仍沿用原特权卡，确定删除吗？</string>
+    <string name="member_level_copy_from_vx">从V%s复制特权</string>
+    <string name="member_level_add_or_choose_privilege_card">添选特权卡</string>
+    <string name="member_privilege_birthday">生日祝福</string>
+    <string name="member_privilege_memory">纪念日祝福</string>
+    <string name="member_privilege_coupon">赠券</string>
+    <string name="member_privilege_level_setting_memo">本店目前使用品牌总部的会员权益，无法单独设置等级。如需设置，请至品牌总部进行修改。</string>
+    <string name="member_privilege_single_shop_warning1">本店目前使用品牌总部的会员权益，无法单独添选特权。如需添选，请至品牌总部进行设置。</string>
+    <string formatted="false" name="member_level_value_setting_warning">V%s的成长值不能小于或等于0</string>
+
+    <string name="member_level_add_birthday_wishes">添选生日祝福</string>
+    <string name="member_manage_count">家</string>
+    <string name="member_level_null">等级：-</string>
+    <string name="member_level_add_or_choose_coupon_card">添选优惠券</string>
+    <string name="member_level_add_birthday_wishes_tip_1">说明:</string>
+    <string name="member_level_add_birthday_wishes_tip_2">1.在“会员-优惠券”模块中创建新的优惠券。</string>
+    <string name="member_level_add_birthday_wishes_tip_3">2.创建优惠券时，请打开“会员等级特权专用”开关，“发券数量”建议设置多些（确保更多人能获得，发完即止）；“有效期类型”建议设置为动态有效期（固定有效期可能会导致发放时，券过期了）。</string>
+    <string name="member_level_add_birthday_wishes_tip_4">3.会员生日前15天零点将会自动发放给用户。</string>
+    <string name="member_level_custom_wishes">自定义祝福</string>
+    <string name="member_level_privilege_content">特权内容</string>
+    <string name="member_level_custom_birthday_wishes_tip_1">如：生日当天来本店就餐可获得10寸生日蛋糕一个。</string>
+    <string name="member_level_add_birthday_coupon_per_man">每人每次发放张数</string>
+    <string name="member_level_add_birthday_coupon_x">%s张</string>
+    <string name="member_level_add_birthday_coupon_count">优惠券张数</string>
+    <string name="member_level_add_commemoration_day_wishes">添选纪念日祝福</string>
+    <string name="member_level_add_complimentary_ticket">添选赠券</string>
+    <string name="member_level_add_complimentary_cycle">发放周期</string>
+    <string name="member_level_add_complimentary_tip_4">3.发放周期选择每月发放时，会在每月的第一天零点自动发放给用户。</string>
+    <string name="member_level_add_complimentary_tip_5">4.发放周期选择一次性发放时，会在用户到达此等级后自动发放给用户。</string>
+    <string name="member_level_add_commemoration_wishes_tip_4">3.会员纪念日前15天零点将会自动发放给用户。</string>
+    <string name="member_level_custom_commemoration_wishes_tip_1">如：纪念日当天来本店就餐可获得10寸生日蛋糕一个。</string>
+    <string name="member_level_coupon_tip">注：此页面展示已创建的优惠券，如需创建新的，请在“火小二会员营销-优惠券”模块中创建。</string>
+    <string name="member_level_complimentary_ticket_cycle_1_tip">每月发放</string>
+    <string name="member_level_complimentary_ticket_cycle_2_tip">一次性发放</string>
+    <!--<string name="member_level_complimentary_ticket_cycle_1">每月发放——每月1日0点发放</string>-->
+    <!--<string name="member_level_complimentary_ticket_cycle_2">一次性发放——到了这个等级就发</string>-->
+    <string name="member_level_add_custom_privilege">添加自定义特权</string>
+    <string name="member_level_delete_privilege">删除此特权</string>
+    <string name="member_level_custom_privilege">自定义特权</string>
+    <string name="member_level_custom_privilege_title">特权名称</string>
+    <string name="member_level_custom_privilege_content">特权内容</string>
+    <string name="member_level_custom_privilege_content_hint">如：每月8来本店消费，免费送啤酒一打。</string>
+    <string name="member_level_dialog_title">会员营销新玩法: 等级特权</string>
+    <string name="member_level_dialog_content">会员等级特权是一套会员营销方案,你可以针对不同等级的会员设置不同的特权方案,从而提高会员活跃度。</string>
+    <string name="add_brand_dialog_title">请添加品牌</string>
+    <string name="add_brand_dialog_content">添加品牌后,品牌旗下的所有门店可以用一套会员等级特权。无品牌门店只能使用自己的会员等级特权。</string>
+    <string name="save_birthday_wishes">确定保存生日祝福吗？</string>
+    <string name="delete_privilege">删除此特权后，已获得此特权的会员不受影响，新升级到此等级的会员将不会享有此特权，确定删除吗?</string>
+    <string name="save_commemoration_wishes">确定保存纪念日祝福吗？</string>
+    <string name="save_complimentary_ticket">确定保存赠券特权吗？</string>
+    <string name="save_custom_privilege">确定添加自定义特权吗？</string>
+    <string name="delete_custom_privilege">删除此特权后，会员等级特权中有此特权的都将被删除，已获得此特权的会员不受影响，确定删除吗?</string>
+    <string name="save_privilege">确定保存此特权吗？</string>
+    <string name="delete_birth_privilege_coupon">删除此优惠券后，已获得此优惠券的会员不受影响，新升级到此等级的会员将不会获得此优惠券，确定删除吗？</string>
+
+
+    <string name="member_privilege_manage">门店权益管理</string>
+    <string name="member_privilege_manage_single_shop_use">不允许此门店使用品牌的会员等级特权</string>
+    <string name="member_branch_list_not_setting">未设置</string>
+    <string name="member_privilege_info">会员等级特权是为会员打造定制的一套回馈、增值奖励方案，不同等级的会员可享受不同的特权。用户扫码即可成为V0等级的会员，达到一定的成长值即可升级为相应的等级，每个等级的名称、成长值、特权您都可以灵活设置。</string>
+    <string name="member_privilege_up_setting">会员等级名称、成长值设置</string>
+    <string name="member_privilege_up">成长值</string>
+    <string name="member_level_setting_title">本店会员等级体系</string>
+
+    <string name="member_branch_list_head">总部可以根据不同品牌的定位，为不同品牌设置不同的会员等级特权。门店默认使用所属品牌的会员等级特权，也可切换为本店自己的会员等级特权。无品牌的门店只能使用门店自己的会员等级特权。</string>
+    <string name="member_branch_list_empty">连锁总部还没有任何品牌。\n先到连锁首页品牌下面添加一个吧！</string>
+    <string name="member_level_get_detail">会员如何获得成长值？</string>
+    <string name="member_moblie_input">输入会员手机号</string>
+    <string name="member_moblie_txt_is_not_null2">请输入会员卡号/手机号</string>
+    <string name="member_moblie_txt_is_not_null3">请输入手机号</string>
+    <string name="member_moblie_txt_is_not_null">请输入会员卡号或者手机号</string>
+    <string name="member_publish_cards">会员发电子卡</string>
+    <string name="member_publish_cards_info">发卡信息</string>
+    <string name="member_change_cards_info">换卡信息</string>
+    <string name="member_publish_cards_select_card">选择要发的卡</string>
+    <string name="member_publish_cards_money">办卡押金</string>
+    <string name="member_publish_cards_psw">设置卡密码</string>
+    <string name="member_publish_cards_memo">注：如果设置了会员刷卡密码，收银员为会员线下结账，用卡余额付款时需要输入密码。会员自己用火小二付款使用卡余额时不需要输入密码。</string>
+    <string name="member_publish_cards_input_psw">输入卡密码</string>
+    <string name="member_publish_cards_psw_confirm">确认卡密码</string>
+    <string name="member_publish_cards_show">发卡短信预览</string>
+    <string name="member_publish_cards_way">短信发送方式：</string>
+    <string name="member_publish_cards_tips">提示：短信内容超过67个字将以两条发送，短信余额不足时，发卡成功后会员收不到短信通知。</string>
+    <string name="member_publish_cards_select_change">选择要换的卡</string>
+    <string name="member_publish_cards_change_to">更换为</string>
+    <string name="member_publish_member_infos">会员补充资料</string>
+    <string name="member_infos_not_card">未领卡</string>
+    <string name="member_infos_memo_not_account_info">未注册火小二</string>
+    <string formatted="false" name="member_charge_list_title">%s─%s</string>
+    <string name="member_charge_item_money">订单金额：%s元</string>
+    <string name="member_charge_item_no">单号：%s</string>
+    <string name="member_charge_item_time">时间：%s</string>
+    <string name="member_search_hint4">请输入会员卡号/手机号码</string>
+    <string name="member_change_card_sure">确定</string>
+
+
+    <!-- pingguo-->
+    <!-- 会员充值-->
+    <string name="member_chongzhi">会员充值</string>
+    <string name="member_chongzhi_paymentu">付款方式</string>
+    <string name="member_chongzhi_inall">实收金额（元）</string>
+    <string name="member_chongzhi_notice">短信通知</string>
+    <string name="member_chongzhi_txt_pre">短信预览</string>
+    <string formatted="false" name="member_chongzhi_memo_txt">有充值优惠时顾客将收到的短信：\n尊敬的顾客：您已成功充值**元，并获赠积分**分，赠送金额**元，赠送优惠券**张。感谢您对本店的支持。【%s】</string>
+    <string name="member_chongzhi_num">购买短信条数</string>
+    <string name="member_chongzhi_dialogconfirm">换卡后将对另外一张卡进行操作</string>
+    <string name="member_chongzhi_xianjin">现金</string>
+    <string name="member_chongzhi_card">银行卡</string>
+    <string name="member_chongzhi_three">第三方支付</string>
+    <string name="member_chongzhi_gifts">赠送</string>
+    <string name="member_chongzhi_other">其他</string>
+    <string name="member_chongzhi_wechat">微信支付</string>
+    <string name="member_chongzhi_alipay">支付宝支付</string>
+    <string name="member_chongzhi_input_must">充值金额不能为0</string>
+    <string name="member_chongzhi_input_must2">实收金额（元）为必填项</string>
+    <string name="member_chongzhi_input_must3">赠送积分不能为空！</string>
+    <string name="member_chongzhi_input_must4">赠分只能为整数</string>
+    <string name="member_chongzhi_input_must5">赠送积分不能为0分!</string>
+    <string formatted="false" name="member_chongzhi_sms_memo1">尊敬的顾客：您已成功充值%s元，并获赠积分%s分，赠送金额%s元，赠送优惠券%s张。感谢您对本店的支持。【%s】</string>
+    <string name="member_search">会员查询</string>
+    <string name="member_search_next">下一步</string>
+    <string name="member_chongzhi_tips">该会员还没有领本店会员卡，不能进行%s操作</string>
+    <string name="member_chongzhi_succeed">充值成功</string>
+    <string name="member_chongzhi_detail">储值明细</string>
+    <string formatted="false" name="member_chongzhi_chognzhi">充值:\r\r+%s%s</string>
+    <string formatted="false" name="member_chongzhi_hongchong">红冲:-%s%s</string>
+    <string formatted="false" name="member_chongzhi_huichong">回冲:+¥%s</string>
+    <string formatted="false" name="member_chongzhi_xiaofei">消费:-¥%s</string>
+    <string formatted="false" name="member_chongzhi_guazhang_huankuan">挂账还款:-¥%s</string>
+    <string formatted="false" name="member_chongzhi_time">时间:%s</string>
+    <string formatted="false" name="member_chongzhi_left_money">卡内余额:%s%s</string>
+    <string formatted="false" name="member_chongzhi_left_point">积分余额: %s</string>
+    <string name="member_chongzhi_has_huichong">(已回冲)</string>
+    <string name="member_chongzhi_has_hongchong">(已红冲)</string>
+
+    <string name="member_chongzhi_dialog_tips">确定要对这条记录进行红冲吗？同时请仔细确认退款金额%s，一旦确定，资金会从原路退回客户的账户中，将无法撤销</string>
+    <string formatted="false" name="member_chongzhi_fukuanfangshi">付款方式：%s</string>
+    <string formatted="false" name="member_chongzhi_source">充值渠道：%s</string>
+    <!--<string name="member_chongzhi_"></string>-->
+    <!--<string name="member_chongzhi_"></string>-->
+    <!--<string name="member_chongzhi_"></string>-->
+    <!--<string name="member_chongzhi_"></string>-->
+
+    <!-- 会员退卡-->
+    <string name="member_card_back_intoal">累计充值（元）</string>
+    <string name="member_card_back_gift">累计赠送（元）</string>
+    <string name="member_card_back_inall">累计消费（元）</string>
+    <string name="member_card_back_detail">储值明细</string>
+    <string name="member_card_back_yu_e">卡余额（元）</string>
+    <string name="member_card_back_ya_jin">办卡押金（元）</string>
+    <string name="member_card_back_money">实退金额（元）</string>
+    <string name="member_card_back_memo">备注</string>
+    <string name="member_card_back_memo_txt">注：退卡记录在“报表—充值明细报表”中查看</string>
+    <string name="member_card_back_back_card">退卡</string>
+    <string name="member_card_back_succeed">退卡成功</string>
+    <!--<string name="member_card_back_"></string>-->
+
+
+    <!-- 会员修改密码-->
+    <string name="member_change_password_new_psw">新密码</string>
+    <string name="member_change_password_psw_confirm">确认新密码</string>
+    <string name="member_change_password_memo">注：会员卡密码仅收银员在收银机上为会员结账，使用卡余额付款时使用，会员自己用手机付款使用卡余额时不需要输入密码。</string>
+    <string name="member_change_password_psw_not_null">新密码不能为空</string>
+    <string name="member_change_password_psw_confirm_not_null">确认新密码不能为空</string>
+    <string name="member_change_password_diff">密码两次输入不一致</string>
+    <string name="member_change_password_succeed">修改成功</string>
+    <string name="member_change_password_clear">确定要清除密码吗？</string>
+    <!--<string name="member_change_password_"></string>-->
+
+
+    <!-- 会员首页-->
+
+    <!--<string name="member_module_privile">会员等级特权</string>-->
+    <!--<string name="member_module_privilege_coupon">需要开通[优惠券]的权限才能设置[会员等级特权]</string>-->
+    <string name="member_module_member_info_to_yesterday">会员信息汇总（截止到昨日）</string>
+    <string name="member_level_distribution1">会员等级分布（%s）</string>
+    <string name="member_module_input_must">请输入会员卡号或者手机号</string>
+
+    <string name="member_module_chart_people">人</string>
+    <string name="member_dialog_btn_text_left">不再提醒</string>
+    <string name="member_dialog_btn_text_right">我知道了</string>
+    <string name="member_dialog_btn_text_right_setting">立即设置</string>
+    <!--<string name="member_module_"></string>-->
+    <!--<string name="member_module_"></string>-->
+
+    <string name="shouji">手机号码：%s</string>
+    <string name="shouji_2">手机号码：用户未设置</string>
+    <string name="shengri">生日：%s</string>
+    <string name="shouji_1">手机：-</string>
+    <string name="shengri_1">生日：-</string>
+    <string name="huiyuanyishanchuci">会员已删除此</string>
+    <string name="wuzhekou">无折扣</string>
+    <string name="e_pay_null"/>
+
+    <!--会员 pingguo-->
+    <string name="member_publish_ka">发卡</string>
+    <string name="member_change_ka">换卡</string>
+    <string name="member_publish_sms_platform">二维火短信平台</string>
+    <string name="member_publish_sms_this_phone">本手机短信</string>
+    <string name="enter_card_pword">输入刷卡密码</string>
+    <string name="enter_card_pword_again">重复输入刷卡密码</string>
+    <string name="password_not_match">两次密码不一致</string>
+    <string name="select_kindcard_tip">请先选择会员卡!</string>
+    <string name="select_kindcard_no_card_tip">没有要发的卡，请先添加会员卡!</string>
+    <string name="change_kindcard_no_card_tip">没有可更换的卡，请先添加会员卡！</string>
+    <string name="noCardTip">您还没有符合条件的会员卡, 请到“首页-火小二会员营销-会员卡”创建</string>
+    <string name="member_publish_mobile_format">手机：%s</string>
+    <string name="member_publish_birthday_format">生日：%s</string>
+    <string name="member_publish_birthday_format_none">生日：-</string>
+    <string name="member_publish_card_select_first">请先选择要换的卡</string>
+    <string name="member_card_publish_succeed">发卡成功</string>
+    <string name="member_card_change_succeed">换卡成功</string>
+    <string name="member_card_change_member">会员换卡</string>
+    <string name="member_card_change_member_tips">您的短信剩余条数不足，点击确定继续为会员发卡，但此会员无法收到通知短信。您还可以点击取消，向二维火短信平台充值或使用本手机短信通知会员。</string>
+    <string name="member_card_point_give_away_message_tips">您的短信剩余条数不足，点击确定继续为会员赠分，但此会员无法收到通知短信。您还可以点击取消，向二维火短信平台充值或使用本手机短信通知会员。</string>
+    <string name="member_card_select_cardkind">请先选择更换为哪种类型卡</string>
+    <string name="member_card_tip_memo">注:顾客使用此手机号登录“火小二”后，本卡会自动出现在会员卡列表中</string>
+    <string name="member_card_publish_memo">尊敬的顾客：您已成功领取XXXX（会员卡名称），请到各大应用市场搜索安装“二维火小二”后即可使用。\t%s店【二维火】</string>
+    <string formatted="false" name="member_card_publish_memo1">尊敬的顾客：您已成功领取%s（会员卡名称），请到各大应用市场搜索安装“二维火小二”后即可使用。\t%s店【二维火】</string>
+    <string name="member_card_sms_tips">本设备不支持短信发送功能</string>
+    <string name="member_card_publish_mobile_memo">手机号码作为会员的唯一凭证，发电子会员卡需要先填写会员的手机号码。</string>
+    <string name="member_card_query">会员查询</string>
+    <string name="member_card_create_time">加入日期：</string>
+
+    <!--发连锁卡设置-->
+    <string name="member_chuzhi_gift_points">赠送积分：%s分</string>
+    <string name="member_chuzhi_gift_money">赠送金额：%s元</string>
+    <string name="member_chuzhi_gift_coupon">赠送优惠券：%s张</string>
+    <string name="member_chuzhi_shop_name">充值门店：%s</string>
+
+    <!--积分改造一期-->
+
+
+    <!--会员充值-->
+    <string name="member_charge_coupon">充值优惠</string>
+    <string formatted="false" name="member_charge_rule_gift">充值%s元送%s元，送%s积分，送%s张优惠券。</string>
+    <string formatted="false" name="member_charge_rule_detail">充值金额：%s元，赠送金额%s元；赠送积分%s分；赠送优惠券%s张。</string>
+    <string name="member_charge_need_degree">所需积分：%s积分</string>
+    <string name="member_degree_type_money">卡金额：</string>
+    <string name="member_degree_type_gift">物品：</string>
+    <string name="member_degree_type_coupon">优惠券：</string>
+
+
+
+    <string name="member_degree_exchange_success">积分兑换成功</string>
+    <string name="member_charge_rule_detail_tip">如需修改优惠规则，请到会员首页“卡优惠设置”中调整。</string>
+    <string name="member_charge_rule_empty_tip">还未设置过优惠，请到会员首页“卡优惠设置”中设置。</string>
+    <string name="member_has_action_charge">红冲</string>
+
+    <string name="jiamichuanrucanshubuzhengque">加密传入参数不正确!</string>
+    <string name="meiyou">没有MD5算法</string>
+    <string name="cuowudesuanfa">错误的算法</string>
+    <string name="duqushuruliuchucuo">读取输入流出错</string>
+    <string name="wumingshi">无名氏</string>
+    <string name="weilingqia">未领卡</string>
+    <string name="yilingqia">已领卡:</string>
+
+    <string name="dengji_2">等级：</string>
+    <string name="shoujihaobunengweikong">手机号不能为空</string>
+    <string name="dangqianyonghumeiyouhuiyuanqia">当前用户没有会员卡</string>
+    <string name="shituijine">实退金额(元)为必填项</string>
+    <string name="huanqiahoujiangduilingyizhangqiajinxingcaozuo">换卡后将对另一张卡进行操作</string>
+    <string name="zhe">折</string>
+    <string name="huiyuanyijingzaigukeduanjiangciqiashanchu">会员已经在顾客端将此卡删除，您希望重新发此卡给会员吗？重发后此卡会在顾客端重新显示出来</string>
+    <string name="hard_code_nian_2">yyyy年MM月dd日 HH:mm</string>
+    <string name="nian_3">yyyy年</string>
+
+
+    <string name="tuiqiachenggong">退卡成功</string>
+    <string name="xiugaichenggong">修改成功</string>
+    <string name="faqiachenggong">发卡成功</string>
+    <string name="huanqiachenggong">换卡成功</string>
+    <string name="zengfenchenggong">赠分成功</string>
+
+    <string name="gaihuiyuanhuanmeiyouhuiyuanqia">该会员还没有会员卡,不能查看储值明细</string>
+
+
+    <string name="gaihuiyuanhuanmeiyouhuiyuanqia_3">该会员还没有会员卡,不能进行积分兑换</string>
+
+    <string name="gaihuiyuanhuanmeiyouhuiyuanqia_5">该会员还没有会员卡,不能进行会员换卡</string>
+    <string name="gaihuiyuanhuanmeiyouhuiyuanqia_6">该会员还没有会员卡,不能进行会员退卡</string>
+    <string name="gaihuiyuanhuanmeiyouhuiyuanqia_7">该会员还没有会员卡,不能进行改卡密码</string>
+
+
+    <string name="quedingzhongfaciqia">确定重发此卡？</string>
+
+    <string name="ren">人</string>
+
+
+
+
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="qita">其他</string>
+
+    <string name="meiyouxuanzeduihuanshangpin">没有选择兑换商品</string>
+    <string name="jifenbuzu">积分不足</string>
+    <string name="jifenduihuanchenggong">积分兑换成功</string>
+
+    <string name="tianjiatupian">添加图片</string>
+    <string name="huodongmiaoshubunengchaochu">活动描述不能超出50个字</string>
+    <string name="jine">金额：%s</string>
+    <string name="xiaofei">消费：+</string>
+    <string name="shijian">时间：</string>
+    <!--<string name="liushuihao">流水号：</string>-->
+
+    <string name="hongchong">红冲：-</string>
+    <string name="quedingyaoduizhetiaojilujinxinghongchongma">确定要对这条记录进行红冲吗？这条记录的积分也将从卡积分中减去。</string>
+    <string name="queding">确定</string>
+    <string name="zengfen">赠分：+</string>
+    <string name="duihuan">兑换：-</string>
+
+    <string name="yikaiqi">已开启</string>
+    <string name="yiguanbi">已关闭</string>
+    <string name="tequanmingchengbunengweikong">特权名称不能为空</string>
+    <string name="tequanneirongbunengweikong">特权内容不能为空</string>
+    <string name="tequanbunengweikong">特权不能为空</string>
+    <string name="zhang">张</string>
+    <string name="mobile_invalid">手机号码有误，无法发卡！</string>
+    <string name="quxiao">取消</string>
+    <string name="duihuan_button1">兑换</string>
+
+    <!-- 会员优化-->
+    <string name="member_convertible_gift">可兑换礼品</string>
+    <string name="member_detail_no_card">用户从未领过卡！不能操作会员补充资料</string>
+    <string name="member_search_tip">会员查询</string>
+    <string name="member_infos_memo_get_account">注：会员已经领过本店的卡，不可再发新的卡，您可以为会员更换卡。</string>
+    <string name="activity_member_points_exchange_all">共 </string>
+    <string name="activity_member_points_exchange_items"> 项</string>
+    <string name="activity_member_points_exchange_count">合计 </string>
+    <string name="activity_member_points_exchange_points"> 积分</string>
+    <string name="activity_member_points_give_away_sms_noitfy">短信通知</string>
+    <string name="activity_member_points_give_away_sms_preview"/>
+
+    <string name="card_consume_amount">卡消费金额</string>
+    <string name="member_consume_amount1">会员消费金额</string>
+    <string name="member_consume_occupy">会员消费金额占比</string>
+    <string name="card_consume_time">卡消费次数</string>
+    <string name="member_consume_bill_num">会员消费单数</string>
+    <string name="member_consume_bill_occupy">会员消费单数占比</string>
+    <string name="watch_all_member">查看会员一览</string>
+    <string name="watch_member_consume_record">查看当日会员消费记录</string>
+    <string name="module_member_tip">提示：会员卡消费和充值明细，请到“报表中心-会员报表”查看。</string>
+
+    <string name="member_description">%1$s %2$s 活跃会员数：%3$d人</string>
+    <string name="member_description1">%1$s 活跃会员数：%2$d人</string>
+    <string name="member_new_member">新会员%d人</string>
+    <string name="member_old_member">老会员%d人</string>
+    <string name="member_cur_month_member_info">本月会员信息汇总（%s）</string>
+    <string name="member_this_month_member_info">当月会员信息汇总（%s）</string>
+    <string name="member_yesterday_member_info">昨日会员信息汇总（%s）</string>
+    <string name="member_cur_day_member_info">当日会员信息汇总（%s）</string>
+
+    <string name="member_no_phone">手机：未设置</string>
+    <string name="member_join_time">加入日期：%s</string>
+    <string name="member_has_card">已领卡</string>
+    <string name="member_no_card">未领卡</string>
+    <string name="member_phone">手机：%s</string>
+    <string name="member_card_names">会员卡：%s</string>
+
+    <string name="member_show">会员一览</string>
+    <string name="member_today_consume_record">当日会员消费记录</string>
+    <string name="member_consume_amount">消费金额：%s元</string>
+    <string name="member_card_not_get_card">会员卡：未领卡</string>
+
+
+    <!-- “火小二”.充值优惠 -->
+
+
+
+    <string name="card_info_item_view_discount">折扣</string>
+    <string name="card_info_item_view_balance">余额</string>
+    <string name="card_info_item_view_vip_card">贵宾卡</string>
+    <string name="card_info_item_view_reuse_card">重发此卡</string>
+    <string name="card_info_item_view_member_deleted_card">会员已删除此卡</string>
+
+    <!--常用词语-->
+    <string name="base_month">月</string>
+    <string name="base_day">日</string>
+    <string name="no_permission">您当前没有权限进行操作，请用连锁账号登录操作</string>
+    <string name="base_go_buy_btn">去开通</string>
+    <string name="base_zhang">张</string>
+
+    <string name="base_ci">次</string>
+    <!--<string name="pull_label">上拉加载</string>-->
+
+
+    <!-- 优惠券-->
+    <string name="coupon_title">优惠券</string>
+
+
+
+    <!--—————————————————————————————————————————会员相关参数—————————————————————————————————————————-->
+
+    <!--会员营销中心-->
+    <string name="market_center_ing_name">营销中心</string>
+    <string name="market_center_hot_recommend">热门推荐</string>
+    <string name="market_center_recently_use">最近使用</string>
+    <string name="market_center_recently_my_tool">我的工具</string>
+
+    <string name="market_center_recently_open_mcapp_details">打开</string>
+    <string name="market_center_mine_hide">您还没有任何使用记录</string>
+    <string name="market_center_shop_case">商家案例</string>
+    <string name="market_center_function">功能介绍</string>
+    <string name="market_center_function_detail">客户忠诚度可以通过客户到店次数、频率、是否领卡、是否有储值等多个方面衡量。按照引导使用以下功能，可以有效加强客户忠诚度</string>
+    <string name="market_center_features_title">应用详情</string>
+    <string name="pointsUsageSetting">积分使用设置</string>
+    <string name="pointsMarket">积分商城管理</string>
+    <string name="incomePointsRule">积分发放规则</string>
+    <string name="pointsIncomeRulesTip">注：此处仅显示所有店家已经设置的积分相关活动，并且仅展示进行中的活动，如需查看全部活动，请进入各会员营销模块。</string>
+    <string name="mb_pointsIncomeRulesTip_shoppingmall">注：此处仅显示商场已经设置的积分相关活动，并且仅展示进行中的活动，如需查看全部的活动，请进入各会员营销模块。</string>
+    <string name="pointRulesFromActivity">活动积分规则</string>
+    <string name="pointRulesFromCard">卡积分规则</string>
+    <string name="pointUsageSetting">积分使用设置</string>
+    <string name="pointExchangeMoneySetting">积分抵现规则设置</string>
+    <string name="pointResetSetting">积分清零规则设置</string>
+    <string name="pointRuleForSpecificAmount" formatted="false">每消费%1$s元获得%2$s积分</string>
+
+    <string name="lbl_kind_card_use_ratio">仅用卡支付才能享折扣/会员价优惠</string>
+    <string name="lbl_kind_card_use_ratio_msg">该模式下，不建议设置余额个性化扣款规则。确定开启该模式，并将余额个性化扣款设为不限制？</string>
+
+    <!-- 定向发券相关 -->
+    <string name="direct_coupon_tips">商家可以通过条件筛选或者自定义的标签筛选来选择会员发送优惠券（发送次数不限），优惠券将直接发送至会员的账号中。</string>
+    <string name="direct_coupon_title">精准营销</string>
+    <string name="direct_coupon_message_set">短信消息设置</string>
+
+    <string formatted="false" name="direct_send_object_title">发送对象：%s  共%s人</string>
+    <string formatted="false" name="direct_send_object_tag">#%s#等共%s个标签</string>
+    <string formatted="false" name="direct_send_object_condition">#%s#等共%s个条件</string>
+    <string name="direct_coupon_rule_title">赠券规则：每人%s张优惠券</string>
+    <string formatted="false" name="direct_coupon_rule">每人%s张%s</string>
+
+
+    <string name="direct_coupon_publish_time">发布时间：%s</string>
+    <string name="mb_direct_coupon_save_time">保存时间：%s</string>
+    <string name="direct_select_people_s">已选%s人</string>
+    <string name="public_number_message_set">公众号消息设置</string>
+    <string name="public_number_message_set_tip">推送的促销活动链接【戳此查看】将自动跟在您输入的文字内容最末。</string>
+    <string name="public_number_message_set_tip2">提示：商家服务号消息推送次数不会再受每月四次的限制！ 商家可根据活动需求任意发送公众号消息（每天不可多于100次），但是每个粉丝用户每个月至多收到四条推送消息，多余的推送用户无法成功接收。</string>
+    <string name="template_preview">模板预览</string>
+    <string name="public_number_message_set_msg">请输入消息内容~</string>
+    <string name="public_number_message_set_msg2">输入框内支持最多输入140个字</string>
+    <string name="mobilePrefix">手机: %s</string>
+    <string name="member_memberList">会员列表</string>
+    <string name="mb_customer_list">顾客列表</string>
+    <string name="compositeOrder">综合排序</string>
+    <string name="allTags">全部标签</string>
+    <string name="tagManager">标签管理</string>
+    <string name="selectedTags">标签选择(%d)</string>
+    <string name="have_not">无</string>
+
+    <string name="direct_help_title1">什么是精准营销（定向赠券）？</string>
+    <string name="direct_help_content1">精准营销（定向赠券）活动是基于二维火强大的会员数据管理和会员标签管理能力基础上的精准营销工具，可以帮助商家筛选特定条件范围内的顾客作为发送对象，发送活动优惠券、推送自定义编辑的图文活动页面，并通过短信和公众号消息通知等渠道触达客户，提升营销活动的效果。商家可以针对新店开业、换季促销、节假日营销、新品上市等设置精准营销活动。</string>
+    <string name="direct_help_title2">精准营销（定向赠券）支持发送哪些优惠项？</string>
+    <string name="direct_help_content2">精准营销活动是一个持续性优化的项目，目前仅支持针对特定范围内的用户发送优惠券。</string>
+    <string name="direct_help_title3">精准营销（定向赠券）活动有哪些特点？</string>
+    <string name="direct_help_content3">首先，精准营销（定向赠券）活动支持用户选择既定会员标签或者自定义设定的筛选条件范围下的会员作为对象，实现精准营销触达；此外精准营销（定向赠券）活动支持通过短信和公众号消息渠道来实现活动的宣传和触达，并且突破了公众号消息每月4条的限制，极大的提升了用户在公众号营销方面的灵活度；第三，精准营销（定向赠券）活动支持用户自定义编辑活动的图文详情页面，为商家提供传递品牌文化和提升活动格调提供了工具支持。</string>
+    <string name="direct_help_title4">精准营销（定向赠券）活动如何发布？</string>
+    <string name="direct_help_content4">精准营销（定向赠券）活动支持即时发送和定时发送两种模式，需要设置完成并确认发布后才生效。</string>
+
+
+    <!--火通卡相关-->
+    <string name="company_card_title">火通卡</string>
+    <string name="company_card_apply_introduce_title">商家的引流卡，员工的打折卡</string>
+    <string name="company_card_apply_introduce_1">·二维火联合万家企业发放火通卡\n·企业餐补招待均用火通卡消费\n·商家轻松获得百万高质量消费群体</string>
+    <string name="company_card_apply_introduce_2">·二维火整合营销平台，助力商户经营客户\n·定期丰富的用户活动，提高客户消费频次\n·精准用户偏好分析，挖掘需求提高客单价 </string>
+    <string name="company_card_apply_btn">申请参与火通卡项目</string>
+    <string name="go_supple">去补充</string>
+    <string name="company_card_apply_memo">您的店家资料未填写完整，请完善相关信息。</string>
+    <string name="company_card_apply_memo2">完善后在小二端附近的店中会展示您的信息，有助于吸引新顾客，留存老顾客。</string>
+    <string name="apply_cashier_version_msg">您的收银系统待升级，5.6.51版本及以上才可参与火通卡项目</string>
+    <string name="company_card_read_information">查看火通卡明细</string>
+    <string name="company_card_setting_success">参与成功!</string>
+    <string name="company_card_setting_success_memo">您已成功参与火通卡项目！持有火通卡的顾客可在您的店铺正常消费。顾客从火通卡支付的金额将T+1打入您绑定的电子收款账户！</string>
+    <string name="company_card_edit_success">变更折扣成功!</string>ç
+    <string name="company_card_edit_success_memo">火通卡折扣变更成功，即时生效！顾客从火通卡支付的金额将T+1打入您绑定的电子收款账户！</string>
+    <string name="company_card_apply_agreement_title">二维火商户推广火通卡协议</string>
+    <string name="company_card_apply_agreement_msg">参与此项目的商家，即允许顾客使用火通卡在本店进行消费，并享受火通卡的折扣。商家必须使用5.6.51及以上版本的收银系统否则无法参与。同时商家需根据顾客实际申请报销的金额开具发票至二维火，每月至少开票一次。\n享受火通卡折扣的支付订单都将遵循2%的扣点（包含线上支付手续费，费率计算不包含使用火通卡折扣订单在线下支付的部分金额），详情请仔细阅读《二维火商户推广火通卡协议》。</string>
+    <string name="msg_error">信息有误</string>
+    <string name="company_information">商户信息</string>
+    <string name="apply_data">申请资料</string>
+    <string name="receipt_name">商户开票名称</string>
+    <string name="receipt_name_ls">连锁开票名称</string>
+    <string name="limit_1_40">限1–40个字</string>
+    <string name="limit_11">限11位数字</string>
+    <string name="lian_xi_ren">联系人</string>
+    <string name="lian_xi_phone">联系电话</string>
+    <string name="lian_suo_name">连锁名称</string>
+    <string name="lian_suo_shop_count">连锁门店总数</string>
+    <string name="join_shop_count">预计参与火通卡门店数</string>
+
+    <string name="credit_code">统一社会信用代码</string>
+    <string name="discount_setting">折扣设置</string>
+    <string name="discount_setting_msg">一天仅能修改一次折扣，确认修改？</string>
+    <string name="company_card_use_range">火通卡适用范围</string>
+    <string name="company_card_discount">火通卡在本店可享受折扣（%）</string>
+    <string name="company_card_child_discount">对设置了不允许打折的商品也打折</string>
+    <string name="company_card_child_discount_memo">注：开启功能后，设置了不打折属性的商品就纳入了打折的范围之中。</string>
+    <string name="allow_use_member_card">允许使用会员卡余额</string>
+    <string name="allow_use_member_card_memo">该设置针对店铺所有的会员卡。</string>
+    <string name="allow_use_member_card_memo1">该设置针对连锁、门店所有的会员卡。</string>
+    <string name="allow_use_gift_cash">允许使用积分抵现</string>
+    <string name="company_card_discount_set_memo">用火通卡打折时，以下支付方式设置</string>
+    <string name="company_card_discount_set_memo1">因涉及优惠复用，请根据店铺的情况，进行选择。如，会员卡设置了充值赠送，支付时再用火通卡打折，是否允许享受双重优惠。</string>
+
+
+
+    <string name="company_card_setting_memo">折扣设置涉及火通卡用餐规则、店铺对账、财务对账等诸多事项，一天仅能变更一次，请谨慎修改。</string>
+    <string name="company_card_setting_memo2">折扣设置为总部统一设置，门店不可修改。</string>
+    <string name="company_card_setting_memo3">请填写基本意向信息，二维火商务合作对接人会尽快处理您的申请！</string>
+    <string name="company_card_setting_memo4">折扣范围为全场，不参与打折的商品也能享受折扣。</string>
+
+
+    <string formatted="false" name="parameter_null">%s不能为空</string>
+
+    <string name="company_card_not_income">火通卡收款未到账总额</string>
+    <string name="company_card_income">%s收款收入</string>
+    <string name="company_card_deal_price">%s已到账金额</string>
+    <string name="company_card_offline_pay">%s线下订单需收服务费</string>
+    <string name="company_card_month_income">本月累计收款收入</string>
+    <string name="company_card_month_deal_price">本月累计已到账金额</string>
+    <string name="company_card_need_receipt">需开票金额</string>
+    <string name="company_card_receipt_price">开票金额</string>
+    <string name="company_card_service_fee">服务费</string>
+    <string name="company_card_service_fee_memo">线下享火通卡折扣的订单，也需收取2%的服务费。服务费将从火通卡收款金额中扣取。</string>
+    <string name="company_card_discount_set">折扣设置</string>
+
+    <string name="company_card_receipt_instruction">发票说明</string>
+    <string name="company_card_receipt_instruction_memo">1、您需尽快将顾客申请报销的金额开具发票至二维火，每月至少开票一次，需开票金额不能超过10000元；\n2、顾客使用火通卡支付付款成功后，此笔钱款会在第二日中午12：00后自动转账到您绑定的收款账户；二维火官方会扣除一定比例服务费。（“未到账金额”、“收款收入”皆为扣除服务费之前的金额）。若遇系统故障，延迟一天转账，敬请谅解。</string>
+    <string name="company_card_receipt_information">开票信息</string>
+    <string name="company_card_receipt_address_title">收件地址</string>
+    <string name="company_card_receipt_receipt_title">纸质发票信息</string>
+    <string name="address_phone">地址、电话：</string>
+    <string name="account_name">开户行及账号：</string>
+    <string name="company_card_receipt_receipt_example">纸质发票示例</string>
+    <string formatted="false" name="company_card_receipt_email_name">收件人：%s</string>
+    <string formatted="false" name="company_card_receipt_email_phone">电话：%s</string>
+    <string formatted="false" name="company_card_receipt_email_address">收件地址：%s</string>
+    <string formatted="false" name="company_card_receipt_receipt_name">名称：%s</string>
+    <string formatted="false" name="company_card_receipt_receipt_revenue">纳税人识别号：%s</string>
+
+    <string name="company_card_receipt_info_memo">您可以将开具的发票邮寄到二维火，我们核实后将押金退回到您绑定的电子收款账户。（不接收到付快递）</string>
+    <string name="add_money_yuan">+%s元</string>
+    <string name="reduce_money_yuan">-%s元</string>
+    <string name="open_ticket_type">类型：%s</string>
+    <string name="already_open_ticket">已开票</string>
+    <string name="need_open_ticket">需开票</string>
+    <string name="jin_e">金额：</string>
+    <string name="jin_e_s">金额：%s元</string>
+    <string name="need_service_fee">需收服务费：</string>
+    <string name="need_refund_service_fee">需退服务费：</string>
+    <string name="time_s">时间：%s</string>
+    <string name="refund_time_s">退款时间：%s</string>
+    <string name="refund_liushuihao_s">退款流水号：%s</string>
+    <string name="day_s">日期：%s</string>
+    <string name="already_off">已扣除</string>
+
+    <string name="pay_money_s">支付金额：%s元</string>
+
+    <string name="company_card_brand_need_receipt">需开票金额</string>
+    <string name="company_card_brand_receipt_instruction_memo">1、此处需开票金额为所有连锁总部帮其加入火通卡活动的门店需开票金额总数，门店可开户发票至二维火，连锁总部也可为门店开票。您需尽快将顾客申请报销的金额开具发票至二维火，每月至少开票一次，需开票金额不能超过10000元；\n2、顾客使用火通卡支付付款成功后，此笔钱款会在第二日中午12：00后自动转账到您绑定的收款账户；二维火官方会扣除一定比例服务费。（“未到账金额”、“收款收入”皆为扣除服务费之前的金额）。若遇系统故障，延迟一天转账，敬请谅解。</string>
+    <string name="company_card_brand_report_instruction">统计报表说明</string>
+    <string name="company_card_brand_report_instruction_memo">各门店火通卡营收统计数据，请前往报表中心查看。（服务费计算不包含使用火通卡折扣订单在线下支付的部分金额）</string>
+    <string name="company_card_brand_report_info">火通卡报表</string>
+    <string formatted="false" name="year_month_format">%s-%s</string>
+    <string name="part_in_shop">参与门店</string>
+    <string name="discount_s">折扣%s折</string>
+    <string name="apply_time_s">申请时间:%s</string>
+    <string name="open_time_s">开通时间:%s</string>
+    <string name="shops_sum_s">共%s家</string>
+    <string name="format_error">填写有误</string>
+    <string name="list_null_msg">目前没有数据！</string>
+
+    <string name="no_permission_note">您没有[%s]的权限！</string>
+    <string name="report_manager">报表中心</string>
+    <string name="mb_min">最低</string>
+    <string name="mb_max">最高</string>
+    <string name="filterRuleSetting">筛选条件设置</string>
+
+    <!-- 定向发券-->
+    <string name="pic_word_type_set">图文详情排版</string>
+    <string name="pic_word_type_set_memo">可自由添加图文素材配置详情页。</string>
+    <string name="preview_mould">预览模板</string>
+    <string name="please_select_pic_word">请选择图文内容</string>
+    <string name="add_word">添加文字</string>
+    <string name="add_pic">添加图片</string>
+    <string name="add_line">添加分割线</string>
+    <string name="detail_title">详情</string>
+
+    <string name="take_out">外卖</string>
+    <string name="dine_in">堂食</string>
+    <string name="single_use_yuan_s">单笔消费满%s元可使用此券</string>
+    <string formatted="false" name="yuan_s_s">¥%s.%s</string>
+    <string name="immediately_send">即时发送</string>
+    <string name="sms_not_enough_msg">剩余短信数量可能不足，直接发布活动可能会导致部分顾客无法收到短信。</string>
+    <string name="goto_recharge">前往充值</string>
+    <string name="continue_publish">继续发布</string>
+    <string name="continue_save">继续保存</string>
+    <string name="act_detail_title">活动详情</string>
+    <string name="direct_act_title">精准营销活动</string>
+
+    <string name="please_input_act_detail">请输入活动说明~</string>
+    <string name="please_select_sms_template">请选择短信模板</string>
+
+     <!--定向相关-收费模块-->
+    <string name="direct_scheme_chain">精准营销-定向赠券连锁版</string>
+
+    <string name="direct_scheme_chain_stamps">499点券+260点券/店/6个月</string>
+
+    <string name="direct_jiayikaitong">%s家已开通</string>
+    <string name="direct_jiaweikaitong">%s家未开通</string>
+    <string name="direct_weikaitong">未开通</string>
+
+
+
+
+    <string name="direct_chain_half_year_price">499点券+260点券/店</string>
+    <string name="direct_chain_year_price">799点券+500点券/店</string>
+
+    <string name="direct_function_introduce_detail">精准营销（定向赠券）是基于二维火强大的会员数据管理系统和会员营销RFM体系基础上的精准营销工具，它可以帮助商家针对新店开业、节假日促销、老客户唤醒等活动，按照自定义会员标签或者自由组合筛选条件来精准圈选用户推送优惠券和促销活动消息。\n例如，商家可针对本月生日会员、3个月内未到店消费的老会员或者60天内到店消费金额满2000元的高价值会员等群体，精准推送各类型促销优惠券，提升老客户的到店消费频次，提高用户粘性，促进商家营收增长。</string>
+    <string name="zuhe_function_introduce_detail">组合优惠促销活动是店家吸引用户的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应的促销活动，活动方式暂时仅支持第N件折扣（第二份半价），在吸引客户消费的同时提升门店热门商品销量，并形成良好的口碑宣传。此活动发布后，仅限收银机端选用此优惠。</string>
+    <string name="guaguale_function_introduce_detail">提供给客户在排队等待用餐中消遣娱乐的一个互动小游戏。商家自行添加奖品，中奖几率和刮奖条件。可以增强商家与客户间的互动性，从而吸引客流，刺激消费。</string>
+    <string name="sms_market_function_introduce_detail">在购买短信套餐之后，商家可通过发短信的方式告知顾客节日促销等优惠活动。短信通知的方式可以引起顾客注意、重视，为活动的开展带来关注度与参与度。缺点，部分顾客会反感这种营销类短信。</string>
+    <string name="privilege_function_introduce_detail">根据顾客消费能力，划分会员等级，给不同等级的会员提供不同的会员权益。商家可自定义等级分类及需要达到的成长值，并根据自身品牌特征设计一套个性化的会员名称。会员等级的层层上升，享受的特权也更加丰富，例如在达到一定会员等级之后，商家可定向发送生日优惠券到会员账户中，提供节日福利等。商家可借会员等级制度来提升会员粘性，让每一个等级的客户都感受到尊贵待遇。</string>
+    <string name="kind_card_function_introduce_detail">会员卡是维系商家与顾客之间的一条纽带。顾客在办理会员卡之后，才能得到商家提供的优惠券、促销活动等让利方式。商家也才能采取一系列会员营销策略，培养顾客忠诚度，带动顾客消费能力。</string>
+    <string name="pledge_set_function_introduce_detail">顾客可以在消费过程中凭借积分抵用现金。积分抵用现金的比例以及单笔订单最多可抵扣的金额由商家自行设置。</string>
+    <string name="exchange_function_introduce_detail">包括兑换会员卡金额、线下物品以及优惠券，供客户在积分商城根据相应积分兑换心仪的奖品。兑换的奖品及积分要求由商家自行添加。</string>
+    <string name="integral_function_introduce_detail">顾客通过消费，根据订单金额按比例获得积分。合理利用积分管理会员可以更有效地维护会员关系，刺激顾客进店消费，提升门店复购率、促进单品转化。</string>
+    <string name="discount_function_introduce_detail">会员卡储值功能帮助商家抓住高端客户，加快资金回流，提升客户复购率及桌均消费。提供充值优惠能够培养顾客储值意识，刺激他们储值消费。在顾客点餐经过的页面，都会有充值优惠的提示，从而提升曝光率及购买率。并且相比于传统人工充值方式，二维火会员储值提供多种充值档位供用户自行在线选择，不仅降低人工成本，同时营销推荐更精准，成功率更高。</string>
+    <string name="open_card_function_introduce_detail">针对尚未成为商家会员的客户，以发放福利的方式吸纳会员，使其进店消费。开卡方式多样，顾客可以自行进入店家中心领取会员卡，也可通过好友的分享链接。商家可制定相应的奖励政策，鼓励顾客分享链接，邀请好友成为商家新会员。</string>
+    <string name="marketing_function_introduce_detail">商家在公众号中与粉丝互动，维系关系。商家可在公众号中发送推文介绍产品，宣传促销活动带来关注度，提供给粉丝优惠券，开卡等便利服务。商家可以设置首次关注可以获赠优惠券等福利，来吸纳粉丝。会员营销，微信小游戏都需要在公众号中展开。</string>
+    <string name="game_function_introduce_detail">顾客通过游戏的方式获取商家设置的奖品。每逢佳节，商家可以添加主题游戏供顾客体验。商家可以设置领取奖品需要在游戏中达到的分数要求，还可建立得分排行榜，提供给排行榜上的玩家丰厚奖励。商家可以设定在分享游戏或者关注商家公众号后增加游戏次数。微信小游戏的设定可以为商家带来更多粉丝，增加了顾客获取优惠的方式，带给顾客趣味性。</string>
+    <string name="consume_function_introduce_detail">对顾客的消费金额与次数进行奖励。商家自行设置金额门槛与次数门槛，选择特定优惠。激励顾客提升消费水平，增加消费次数。例如，顾客在看到满100元得礼品的活动后，会将计划的消费总额从80提升到100。商家可将消费次数设置为阶梯式，3次，5次，10次，奖励力度逐步增大，诱导吸引顾客频繁到店消费。</string>
+    <string name="new_function_introduce_detail">针对尚未在商家进行过餐饮订单线上支付的顾客，发放福利吸引顾客采用线上支付，成为商家的线上会员。线上会员相比传统会员更易于商家的管理，便于商家在之后采取一系列的会员优惠政策，将流动顾客发展成为忠实顾客。</string>
+    <string name="coupon_function_introduce_detail">商家可设置多种不同类型的优惠券定向发送到各会员账号，供顾客领取以完成促销。商家可以自行拟定优惠力度，使用条件，有效日期及特定的使用时段。例如，商家可将使用时段设置成营业淡季来刺激消费。对于老顾客的流失，商家可向会员卡中发放优惠券等方式吸引顾客的再次进店消费。</string>
+
+
+    <!--临时-->
+    <string name="buy_introduction">购买说明</string>
+    <string name="function_introduction_title">精准营销（定向赠券）活动是什么？</string>
+    <string name="function_introduction_content">精准营销（定向赠券）是基于二维火强大的会员数据管理系统和会员营销RFM体系基础上的精准营销工具，它可以帮助商家筛选特定条件范围内的顾客作为精准的发送对象，发送促销活动优惠券、推送自定义编辑的图文活动页面，并通过短信和公众号消息通知等渠道触达客户，提升营销活动的效果。</string>
+    <string name="function_introduction_title2">精精准营销（定向赠券）活动可以做什么？</string>
+    <string name="function_introduction_content2">此功能支持商家针对新店开业、节假日促销、老客户唤醒等活动，按照自定义会员标签或者自由组合筛选条件来精准圈选用户推送优惠券和促销活动消息。\n例如，商家可针对本月生日会员、3个月内未到店消费的老会员或者60天内到店消费金额满2000元的高价值会员等群体，精准推送各类型促销优惠券，提升老客户的到店消费频次，提高用户粘性，促进商家营收增长。</string>
+    <string name="function_introduction_title3">规格说明</string>
+
+    <string name="function_introduction_title4">使用点券购买</string>
+    <string name="function_introduction_content4">精准营销（定向赠券）功能为按照使用时间有效期收费（分为半年期和整年期两种购买方式）： \n1、单个门店开通此功能费用：半年价为499点券；整年价为799点券； \n2、连锁开通此功能费用：半年价为499点券，每新开一家分店加260点券；整年价为799点券，每新开一家分店加500点券； \n3、开通时根据本月剩余天数扣除费用，若账户余额不足，无法开通； \n4、开通功能有效期结束后，所有已开通功能停用，充值后恢复正常； \n5、已开通的功能可以退订，退订功能次月生效。</string>
+    <string name="function_introduction_title5">说明</string>
+
+    <string name="scheme_opearte_unsubscribe_stop_conform">确定要退订%s吗？退订后会立即关闭此功能，需要手动开通才能再次使用。</string>
+    <string name="scheme_unsubscribe_confirm">确认退订</string>
+    <string name="this_user_is_not_admin_can_add">您的权限不够，无法进行此操作。在“火掌柜”－“员工”－“职级管理”可以添加此权限。</string>
+    <string name="scheme_opearte_unsubscribe_confirm">确定要退订%s吗？退订后下个月1号会自动关闭此功能，需要手动开通才能再次使用。</string>
+    <string name="scheme_opearte_cancel_unsubscribe_confirm">确定要取消退订%s吗？取消退订后会继续开通此功能，每个月1号自动从点券账户余额扣除费用。</string>
+    <string name="module_charge_shop_manage">分店开通管理</string>
+    <string name="scheme_detail_btn_open">立即购买</string>
+    <string name="scheme_detail_btn_unsubscribe">退订</string>
+    <string name="scheme_detail_btn_cancel_unsubscribe">取消退订</string>
+    <string name="scheme_open_check_fund_enough">开通失败，账户余额不足。\n账户余额：%s点券。</string>
+    <string name="scheme_open_go_Recharge">去充值</string>
+    <string name="scheme_cancel_unsubscribe_confirm">确认取消退订</string>
+    <string name="activity_preview">活动页面预览</string>
+    <string name="type_set">排版</string>
+    <string name="countOfPeople">%d人</string>
+    <string name="editTag">编辑标签</string>
+    <string name="addTag">添加标签</string>
+    <string name="selectedPersonCount">已选择%d人</string>
+    <string name="pleaseSelectTargetUsersByTagsOrOtherRules">请通过会员标签或其他筛选条件选择发送对象</string>
+    <string name="inputErrorTip">%s区间最大值不可小于最小值</string>
+    <string name="areaPicker">地区选择</string>
+    <string name="batchTag">批量打标签</string>
+    <string name="extractMarketBySendingCoupon">精准营销-定向赠券</string>
+    <string name="pleaseSelectOptType">请选择操作类型</string>
+    <string name="pleaseSelectProvinceCityAndDistrict">请选择省市区</string>
+
+
+    <!--组合优惠活动-->
+    <string name="zuheActTitle">组合优惠</string>
+    <string name="zuheActDesc">组合优惠活动是店家吸引用户的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应的促销活动，通过第N件折扣（第二份半价）、组合优惠等方式为顾客提供优惠。此活动发布后，仅限收银机端选用此优惠。</string>
+    <string name="zuheActCountInTotal">共有%d个组合优惠活动</string>
+    <string name="not_select_all">全不选</string>
+
+    <string name="zuheActShortDesc">连锁可以统一管理各个品牌门店的营销活动。可以设置换季、节假日、新品上市等组合优惠活动。连锁组合优惠活动仅限收银机端选用此优惠。</string>
+    <string name="addPrivilegeRules">添加优惠规则</string>
+    <string name="addActGoods">添加活动商品</string>
+    <string name="zuheActGoods">活动商品</string>
+
+    <string name="help_zuheAct_title1">什么是组合优惠？</string>
+    <string name="help_zuheAct_content1">组合优惠活动是店家吸引用户的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应的促销活动，通过第N件折扣（第二份半价）、组合优惠等方式为顾客提供优惠。此活动发布后，暂时仅限收银机端选用此优惠。</string>
+    <string name="help_zuheAct_title2">组合优惠有哪些模式？</string>
+    <string name="help_zuheAct_content2">组合优惠活动暂时只有第N件折扣（第二份半价）一种类型，后续会增加如“换购”“组合优惠价/折扣”等组合优惠方式为顾客提供优惠。</string>
+    <string name="help_zuheAct_title3">优惠活动设置时有何限制？</string>
+    <string name="help_zuheAct_content3">设置活动时，一家门店可同时设置多个第N件折扣活动，但是同一个商品在同一时间仅可参加一个第N件折扣活动（同一商品的不同规格算作不同的商品）。</string>
+
+    <string name="zuhe_title">组合优惠</string>
+    <string formatted="false" name="select_s_yuan_s">已选：%s, ¥%s</string>
+    <string name="already_select_goods_s">(已选择%s件商品)</string>
+    <string name="zuhe_select_goods_memo1">提示：请注意！不同规格的活动商品最多可添加10个。</string>
+    <string name="sum_item_s">共%s件</string>
+    <string name="rule_s">规则：%s</string>
+    <string name="favourable">优惠：</string>
+    <string name="discount_1_s">第一件：%s</string>
+    <string name="discount_2_s">第二件：%s</string>
+    <string name="discount_3_s">第三件：%s</string>
+    <string name="purchase_same_goods">必须购买同一商品</string>
+    <string name="purchase_different_goods">必须购买不同商品</string>
+    <string name="discretionary_purchase">任意购买</string>
+    <string name="include_rule_goods">活动范围内商品</string>
+    <string name="not_repeat_select">已参加组合优惠活动，不可重复选择</string>
+    <string name="not_repeat_select_spec">提示：%s规格商品已参加组合优惠活动，不可重复选择。</string>
+    <string name="already_select_s">已参加数量：%s</string>
+    <string name="yuan_s">¥%s</string>
+    <string name="menu_detail_discount_n">提示：商品有多种规格时，此处需要指定。如果想添加多种规格，需要多次添加商品并分别指定不同的规格。同一规格商品不可同时参与两个第N件折扣活动。</string>
+
+    <string name="select_menu">选择商品</string>
+    <string name="menu_add">添加商品</string>
+    <string name="suit_menu_kind_name">分组分类</string>
+    <string name="menu_name">商品名称</string>
+    <string name="btn_menu_spec">规格</string>
+    <string name="suit_menu_spec_price">商品规格(元)</string>
+    <string name="add_suit_menu_change_tip">提示：\n\n商品有多种规格时，此处需指定一种。如果想提供多种规格，多次添加商品并分别指定不同的规格即可; \n\n商品有多种做法时，此处无需指定，顾客可自由选择一种。做法本身如果有加价，会额外累积到套餐总价上;</string>
+    <string name="double_12_comment">店家可选择商品参与口碑活动，提交后即可让顾客在口碑中购买。如被选中可参加口碑双12活动，以口碑方反馈为准。口碑会审核商品图与类目，不合格者会被下架。</string>
+    <string name="double_12_title">口碑双12活动报名</string>
+    <string name="yuan_2">¥%s元/份</string>
+    <string name="double_12_choose_goods">选择商品</string>
+    <string name="fenlei">分类</string>
+    <string name="double_12_edit">填写活动信息</string>
+    <string name="double_12_edit_name">菜品名称</string>
+    <string name="double_12_edit_type">报名类目</string>
+    <string name="double_12_edit_type_memo">请仔细填写类目，此项为必填项</string>
+    <string name="double_12_edit_type2">报名子类目</string>
+    <string name="double_12_edit_price">原价（元）</string>
+    <string name="double_12_edit_coupon_price">优惠价格（元）</string>
+    <string name="double_12_edit_coupon_price_memo">此优惠价格仅限于口碑</string>
+    <string name="double_12_edit_count">发放量（个）</string>
+    <string name="double_12_edit_count_memo">此数量仅限于口碑</string>
+    <string name="double_12_edit_time">活动生效时间</string>
+    <string name="double_12_edit_time_memo">此时间为优惠价格在口碑被顾客购买后的有效时间</string>
+    <string name="double_12_edit_time_count">商品购买后多少天内有效（天）</string>
+    <string name="double_12_edit_add_pic">添加菜品图片</string>
+    <string name="double_12_edit_pic">菜品图片</string>
+    <string name="double_12_on">已上架</string>
+
+    <string name="double_12_update">修改</string>
+    <string name="double_12_invalid_price">优惠价必须低于原价</string>
+    <string name="double_12_invalid_price_0">优惠价格不能为0</string>
+    <string name="double_12_invalid_count">发放量不能为0</string>
+    <string name="double_12_invalid_time">活动生效日期选择不能早于当前日期</string>
+    <string name="double_12_null_list">您还没有添加过任何商品，点击右下角添加商品</string>
+    <string name="double_12_upload_success_title">上架成功！</string>
+    <string name="double_12_goods_not_null">请先选择商品</string>
+    <string name="double_12_upload_success">上架后用户可以在口碑正常购买。口碑后续会在7-14个工作日内审核，如不满足条件，可能会下架。如您需要修改或了解更多信息，请前往口碑后台操作。</string>
+    <string name="double_12_help_title1">问：为什么我的有些商品不见了？</string>
+    <string name="double_12_help_content1">套餐或不允许打折的商品不能报名口碑的活动。</string>
+    <string name="double_12_help_title2">问：为什么我看不了我报名的商品的信息？</string>
+    <string name="double_12_help_content2">商家报名到口碑的商品，都是直接商家到口碑的，如果要修改口碑商品的信息，都需要到对应的口碑后台进行上下架、编辑等的操作，二维火仅支持同步。</string>
+    <string name="double_12_help_title3">问：我是连锁店，报名之后为什么我有些店里有这个商品，有些店里没有？</string>
+    <string name="double_12_help_content3">报名的商品会根据连锁下有多少个口碑门店，以及多少个门店下发了这个商品进行同步，如果商家在下发之后把商品同步到口碑的，那同步的就是当时的门店数量。</string>
+    <string name="double_12_help_title4">问：我商品已经上架到口碑了，为什么没参加口碑双12活动？</string>
+    <string name="double_12_help_content4">商品上架到口碑是报名口碑双12活动的前提条件，具体是否会参加活动要看口碑方面是否会选中商品，如果能参加具体的活动，口碑方面会反馈给商家。</string>
+
+    <string name="memberTagManagerTip">请到右上角\"标签管理\"内添加会员标签</string>
+    <string name="memberTagEmptyTip">你还没有添加会员标签</string>
+
+    <!-- 客户管理相关 -->
+    <string name="compare_with_yesterday">较前一天</string>
+    <string name="data_declaration">数据说明</string>
+    <string name="data_declaration_detail">1.新顾客：首次来访门店的顾客（含线上到访）\n \n2.潜在顾客：已获取到联系方式但尚未在门店发生消费行为的顾客\n \n3.消费顾客：已获取到联系方式并在门店完成至少一次买单的顾客（不含会员）\n \n4.会员：已获取到联系方式并成为门店会员的顾客\n</string>
+    <string name="customer_manager_title">顾客管理</string>
+    <string name="customer_menmber_manager">会员管理</string>
+    <string name="tag_manager">标签管理</string>
+    <string name="directional_marketing">定向营销</string>
+    <string name="customer_evaluate">顾客评价</string>
+    <string name="blacklist">黑名单</string>
+    <string name="store_contrast">各大门店对比</string>
+    <string name="store_contrast_title">各门店对比</string>
+    <string name="the_day_before">前一天</string>
+    <string name="the_day_after">后一天</string>
+    <string name="the_month_before">前一月</string>
+    <string name="the_month_after">后一月</string>
+    <string name="get_customer_number">获取%s人</string>
+    <string name="customer_unit">人</string>
+    <string name="store_promotion_1">促</string>
+    <string name="store_promotion_2">券</string>
+    <string name="store_promotion_3">企</string>
+    <string name="yesterday_customer_touch_number">昨日触及新顾客人数</string>
+    <string name="yesterday_customer_get_number">昨日获取新顾客人数</string>
+    <string name="store_detail_title">门店详情</string>
+    <string name="store_get_title">获取的顾客</string>
+    <string name="customer_potential">潜在新顾客</string>
+    <string name="customer_expense">消费新顾客</string>
+    <string name="application_function">应用功能</string>
+    <string name="store_manager_title">门店管理</string>
+    <string name="store_manager_tip">新客户端搜索结果展示页-店铺名片</string>
+    <string name="store_info">店家资料</string>
+    <string name="store_electronic_account">电子收款账户</string>
+    <string name="store_public_account_setting">公众号运营设置</string>
+    <string name="improve_transformation">提高转化</string>
+    <string name="opening_business">去开通营业</string>
+    <string name="opening_marketing">去开通营销</string>
+    <string name="opening_member">去开通会员</string>
+    <string name="member_unused">尚未使用会员系统</string>
+    <string name="state_wait">敬请期待</string>
+    <string name="crm_edit">编辑</string>
+    <string name="crm_store_preview">预览店铺</string>
+    <string name="crm_qrcode">下载二维码</string>
+    <string name="crm_wechat_friend">微信好友</string>
+    <string name="crm_wechat_friend_circle">微信朋友圈</string>
+
+    <string name="crm_no_bind">未绑定</string>
+    <string name="crm_bound">已绑定</string>
+    <string name="crm_bind_error">绑定失败</string>
+    <string name="crm_go_setting">去设置</string>
+    <string name="crm_qrcode_wx_share_content">查看店铺优惠，领取超大红包，预先点菜，快来体验吧！</string>
+    <string name="crm_qrcode_download_sucess">二维码下载成功</string>
+    <string name="crm_qrcode_download_failure">二维码下载失败,请重试</string>
+    <string name="crm_qrcode_edit_copy_takeout">已复制店铺外卖链接地址到剪贴板</string>
+    <string name="crm_qrcode_wx_share_title">把美食与爱随身携带！</string>
+    <string name="crm_qrcode_wx_special">微信专用外卖码</string>
+    <string name="crm_qrcode_currency">通用外卖码</string>
+    <string name="crm_statistics_time">统计时间：%s</string>
+
+    <string name="crm_conversion_rate">转化率</string>
+    <string name="crm_only_phone_number">仅手机号</string>
+    <string name="crm_only_wechat">仅微信</string>
+    <string name="crm_phone_number_and_wechat">手机号&amp;微信</string>
+    <string name="crm_customer_source">顾客来源</string>
+    <string name="crm_source_title">获取客户数／触达客户数</string>
+    <string name="crm_yesterday">昨天</string>
+    <string name="crm_this_week">本周</string>
+    <string name="crm_this_month">本月</string>
+    <string name="crm_history">历史</string>
+    <string name="crm_custom">自定义</string>
+    <string name="customer_get_number_potential">获取潜在新客户数</string>
+    <string name="customer_get_number_consumer">获取消费新客户数</string>
+    <string formatted="false" name="crm_customer_number">%s/%s</string>
+    <string name="crm_recommendation">为你推荐</string>
+    <string name="crm_share_store_title">分享门店获取客户</string>
+    <string name="crm_share_explosion_title">分享爆款获取客户</string>
+    <string name="crm_share_content">为您打造属于自己的营销方式</string>
+    <string name="crm_scan_code_user_analyze">扫码用户分析</string>
+    <string name="crm_promote_phone_number">提升手机号获取转化率</string>
+    <string name="crm_promote_wechat">提升微信获取转化率</string>
+    <string name="crm_know_detail">了解详情</string>
+    <string name="crm_public_number">公众号：%s</string>
+    <string name="crm_public_number_title">公众号传播</string>
+    <string name="crm_number_of_activity">参与活动人数</string>
+    <string name="crm_number_of_new_get">获取新客人数</string>
+    <string name="crm_save_money_business_analyze">储值业务分析</string>
+    <string name="crm_save_money_by_scan_code">扫码储值</string>
+    <string name="crm_save_money_by_below_the_line">线下收银储值</string>
+    <string name="crm_take_out_food_analyze">外卖用户分析</string>
+    <string name="crm_more_activity">更多活动</string>
+    <string name="crm_more_activity_tip">营销中心工具、运营活动教程与案例</string>
+    <string name="crm_about_recommendation">相关推荐</string>
+
+    <string name="crm_potential_customer_title">潜在顾客获取</string>
+    <string name="crm_consume_customer_title">消费顾客获取</string>
+    <string name="crm_state_wait">敬请期待…</string>
+    <string name="customer_analyze_data_explain_potential">潜在客户：指可能到店消费买单的顾客 \n仅手机号:只获取到手机号的潜在顾客 \n手机号&amp;微信:同时获取到顾客手机号和微信ID的顾客数 \n仅微信:只获取到顾客id的顾客数 \n顾客来源:顾客首次来访的途径</string>
+    <string name="customer_analyze_data_explain_consume">消费新客户：已获取到联系方式并在门店完成至少一次买单的新顾客（不含会员） \n仅手机号:只获取到手机号的消费新顾客 \n手机号&amp;微信:同时获取到顾客手机号和微信ID的顾客数 \n仅微信:只获取到顾客id的顾客数 \n顾客来源:顾客首次来访的途径</string>
+
+    <string name="memberManager">会员管理</string>
+    <string name="newMemberSystemTitle">新会员体系</string>
+    <string name="memberSystemDescForMultiPlate">总部可以建立多套会员等级体系，如根据不同品牌的定位，为不同品牌建立不同的会员等级体系，分别设置会员等级的数量、各等级的升级条件和特权，结合数据分析和营销，鼓励顾客加入会员并挖掘其后续消费力，实现顾客价值的最大化。</string>
+    <string name="memberSystemDescForSinglePlate">总部可以建立多套会员等级体系，分别设置各会员等级体系的会员等级的数量、各等级的升级条件和特权，结合数据分析和营销，鼓励顾客加入会员并挖掘其后续消费力，实现顾客价值的最大化。</string>
+    <string name="memberSystemDescForSingleShop">门店可以共用总部的会员等级体系，也可以建立自己的会员等级体系。灵活设置会员等级的数量、各等级的升级条件和特权，结合数据分析和营销，鼓励顾客加入会员并挖掘其后续消费力，实现顾客价值的最大化。</string>
+    <string name="memberSystemDescForShoppingMall">商场可根据自己的需求建立会员等级体系，灵活的设置会员等级的数量、各等级的升级条件和特权，结合数据分析和营销，鼓励顾客加入会员并挖掘其后续的消费力，实现顾客价值的最大化。</string>
+    <string name="mb_changesNotPublished">修改未发布</string>
+    <string name="analyzeMemberDatas">分析会员数据</string>
+    <string name="readSet">查看设置</string>
+
+    <string name="addMemberSystem">添加会员等级体系</string>
+    <string name="memberSystemNullMemo">点击右下角添加会员等级体系，添加完成后即可对会员进行管理。</string>
+    <string name="memberSystemPlateNullMemo">请先添加品牌再添加会员等级体系。</string>
+    <string name="memberSystemLevel">选择原有会员在新会员体系里的等级</string>
+    <string name="memberSystemCard">选择原有会员卡会员在新会员体系里的等级</string>
+    <string name="memberSystemSms">短信及公众号告知会员新等级权益</string>
+    <string name="memberSystemChangeMemo">1、原有会员卡中的所有会员转移成功时，原有的会员卡将被删除，统一在新会员体系中管理。（请注意：原有会员卡的会员须有手机号才能转移成功）；
+        \n2、如果原会员有多张会员卡，此会员在新体系中的余额为原多张卡上余额的总和，其中会区分本金和赠送金。
+        \n3、如果按照上述规则，一个用户对应多个等级，会自动指定到多个等级中的最高一级。
+    </string>
+    <string name="memberSystemShopCard">原适用门店会员卡会员</string>
+    <string name="memberSystemShopCardMemo">请先将此门店的会员卡升级成连锁的会员卡，再进行转移。</string>
+
+    <string name="module_member_activity_mm_dd">MM月dd日</string>
+    <string name="create_new_activity">爆品活动</string>
+    <!--<string name="spec_name">规格：%1$s</string>-->
+    <string name="menu_yuan">%.2f元</string>
+    <string name="predictInput">预计投入</string>
+    <string name="businessMoney">可交易</string>
+    <string name="riseOrderAmount">提笔单</string>
+    <string name="addAttractiveTicket">增加线上引流券</string>
+    <string name="yuanAndComma">元, </string>
+
+    <string name="koubei_edit_discount">调整优惠力度</string>
+
+
+    <string name="fill_minus_coupon_title" formatted="false">满%1$d减%2$d元</string>
+
+    <string name="fill_minus_coupon_memo" formatted="false">最高减%1$d元，相当于%2$.1f折优惠</string>
+    <string name="fill_minus_coupon_memo_2">相当于%f折优惠</string>
+    <string name="fill_minus_coupon_memo_1">%1$s，最高减%2$d元</string>
+    <string name="each_fill_minus_coupon_title" formatted="false">每满%1$d减%2$d元</string>
+    <string name="consume_gift_coupon_title">消费再送%d元代金券</string>
+    <string name="consume_gift_coupon_memo">下次满%d元可用</string>
+    <string name="promotion_extension_coupon_title">营销推广%d元代金券</string>
+    <string name="promotion_extension_coupon_memo">满%d元可用</string>
+    <string name="income_add_plan">收入月增计划</string>
+    <string name="promote_immediately">立即营销</string>
+    <string name="promote_success">营销成功</string>
+    <string name="koubei_select_shop">分店选择</string>
+    <string name="koubei_search_shop_hint">请搜索店铺名称</string>
+    <string name="koubei_income_increase_plan">收入月增计划</string>
+    <string name="shopCount">%d家门店</string>
+
+    <string name="koubei_time_toast_1">每个月最多不能超过%d天</string>
+    <string name="koubei_time_toast_2">最多添加%d个不可用时段</string>
+
+
+    <string name="income_increase_new">新</string>
+    <string name="income_increase_2">即将结束</string>
+    <string name="income_increase_3">到期将自动续期</string>
+    <string name="income_increase_4">过期</string>
+
+    <string name="income_increase_time_choose">请选择续期时间</string>
+    <string name="income_increase_list_null">点击右下角加号创建收入月增计划。</string>
+    <string name="income_increase_time1">30天</string>
+    <string name="income_increase_time2">60天</string>
+    <string name="income_increase_time3">180天</string>
+    <string name="notLimit">不限制</string>
+
+    <string name="ge">个</string>
+    <string name="duigongzhanghu">对公账户</string>
+    <string name="farenzhanghu">法人账户</string>
+    <string name="canyin">餐饮</string>
+    <string name="shipin">食品</string>
+    <string name="bianlidian">便利店</string>
+    <string name="qitazonghelingshou">其他综合零售</string>
+    <string name="canyin_1">餐饮/食品</string>
+    <string name="xianxialingshou">线下零售</string>
+    <string name="qiyefaren">企业法人</string>
+    <string name="jingbanren">经办人</string>
+    <string name="shenfenzheng">身份证</string>
+    <string name="huzhao">护照</string>
+    <string name="wuzicaidanmoshi">无子菜单模式</string>
+    <string name="youzicaidanmoshi">有子菜单模式</string>
+    <string name="qiye">企业</string>
+    <string name="gongshanggetihu">工商个体户</string>
+    <string name="settingLevel1">V1等级设置</string>
+    <string name="settingLevel2">V2等级设置</string>
+    <string name="settingLevel3">V3等级设置</string>
+    <string name="settingLevel4">V4等级设置</string>
+    <string name="settingLevel5">V5等级设置</string>
+    <string name="settingLevel6">V6等级设置</string>
+    <string name="addMemberLevel">添加会员等级</string>
+
+    <string name="transfromOldMembers">原有会员转移</string>
+    <string name="transfromNewLevelsMsg">请选择原门店自有会员在新会员体系里的等级</string>
+    <string name="discountPlanManager">打折方案管理</string>
+    <string name="redoSync">重新同步</string>
+    <string name="member_send_to_specific_person">定向发送给部分顾客</string>
+    <string name="member_send_to_specific_person_desc">店家可以根据顾客在门店消费的行为、频率、会员等级等区分发送不同的优惠券给不同的顾客群体，只需选择对应的顾客标签，可在公众号、短信或扫桌码时定向发送优惠。</string>
+    <string name="member_use_specific_promotion">使用精准营销</string>
+    <string name="member_send_to_member">发给顾客</string>
+    <string name="member_picture">图片</string>
+    <string name="member_coupon_style_pic_add_note">图片显示效果参考样图，可点击预览查看真实效果。</string>
+    <string name="member_add_img">添加图片</string>
+    <string name="member_add_img_note">图片格式为png,bmp,jpeg,jpg；需小于2MB ；建议使用png格式图片，以保持最佳效果；上传彩色图片；建议图片尺寸为355px*222px。</string>
+    <string name="member_pic_sample">样图</string>
+    <string name="member_custom_coupon_color">自定义优惠券颜色</string>
+    <string name="member_send_to_member_confirm">确定将优惠券发送给顾客{%s}？</string>
+    <!--<string name="lvyinhong">绿隐红餐厅</string>-->
+
+
+
+
+
+
+
+    <string name="member_rmb_unit">￥%s</string>
+    <string name="member_discount_unit">%.1f折</string>
+    <string name="member_get">领取</string>
+    <string name="member_buy">购买</string>
+    <string name="member_coupon_style">优惠券样式</string>
+
+
+    <string name="delevered">已领取</string>
+    <string name="used">已使用</string>
+    <string name="remains">剩余</string>
+    <string name="published">已发布</string>
+    <string name="notPublished">待发布</string>
+    <string name="invalid">已失效</string>
+    <string name="couponIntroductionText">优惠券是最常用的营销功能，店家可设置现金券、折扣券、单品券、特价券，发放给不同的顾客，吸引他们到店消费。</string>
+
+    <string name="please_select">请选择</string>
+    <!--微信营销二期 同步到微信卡包-->
+    <string name="help_wx_membership_tip_title1">如何同步会员卡/优惠券？</string>
+    <string name="help_wx_membership_content1">使用认证服务号授权给二维火，在同步会员卡到微信卡包（或同步优惠券到微信卡包）中选择您要同步的卡/券，同步到微信即可。</string>
+    <string name="help_wx_membership_tip_title2">如何让我的顾客领到我同步的卡和券？</string>
+    <string name="help_wx_membership_content2">在卡设置中，可以打开开关“关注即发卡”或“支付即发卡”，如果有顾客在您的公众号里有相应操作，顾客就可以收到卡消息进行领卡。优惠券设置中有类似的开关，也可以在顾客有对应操作时收到券消息进行领券。顾客在微信领完卡/券后可以在卡包里和我的票券里查看这些卡券。</string>
+    <string name="help_wx_membership_tip_title3">我是连锁店，我该如何同步卡券到微信？</string>
+    <string name="help_wx_membership_content3">连锁与单店一样，需要使用认证服务号授权给二维火。连锁在同步会员卡到微信卡包（或同步优惠券到微信卡包）前需要选择同步的对象公众号（就是您要在哪个公众号下发卡券），再选择您要同步的卡/券，同步到微信即可。</string>
+    <string name="help_wx_membership_content4">请注意：公众号取消授权之后，公众号里还能看到已经同步的会员卡和优惠券，但是顾客在公众号里已经无法领取，或领取也不可用，如再次授权并同步会员卡/优惠券，公众号里会有之前同步的卡券与新同步的卡券，但是之前同步的依旧无法领取。仅能操作新同步的卡券。</string>
+    <!-- 微信二期 定向推送-->
+    <string name="help_wx_direct_content1">发送消息需要先将公众号授权给二维火，此功能仅限认证的公众号可以用。</string>
+    <string name="help_wx_direct_content2">由于微信限制，一个粉丝每个人最多只能收到4条公众号消息，分标签发送时不会提醒，您可登陆微信后台查看。</string>
+    <string name="help_wx_direct_content3">二维火支持您发送消息时带上促销活动、会员卡或优惠券链接，此链接只能打开微信卡券，请先同步会员卡/优惠券到微信。</string>
+    <string name="memberOrder">会员消费</string>
+
+
+
+
+
+    <string name="sms_recharge">特惠充值</string>
+    <string name="couponNoticeSetting">优惠券提醒设置</string>
+    <string name="couponStyleSetting">优惠券样式设置</string>
+    <string name="maxMenuCountTip">最多支持选择%d中商品</string>
+    <string name="unselect">取消选择</string>
+    <string name="member_equal">可抵￥%s</string>
+    <string name="colon">：</string>
+    <string name="cashCouponTitle">现金券：%s元</string>
+    <string name="cashCouponTitleWithLeastPrice" formatted="false">现金券：满%1$s元减%2$s元</string>
+    <string name="discountCouponTitle">折扣券：%d折</string>
+    <string name="exchangeCouponTitle">兑换券：%s元</string>
+    <string name="saleCouponTitle">特价券：%s元</string>
+
+    <string name="wholeCashCouponTitle" formatted="false">全场现金券：%s元</string>
+    <string name="wholeCashCouponTitleWithLeastPrice" formatted="false">全场现金券：满%1$s元减%2$s元</string>
+    <string name="singleCashCouponTitle" formatted="false">单品现金券：%s元</string>
+    <string name="singleCashCouponTitleWithLeastPrice" formatted="false">单品现金券：满%1$s元减%2$s元</string>
+    <string name="wholeDiscountCouponTitle" formatted="false">全场折扣券: %s折</string>
+    <string name="wholeDiscountCouponTitleWithLeastPrice" formatted="false">全场折扣券：满%1$s元打%2$s折</string>
+    <string name="singleDiscountCouponTitle" formatted="false">单品折扣券：%s折</string>
+    <string name="singleDiscountCouponTitleWithLeastPrice" formatted="false">单品折扣券：满%1$s元打%2$s折</string>
+    <string name="singleExchangeCouponTitleForOne">单品兑换券：可兑换%s</string>
+    <string name="singleExchangeCouponTitleForSeveral">单品兑换券：可兑换%s等商品</string>
+    <string name="singleSaleCouponTitleForOne">单品特价券：可用%1$s元得%2$s</string>
+    <string name="singleSaleCouponTitleForSeveral">单品特价券：可用%1$s元得%2$s等商品</string>
+
+
+    <!-- 短信营销 start -->
+    <string name="sms_help_title">短信营销</string>
+    <string name="sms_help_edit_title">短信营销</string>
+    <string name="sms_help_edit_content">店家可以使用“短信营销”工具，向本店会员群发营销短信。此信息将采用手机短信的形式，发送到会员手机。可根据需要购买相应的短信条数。\n\n·根据需要选择接收人群\n\n·根据需要选择短信模板，进入模板编辑页面。可选择不同类型的短信模板，每一种模板对应不同的可编辑内容。短信编辑好后，点击右上角确定可进入短信预览页面。如果对短信内容不满意，可返回修改。\n\n·点击发送，您所选择的顾客将收到短信。</string>
+    <!-- 短信营销 end -->
+
+    <!--整合        temp_help_string     start-->
+    <!--优惠券-->
+    <string name="help_coupon_tip_title1">什么是优惠券？</string>
+    <string name="help_coupon_tip_content1">优惠券是一种顾客在顾客端可使用的虚拟电子券。店家可以针对开业、换季、节假日、新品上市等设置相应的优惠券，吸引顾客来店里消费。优惠券支持顾客扫码点餐时使用，也支持收银机扫描枪使用。</string>
+    <string name="help_coupon_tip_contentForRetail">优惠券是一种顾客可使用的虚拟电子券。店家可以针对开业、换季、节假日、新品上市等设置相应的优惠券，吸引顾客消费。优惠券支持顾客在微商城使用，也支持收银机扫描枪/云收银App扫码核销。</string>
+    <string name="help_coupon_tip_title2">一共可以添加多少种优惠券，各自有什么特点？</string>
+    <string name="help_coupon_tip_content2">
+        全场现金券：全场商品通用，可以设置门槛要求满XX元减XX元。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+        \n\n全场折扣券：全场商品通用，可以设置门槛要求满XX元打XX折。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+        \n\n单品现金券：仅限选定单品，可以设置门槛要求单品满XX元减XX元。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+        \n\n单品折扣券：仅限选定单品，可以设置门槛要求单品满XX元打XX折。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+        \n\n单品特价券：仅限选定单品，在结账时有特价券的顾客，可以使用特价券将对应的商品减至特价券上的价格，如果有多个商品适用时，对单价最高的商品生效。
+        \n\n单品兑换券：仅限选定单品，在结账时可以直接抵扣对应商品价格的优惠券，多个商品可用时，只会抵扣单价最高的商品。仅支持扫码点餐时使用，暂不支持收银机核销。兑换券推荐售价方式进行售卖，兑换券可以和其他任何优惠形式叠用。
+    </string>
+    <string name="help_coupon_tip_content2ForMall">
+        全场现金券：全场商品通用，可以设置门槛要求满XX元减XX元。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+        \n\n全场折扣券：全场商品通用，可以设置门槛要求满XX元打XX折。不支持叠加使用，可以和会员卡支付、积分抵现、单品兑换券共用。
+    </string>
+
+    <string name="help_coupon_tip_content2ForRetail">
+        全场现金券：全场商品通用，可以设置门槛要求满XX元减XX元。不支持叠加使用，可以和会员卡支付、积分抵现共用。
+        \n\n全场折扣券：全场商品通用，可以设置门槛要求满XX元打XX折。不支持叠加使用，可以和会员卡支付、积分抵现共用。
+    </string>
+    <string name="help_coupon_tip_title3">顾客领取优惠券的方式有哪些？</string>
+    <string name="help_coupon_tip_content3">
+        商家可以设置让顾客用火小二APP和微信、支付宝等工具扫码后的店家页面来主动领取，也可以通过新客有礼、开卡有礼、消费有礼等活动进行发券。
+        \n顾客领到的优惠券可以在扫码时进入【会员中心】进行查看，如果商家有开通公众号营销功能并授权公众号，可以给顾客推送到账和到期提醒。
+        \n此外，商家可以将优惠券分享到微信公众号、朋友圈、微博等网络社交媒体。也可以下载优惠券二维码放在店内海报里，吸引更多的顾客来消费。
+    </string>
+    <string name="help_coupon_tip_content3ForMall">
+        商家可以设置让顾客用微信公众号来商家优惠券列表页面来主动领取。
+        \n顾客领到的优惠券可以在扫码时进入【会员中心】进行查看，如果商家有开通公众号营销功能并授权公众号，可以给顾客推送到账和到期提醒。
+    </string>
+    <string name="help_coupon_tip_content3ForRetail">
+        商家可以设置让顾客用微信、支付宝等工具扫码后的店家页面来主动领取，商家也可以主动给顾客发券。
+         \n此外，商家可以将优惠券分享到微信公众号、朋友圈、微博等网络社交媒体。也可以下载优惠券二维码放在店内海报里，吸引更多的顾客来消费。
+    </string>
+    <string name="help_coupon_tip_title4">顾客怎么使用优惠券？</string>
+    <string name="help_coupon_tip_content4">顾客通过各个渠道领取优惠券后，在扫码点菜后结账前可以选择满足使用条件的优惠券，结账时将自动扣除优惠金额，或者到收银台结账，由收银员用收银机的扫描枪扫面优惠券券码也可以进行核销。</string>
+    <string name="help_coupon_tip_content4ForRetail">顾客通过各个渠道领取优惠券后，在结账前可以选择满足使用条件的优惠券，结账时将自动扣除优惠金额，或者到收银台结账，由收银员用收银机的扫描枪/云收银App扫优惠券券码也可以进行核销。</string>
+    <string name="help_coupon_tip_title5">掌柜如何查阅顾客优惠券使用情况？</string>
+    <string name="help_coupon_tip_content5">每张设置好的优惠券上都有几个关键信息。剩余数量、已领取数量、已使用数量。掌柜可以简单了解每张优惠券的使用状况。
+        \n同时可以在报表中心-会员报表中查看【优惠券统计报表】
+    </string>
+    <string name="help_coupon_tip_content5ForRetail">每张设置好的优惠券上都有几个关键信息。剩余数量、已领取数量、已使用数量。掌柜可以简单了解每张优惠券的使用状况。
+    </string>
+
+
+    <!--促销活动-->
+    <string name="help_promotion_tip_title1">什么是促销活动？</string>
+    <string name="help_promotion_content1">促销活动是店家吸引顾客来店消费的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应活动，通过打折、满减等方式为顾客提供优惠。促销活动只能顾客扫码点餐时使用，不能在收银机端使用。</string>
+    <string name="help_promotion_tip_title2">促销活动有哪些类型？</string>
+    <string name="help_promotion_content2">促销活动有满减和打折，后续会逐渐增加其他类型活动。满减是顾客消费到一定金额可以自动减去一定金额的活动。打折是顾客消费到一定金额就可以享受到一个折扣的活动。促销活动和优惠券不同是，它一定设置完成满足条件下顾客是可以当即使用的。</string>
+    <string name="help_promotion_tip_title3">顾客怎么了解和参与促销活动？</string>
+    <string name="help_promotion_content3">商家设置促销活动后，顾客扫码点菜时，就会获得相应的促销活动信息。满足消费条件后，顾客就可以选择适合的优惠了。</string>
+    <string name="help_promotion_tip_title4">一个促销活动中既有打折，又有满减，是怎么进行优惠的？</string>
+    <string name="help_promotion_content4">如果顾客消费金额既满足了打折条件又满足了满减条件，那么即可享受该促销活动中的双重优惠，顺序是先进行折扣，之后在进行满减，就算折扣之后不满足了满减的条件，但是原始消费金额满足满减条件，还是会进行满减优惠的。（更多使用详情在顾客端提示）</string>
+
+
+    <!--优惠权限设置帮助文案-->
+    <string name="promotionPermissionTitle1">什么是优惠权限设置？</string>
+    <string name="promotionPermissionContent1">优惠权限设置是控制门店是否可以自己添加优惠的一种方式。连锁可统一管理门店的营销活动，设置完优惠券和促销活动后会共享到门店。</string>
+    <string name="promotionPermissionTitle2">单店有没有自己创建优惠券和促销活动权限？</string>
+    <string name="promotionPermissionContent2">没有。所有的优惠活动都由总部来统一控制。只有总部将每个门店的权限开关打开，单店才能自己来创建优惠券。</string>
+
+
+    <!--收音机专用优惠-->
+    <string name="checkout_counter_help1_content">商品促销、打折方案、整单满减、应收打折是收银机专用优惠。只能通过服务员在收银机上开单时使用，不能通过顾客端扫码来享受。</string>
+    <string name="checkout_counter_help2_title">商品促销：</string>
+    <string name="checkout_counter_help2_content">先添加一个促销活动名称，可针对活动特性设定有效时间。活动添加完成后，再添加促销的商品，连锁下发的商品促销，只能添加连锁库中商品，若连锁未将促销商品下发到门店，那活动在收银机上将无法显示。</string>
+    <string name="checkout_counter_help3_title">打折方案：</string>
+    <string name="checkout_counter_help3_content">在收银点单时，可输入折扣率打折，但每次只能输入一个折扣率。当不同分类商品折扣不同时，可通过打折方案来实现。优惠方式有打折方案和会员价两种。针对不同商品打折的情况，连锁的打折方案只能添加连锁商品，若连锁未将商品下发到门店，那活动在门店收银机上将无法展现。</string>
+    <string name="checkout_counter_help4_title">整单满减：</string>
+    <string name="checkout_counter_help4_content">整单满减是针对收银上一个单子满多少减多少的一种促销手段。可以设置多个满减，收银上可选择使用。</string>
+    <string name="checkout_counter_help5_title">应收打折：</string>
+    <string name="checkout_counter_help5_content">应收打折是针对收银上一个实际收取的金额上再打一个折扣的促销手段。可以设置多个打折活动，收银上可选择使用。</string>
+
+
+    <!--优惠方案-->
+    <string name="benefit_plan_help_title1">什么是优惠方案？</string>
+    <string name="benefit_plan_help_content1">优惠方案是一个基础公用优惠设置，可以在优惠券、促销活动、会员卡等促销手段中使用。但它不能单独使用，也不能在收银机端选取和使用。</string>
+    <string name="benefit_plan_help_title2">商家怎么设置优惠方案？</string>
+    <string name="benefit_plan_help_content2">设置一个方案名称以及优惠方式，并且可以对个别分类和商品设置不同的折扣率，一个优惠方案就设置成功了。在优惠券或促销活动中就可以分别选择一个设置成功的优惠方案了。</string>
+
+
+    <!--不参加优惠活动的日期-->
+    <string name="reserve_benefit_time_help">掌柜可以把一些特殊节假日等时间设为不参加优惠日期。在活动有效期中，就会自动屏蔽设置的不参加优惠活动日期。顾客扫码点菜时，在不参加活动的那几日也享受不到优惠活动。</string>
+
+    <!--新客有礼活动-->
+    <string name="help_fresher_title1">什么是店铺新客？</string>
+    <string name="help_fresher_title2">新客有礼有哪些优惠模式？</string>
+    <string name="help_fresher_title3">新客有礼有哪些优惠手段？</string>
+    <string name="help_fresher_title4">哪些优惠券符合活动条件？</string>
+    <string name="help_fresher_title5">优惠可否同时设置？</string>
+    <string name="help_fresher_title6">顾客怎么了解和参与新客有礼？</string>
+    <string name="help_fresher_title7">统计数据如何显示？</string>
+    <string name="help_fresher_content1">未在店家进行线上支付过的客户，定义为店家的新客。</string>
+    <string name="help_fresher_content2">新客有礼的活动可分为两种情况设置。第一种为【进店即送】，即扫码进入店家的新客无需任何操作就可以无条件获得新客礼包；第二种为【消费后赠送】，即新客进入店铺后完成消费才能获得新客礼包。商家可以自由的设置首笔消费的金额，即用户首笔订单需满足设置的金额才能获得新客礼包。</string>
+    <string name="help_fresher_content3">新客有礼的手段分为满减、整单打折、赠送优惠券、赠送会员卡。满减是顾客消费到一定金额可以自动减去一定金额的活动；打折是顾客消费到一定金额就可以享受到一个折扣的活动；赠送优惠券是给顾客直接送优惠券，优惠券的种类不限、张数不限；赠送会员卡是直接赠送顾客一张会员卡，卡内可自由设置金额或自由设置积分。</string>
+    <string name="help_fresher_content4">您可以到“首页-优惠券”创建优惠券！会员等级特权专用券、同步到口碑券、用户可自主领取的券不适用于本活动。</string>
+    <string name="help_fresher_content5">一个新客有礼活动设置一种优惠模式。要么选择【进店即送】，要么选择【消费后赠送】，二者不可同时选择。四种优惠手段可以同时开启，那么顺序是先进行折扣，之后在进行满减，最后挑选可使用的优惠券，优惠券只能选择一张。就算折扣之后的金额不满足满减及优惠券使用条件，但是原始消费金额满足条件，还是会进行满减优惠的。</string>
+    <string name="help_fresher_content6">商家设置新客有礼活动成功后，顾客扫码进入店铺或扫码进入点餐后，若符合新客的条件，则会获得相应的活动信息提醒。顾客可根据提醒参与活动。</string>
+    <string name="help_fresher_content7">现在的统计数据一共有4个字段。“活动参与人（次）”、“发放优惠券（张）”、“发放会员卡（张）”、“使用优惠券（张）”，未设置优惠券或会员卡时，发放优惠券、使用优惠券、发放会员卡数据都为0。统计数据是延迟一天统计，活动开始后次日才能看到当日的数据</string>
+
+
+    <!--开卡有礼活动-->
+    <string name="help_freshcard_title1">1.什么是开卡有礼活动？</string>
+    <string name="help_freshcard_title2">2.开卡有礼活动有哪些促销方式？</string>
+    <string name="help_freshcard_title3">3.顾客怎么了解和参与开卡有礼活动？</string>
+    <string name="help_freshcard_title4">4.什么是邀请有礼？</string>
+    <string name="help_freshcard_content1">针对店家现有会员卡的促销活动，吸引用户激活会员卡，收集潜在顾客信息，引导转化。有效提高客户对本店新菜品，利润率大的菜类关注以及提高用户之间传播。</string>
+    <string name="help_freshcard_content2">开卡有礼活动是用户领取该活动卡时，卡内可自由设置卡金额及卡内积分，或直接添加优惠券赠送给领卡用户。未领取该活动会员卡的用户可在进入店家后在活动页绑定手机号，姓名，生日等信息后，成功领取到该会员卡并获得您添加的优惠券及会员卡内余额、积分。已领取过该会员卡的用户则不能获取到优惠券、会员卡内余额及积分。</string>
+    <string name="help_freshcard_content3">商家设置开卡有礼活动成功后，未领取过该张会员卡的顾客从店家首页、活动中心、会员卡详情、点击分享链接等途径即可进入该活动首页，进行领卡操作，成功验证信息后将礼品自动放入顾客账号。</string>
+    <string name="help_freshcard_content4">邀请有礼活动是开卡有礼的附属活动，当开启邀请有礼活动开关后，用户分享优惠链接至顾客的好友，如该用户成功领取到活动会员卡，即可活动邀请有礼所设置的礼品，活动礼品为累积发放，符合条件则将礼品自动发放到用户账号。</string>
+
+
+    <!--消费有礼活动-->
+    <string name="help_consumeAct_title1">什么是消费有礼活动？</string>
+    <string name="help_consumeAct_content1">消费有礼是商家针对本店顾客不同的消费情况，设置不同优惠政策的一种营销手段。</string>
+    <string name="help_consumeAct_title2">消费有礼有哪些优惠模式？</string>
+    <string name="help_consumeAct_content2">消费有礼分为两种优惠模式。单笔消费满额赠送，即商家可以设置每笔消费满足规定金额后，给予顾客一定的优惠；消费总数满次赠送，即顾客在店铺消费次数满足规定后，商家可设置给予顾客一定的优惠。</string>
+    <string name="help_consumeAct_title3">消费有礼有哪些优惠手段？</string>
+    <string name="help_consumeAct_content3">消费有礼的优惠手段分为四种。金额立减，即购物车结算时立减设置的金额；整单打折，即购物车结算时对整单进行打折；赠送优惠券，即赠送选中优惠券，在优惠券有效期内使用；赠送积分，即消费后可直接送积分到顾客账户中。</string>
+    <string name="help_consumeAct_title4">优惠可否同时设置？</string>
+    <string name="help_consumeAct_content4">四种优惠方式可以同时开启，开启后结算时会先进行打折再整单满减，满减金额依照原始金额为准。最少开启一项优惠手段才可创建活动成功。</string>
+    <string name="help_consumeAct_title5">顾客怎么了解和参与消费有礼？</string>
+    <string name="help_consumeAct_content5">商家设置消费有礼活动成功后，在店铺首页及菜单首页会进行露出。顾客可查看活动详情参与。</string>
+
+
+    <!--节日营销活动-->
+    <string name="help_festivalAct_title1">什么是节日关怀？</string>
+    <string name="help_festivalAct_content1">商家可以在掌柜端设置某个时间为节假日，在节假日前后可以给顾客定向发送优惠券，作为节日的关怀和祝福。</string>
+    <string name="help_festivalAct_title2">发送消息的渠道有哪些？</string>
+    <string name="help_festivalAct_content2">发送节假日活动消息的渠道有公众号群发和短信群发两种。需要注意的是使用公众号群发功能，店铺需先授权绑定店家公众号（可在【公众号营销】-【店家公众号授权】处操作）。短信群发的接受人群首先得留有手机号码，才可接到店家的消息。</string>
+    <string name="help_festivalAct_title3">什么是定向发送？</string>
+    <string name="help_festivalAct_content3">商家选择消息接受人群时，可以选择全部顾客发送，也可根据二维火标签，选择只针对部分标签顾客发送。</string>
+    <string name="help_festivalAct_title4">有什么优惠形式？</string>
+    <string name="help_festivalAct_content4">节假日以推送消息的形式给顾客送去问候，同时可在问候中以发放优惠券的形式给顾客实际的优惠。在公众号发送的消息，优惠券将在推送消息的最末处，供顾客领取。短信发放则直接将优惠券发放到顾客账号中。同一个活动，用户可在公众号接受推送，也可直接发放到其账户中，两个渠道的优惠券同一个用户可以重复领取。</string>
+    <string name="help_festivalAct_title5">优惠如何发放？</string>
+    <string name="help_festivalAct_content5">商家设置好时间后，在指定时间前后可定时发送。例如：设置每月17日为商家会员日，选择当天上午十点发放，则每月17日上午10:00都会定时发送推送消息给指定顾客。</string>
+
+
+    <!-- 微信小游戏-->
+    <string name="help_wx_games_title">活规规则说明：</string>
+    <string name="help_wx_games_content">\n 1.每个用户只能玩1次，关注or分享后不限次数 \n\n 2.每次游戏时间默认10秒 \n\n 3.每邀请一个好友参加游戏增加1秒，最多增加至15秒 \n\n 4.您可以根据最高得分选择相应的奖品 \n\n 5.兑换后可以在会员中心优惠券中进行查看 \n\n 6.本次活动最终解释权归本店所有</string>
+
+
+    <!--火小二.积分兑换-->
+    <string name="lbl_kabaw_gift_exchange_bg_help_title">积分兑换设置</string>
+    <string name="lbl_kabaw_gift_exchange_help_content_1">在此处可设置将会员卡里的积分兑换成卡金额、线下物品、优惠券三种，所有兑换渠道除了掌柜积分兑换外，可在小二的积分商城里兑换。兑换卡金额就是可将积分换成卡里的钱，可以结账的时候用来消费。兑换线下物品，可输入礼品名称上传图片后，用积分来兑换，并在店内完成交易。兑换优惠券，可用积分来兑换，优惠券目前支持单品现金券、单品特价券、单品折扣券、全场现金券、全场折扣券，仅支持未开始和可领取两种状态的优惠券。</string>
+    <string name="lbl_kabaw_gift_exchange_help_note_1">
+              注意：顾客在小二商城兑换优惠券时，若兑换量很大，请店家到优惠券模块设置的发券数量要足够多。一旦超过发券数量，顾客将不能再兑换。
+    </string>
+    <!-- 整合           temp_help_string             end-->
+
+    <!-- 整合           temp_string             start-->
+    <string name="sale_brand_title">连锁可以统一管理各个品牌门店的营销活动。可以设置换季、节假日、新品上市等促销活动。连锁促销活动只能在顾客扫码点餐时使用，不能通过收银机选取和使用</string>
+    <string name="brandCouponIntroduction">连锁可以统一管理各个品牌门店的营销活动。可以设置换季、节假日、新品上市等优惠券。连锁优惠券只能在顾客扫码点餐时使用，不能通过收银机选取和使用。</string>
+    <string name="raffle_brand_header_tips">总部可以为各个品牌下的门店设置活动。总部设置完该活动，门店将无法编辑和设置。</string>
+    <string name="sale_favour_title">连锁可统一管理门店的营销活动，设置完优惠券和促销活动后会共享到门店。同时，根据门店加盟或直营的属性，可以控制门店是否能创建自己的优惠券和促销活动。</string>
+    <string name="minus_choose_help">连锁可以设置收银机专用优惠。如商品促销、打折方案、整单满减、应收打折。收银机优惠只能服务员在收银机上开单时使用。</string>
+    <string name="discount_choose_help">连锁可以设置收银机专用优惠。如商品促销、打折方案、整单满减、应收打折。收银机优惠只能服务员在收银机上开单时使用。</string>
+    <string name="discount_type_choose_help">连锁可以设置收银机专用优惠。如商品促销、打折方案、整单满减、应收打折。收银机优惠只能服务员在收银机上开单时使用。</string>
+    <string name="sale_choose_help">连锁可以设置收银机专用优惠。如商品促销、打折方案、整单满减、应收打折。收银机优惠只能服务员在收银机上开单时使用。</string>
+    <string name="couponCountInTotal">共有%d张优惠券</string>
+    <string name="saleCountInTotal">共有%d个促销活动</string>
+    <string name="shopCountInTotal">共有%d家门店</string>
+    <string name="minusInTotal">共有%d个整单满减</string>
+    <string name="discountInTotal">共有%d个应收打折</string>
+    <string name="discountPlanInTotal">共有%d个打折方案</string>
+    <string name="discountGoodPlanInTotal">共有%d个商品促销</string>
+    <string name="plateListEmptyTip">连锁总部没有添加过品牌或此登录账号无品牌管理权限。</string>
+    <string name="should_pay_discount">应收打折</string>
+    <string name="enough_deduct">整单满减</string>
+    <string name="menutime_module_name">商品促销</string>
+    <string name="createCoupon">添加优惠券</string>
+    <string name="coupon_choose_tip">请选择可领取或者未开始的优惠券</string>
+    <string name="singleCouponNotSupportTip">目前不支持赠送单品券哦</string>
+    <string name="coupon_module_rant">折扣率（％）</string>
+    <string name="coupon_module_tiaojian">使用条件</string>
+    <string name="coupon_module_discount">打折方式</string>
+    <string name="sale_promotion_manage">优惠方案管理</string>
+    <string name="sale_promotion_youhui_dazhe">优惠方案(打折)</string>
+    <string name="benefit_plan">优惠方案</string>
+    <string name="benefit_plan_blank">您还没有发布过任何优惠方案，赶快添加一个吧！</string>
+    <string name="lbl_discount_plan_name">方案名称</string>
+    <string name="benefit_plan_add">添加优惠方案</string>
+    <string name="benefit_plan_mode_discount">打折</string>
+    <string name="benefit_plan_over_length">活动名称超过了30个字符了。</string>
+    <string name="valid_discount_name_is_null">方案名称不能为空!</string>
+    <string name="zifuchuangeshicuowu">字符串格式错误</string>
+    <string name="lbl_discount_plan_radio">折扣率(%)</string>
+    <string name="coupon_save_unknowError">未知错误, 请重新检查优惠券信息</string>
+    <string name="coupon_count_not_valid">发券数量（张）不能为空</string>
+    <string name="suitShopsNotValid">适用门店不能为空</string>
+    <string name="valid_sdate_is_null">开始日期不能为空</string>
+    <string name="valid_edate_is_null">结束日期不能为空</string>
+    <string name="valid_stime_is_null">开始时间不能为空</string>
+    <string name="valid_etime_is_null">结束时间不能为空</string>
+    <string name="sale_promotion_fee_tip">此处消费金额不能少于减免金额。</string>
+    <string name="coupon_pay_threshold_not_valid">顾客支付金额需达到（元）不能为空</string>
+    <string name="coupon_use_threshold_not_valid">消费满多少可用本券（元）不能为空</string>
+    <string name="denomination_not_valid">面额(元)不能为空</string>
+    <string name="discount_plan_not_valid">优惠方案不能为空</string>
+    <string name="selected_menu_not_valid">适用商品不能为空</string>
+    <string name="discount_rate_not_valid">折扣率（%）不能为空</string>
+    <string name="sale_price_not_valid">特价（元）不能为空</string>
+    <string name="exchange_price_not_valid">购买价格（元）不能为空</string>
+    <string name="coupon_module_not_less">消费金额不能低于此券的面额哦</string>
+    <string name="pleasePickMenuSpec">请选择商品规格</string>
+    <string name="selectSpec">选择规格</string>
+    <string name="selectMake">选择做法</string>
+    <string name="suit_menu_hit_chooce">选择商品</string>
+    <string name="noMenusTip">品牌没有关联商品, 请先添加商品</string>
+    <string name="priceText">%s元</string>
+    <string name="notSupportDoubleUnitMenuTip">双单位商品不可以设置成此券的商品</string>
+    <string name="coupon_module_use_date_type">有效期类型</string>
+    <string name="coupon_module_shengxiao">顾客领券后多少天内有效</string>
+    <string name="coupon_module_in_use_lingquan">领券后多久生效</string>
+    <string name="turnOffSyncToKoubeiTip">若要使用动态日期，请先关闭“优惠券同步发行到支付宝口碑”按钮。</string>
+    <string name="coupon_module_date1"> 开始日期设置不能早于今天哦。</string>
+    <string name="coupon_module_date3">开始日期不能晚于结束日期。</string>
+    <string name="coupon_module_date4">结束日期设置不能早于今天哦。</string>
+    <string name="coupon_module_date2">结束日期不能早于开始日期。</string>
+    <string name="selectWeekDay">星期选择</string>
+    <string name="coupon_module_no_use_date">不接受用券日期</string>
+    <string name="reserve_benefit_time">不参加优惠活动的日期</string>
+    <string name="coupon_module_change_use_date">动态有效期</string>
+    <string name="couponCover">优惠券背景</string>
+    <string name="coupon_module_buchong">规则补充说明</string>
+    <string name="takeout_area">使用范围</string>
+    <string name="coupon_module_erveryone_everyday">每人每天可领（张）</string>
+    <string name="coupon_module_most_num">每人最多可领取数量（张）</string>
+    <string name="dailyLimitError">此数量不能大于每人总共可领数量</string>
+    <string name="personLimitError">此数量不能小于每人每天可领数量</string>
+    <string name="branch_suit_shop_list_title">选择门店</string>
+    <string name="coupon_module_look_coupon">查看优惠券</string>
+    <string name="viewWholeCoupon">查看全场券</string>
+    <string name="viewSingleCoupon">查看单品券</string>
+    <string formatted="false" name="coupon_module_format_discount_way">打折方式：%s</string>
+    <string formatted="false" name="coupon_module_format_displan">优惠方案：%s</string>
+    <string name="discountRateText">折扣率：%s</string>
+    <string formatted="false" name="coupon_module_format_miane">面额：%s元</string>
+    <string formatted="false" name="coupon_module_format_tiaojian">使用条件：%s</string>
+    <string formatted="false" name="coupon_module_format_full_inuse">消费满多少可用本券：%s元</string>
+    <string name="exchangePriceText">购买价格：%s元</string>
+    <string name="salePriceText">特价：%s元</string>
+    <string name="specificMenusText">适用商品：%s</string>
+    <string name="specificShopsText">适用门店：%s</string>
+    <string formatted="false" name="coupon_module_format_publish_number">发券数量：%s张</string>
+    <string name="suitShops">适用门店：%s</string>
+    <string formatted="false" name="coupon_module_format_date_type">有效期类型：%s</string>
+    <string formatted="false" name="coupon_module_format_end_date">有效日期：%s-%s</string>
+    <string formatted="false" name="coupon_module_format_end_time">有效时间：%s-%s</string>
+    <string formatted="false" name="coupon_module_format_end_week">每周有效日：%s</string>
+    <string formatted="false" name="coupon_module_format_indays">顾客领券后多少天内有效：%d</string>
+    <string formatted="false" name="coupon_module_format_begin">领券后多久生效：%s</string>
+    <string formatted="false" name="coupon_module_format_discount_all">对不允许打折的商品也打折：已开启</string>
+    <string formatted="false" name="coupon_module_format_not_include">不计入消费额的商品：%s</string>
+    <string formatted="false" name="coupon_module_format_special_category">个别分类不同折扣率：%s</string>
+    <string formatted="false" name="coupon_module_format_special_menu">个别商品不同折扣率：%s</string>
+    <string formatted="false" name="coupon_module_format_interrupt_date1">不接受用券日期：</string>
+    <string formatted="false" name="coupon_module_format_everyone_everyday">每人每天可领：%d张</string>
+    <string formatted="false" name="coupon_module_format_useRange">使用范围：%s</string>
+    <string formatted="false" name="coupon_module_format_most_number">每人最多可领数量：%d张</string>
+    <string formatted="false" name="coupon_module_format_customer">顾客可在客户端主动领取：%s</string>
+    <string formatted="false" name="coupon_module_format_auto_publish">顾客结账后自动发券：%s</string>
+    <string formatted="false" name="coupon_module_format_top_moneny">•顾客支付金额需达到：%s元</string>
+    <string formatted="false" name="coupon_module_format_youhui_number">每张订单可用优惠券数量：%d张</string>
+    <string name="coupon_module_format_buchong">规则补充说明：%s</string>
+    <string name="coupon_module_post">已发放(张)</string>
+    <string name="sale_promotion_del2">确定要停止发行此优惠券吗？停止后，用户就无法领取了。但是已经领取过的，还可以正常使用。</string>
+    <string name="noSdcardPermission">无法获取访问存储设备的权限</string>
+    <string name="titleOfWechatFriendsForCoupon">老板正在亲自派发限量vip礼券</string>
+    <string name="titleOfWechatFriendsForDiscount">又有新活动, 快来看看啦</string>
+    <string name="contentOfSharePromotion">福利很大，手慢无</string>
+    <string name="shareCouponWarning">当前优惠券不可在顾客之间分享，仅能领取，您确定要分享。</string>
+    <string name="benefit_plan_discount_all">注：如果打开了按钮，设置了不打折属性的商品就纳入了打折的范围之中。</string>
+    <string name="lbl_discount_plan_menu">对设置了不允许打折的商品也打折</string>
+    <string name="benefit_plan_discount_different">个别商品折扣不同</string>
+    <string name="lbl_discount_plan_kind">为个别分类设置不同的折扣率</string>
+    <string name="benefit_plan_tip">优惠方案是一个基础公用优惠设置，可以用在优惠券、促销活动、会员卡中，不能单独使用，也不能在收银机端选取和使用。</string>
+    <string name="coupon_module_base_info">基本信息</string>
+    <string name="specificMenus">适用商品</string>
+    <string formatted="false" name="coupon_module_format_rate">折扣率：%s</string>
+    <string name="coupon_module_use_date_setting">有效期设置</string>
+    <string name="coupon_module_setting">规则设置</string>
+    <string name="unsteadyPriceTipOfSingleCoupon">注：若因加料或在套餐中选择不同子菜而产生的价格提高，则在结账时需根据实际情况补足差价。</string>
+    <string name="coupon_module_save">保存</string>
+    <string name="coupon_module_save_publish">保存并发布</string>
+    <string name="reserve_benefit_blank_tip">您还没有添加过任何内容！</string>
+    <string name="clickToSharePromotionPreview">点击此处预览分享页面》</string>
+    <string name="sale_promotion_selec_time">仅在指定时间有效</string>
+    <string name="coupon_module_select_date_inweek">仅在每周特定日期有效</string>
+    <string name="aboveIsPreviewOfCoupon">以上为优惠券样图</string>
+    <string name="changeBackground">修改背景</string>
+    <string name="coupon_module_privilege_tip">注:优惠券若要用于会员等级特权,请将此开关打开。开关打开后,代表此优惠券只能在"会员-会员等级特权"模块中进行发放,顾客无法在小二端主动领取</string>
+    <string name="couponForKoubei">支付宝口碑扫码专用优惠券</string>
+    <string name="couponForKoubeiTip">此开关打开后，当前设置的优惠券仅出现在支付宝口碑扫码点餐时供顾客使用（该菜品所有规格在口碑均可使用）。使用条件是：店家需是支付宝口碑商户，并与二维火店铺有绑定关系（订购点菜服务）。同时，还需是二维火支付宝直连商户。1、打开此开关，当前设置的优惠券仅出现在支付宝口碑扫码点餐时供顾客使用。即在口碑的发券数量会增加100张。2、券发布后，用户支付宝扫码点菜结账时，可选择使用口碑优惠。 3、只有设定固定有效期才能使用此开关。 4、发布到支付宝口碑上的优惠券部分内容可能会有不同，如需修改或查询，请到口碑商户后台查阅。</string>
+    <string name="coupon_module_memo1">注：此开关打开时，顾客可以在火小二app和微信、支付宝等工具扫码后的店家页面主动领取</string>
+    <string name="coupon_module_customer">顾客可在顾客端主动领取</string>
+    <string name="coupon_module_memo2">注：顾客使用火小二app和微信、支付宝等工具扫码后完成在线支付达到指定金额，可自动获得优惠券。</string>
+    <string name="coupon_module_auto_send">顾客使用顾客端结账后自动发券</string>
+    <string name="coupon_module_memo3">注：如此处设为100元，当顾客支付200元，可自动发券2张。但是自动发券数量不超过每人每天可领取数量。</string>
+    <string name="coupon_module_total_level">顾客支付金额需达到（元）</string>
+    <string name="coupon_module_memo4">注：可以在此添加优惠券的活动简单介绍。此段文字将会在在顾客端展示出来，被用户看见。</string>
+    <string name="coupon_module_yuan">面额（元）</string>
+    <string name="couponSpecificMenusTip">注：可同时设置多个商品，自动生成多张单品券，每个商品优惠方式相同。</string>
+    <string name="singleCouponCountTip">注：如果选择多个商品，每个商品发券数量均为此处输入数量。</string>
+    <string name="coupon_module_send_no">发券数量（张）</string>
+    <string name="specificShops">适用门店</string>
+    <string name="singleExchangeCouponPriceTip">注：兑换券需要顾客扫码点菜时在顾客端购买，同时商家必须要开通支付宝或者微信支付。</string>
+    <string name="exchangePrice">购买价格（元）</string>
+    <string name="lbl_discount_menu">为个别商品设置不同的折扣率</string>
+    <string name="salePrice">特价（元）</string>
+    <string name="coupon_module_how_much">消费满多少可用本券（元）</string>
+    <string name="coupon_module_no_tongji">不计入消费额的商品（个）</string>
+    <string name="coupon_module_memo_txt">注：如果打开了按钮，设置了不打折属性的商品就纳入了打折的范围之中。</string>
+    <string name="coupon_module_no_way">对设置了不允许打折的商品也打折</string>
+    <string name="coupon_module_discount_way">优惠方案</string>
+    <string name="coupon_module_content">店家可以针对开业、换季、节假日、新品上市等设置相应的优惠券。分享优惠券可以更好形成传播，吸引更多用户来消费。优惠券只能在顾客扫码点餐时使用，不能通过收银机选取和使用。</string>
+    <string name="exceedMaxCountOfCouponTip">最多只能添加%d种不同优惠券</string>
+    <string name="noAvailableCouponTip">为了保证活动的进行，此处只能使用动态有效期、顾客端不可领取的已发布的优惠券。请点击右下角添加优惠券。</string>
+    <string name="sale_promotion_guding_discount">按固定折扣</string>
+    <string name="sale_promotion_youhui_way">按优惠方案</string>
+    <string name="coupon_module_no_tiaojian">无条件使用本券</string>
+    <string name="coupon_module_use_way">消费金额满足条件使用</string>
+    <string formatted="false" name="coupon_whole_cash_submit_dialog_tip">确定要生成优惠券吗？现金券：%d元，发行数量：%d</string>
+    <string formatted="false" name="coupon_whole_discout_submit_dialog_tip1">确定要生成优惠券吗？折扣券：折扣率%s，发行数量：%d</string>
+    <string formatted="false" name="coupon_whole_discout_submit_dialog_tip2">确定要生成优惠券吗？优惠方案：%s，发行数量：%d</string>
+    <string formatted="false" name="coupon_single_cash_submit_dialog_tip">确定要生成优惠券吗？共%d张单品现金券(%s)，每张面额%d元，每张发行数量：%d</string>
+    <string formatted="false" name="coupon_single_discount_submit_dialog_tip">确定要生成优惠券吗？共%d张单品折扣券(%s)，每张折扣率%s，每张发行数量：%d</string>
+    <string formatted="false" name="coupon_single_sale_submit_dialog_tip">确定要生成优惠券吗？共%d张单品特价券(%s)，每张特价%d元，每张发行数量：%d</string>
+    <string formatted="false" name="coupon_single_exchange_submit_dialog_tip">确定要生成优惠券吗？共%d张单品兑换券(%s)，每张购买价格%d元，每张发行数量：%d</string>
+    <string formatted="false" name="rcoupon_whole_cash_submit_dialog_tip">确定要保存优惠券吗？共%s张全场现金券</string>
+    <string formatted="false" name="rcoupon_whole_cash_submit_one">一</string>
+    <string formatted="false" name="rcoupon_single_exchange_submit_dialog_tip">确定要保存优惠券吗？共%d张单品兑换券(%s)</string>
+    <string formatted="false" name="rcoupon_single_cash_submit_dialog_tip">确定要保存优惠券吗？共%d张单品现金券(%s)</string>
+    <string name="coupon_module_quite_use_date">固定有效期</string>
+    <string name="coupon_module_start">立即生效</string>
+    <string name="coupon_module_in_five_hour">5小时后生效</string>
+    <string name="coupon_module_inday">24小时后生效</string>
+    <string name="singleCashDesc">%2$d元现金券（%1$s）</string>
+    <string name="singleDiscountDesc">%2$s折折扣券（%1$s）</string>
+    <string name="singleExchangeDesc">%2$d元兑换券（%1$s）</string>
+    <string name="singleSaleDesc">%2$d元特价券（%1$s）</string>
+    <string name="wholeCashDesc">%d元现金券</string>
+    <string name="wholeDiscountDesc">%s折优惠券</string>
+    <string name="promotionLinkCopied">已复制店家优惠领取链接地址到剪贴板</string>
+    <string name="sale_promotion_tip1">您还没有发布过任何促销活动，赶快添加一个吧！</string>
+    <string name="sale_promotion_tips">促销活动是店家吸引用户的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应的促销活动，通过打折、满减等方式为顾客提供优惠。此促销发布后，仅限顾客扫码点餐时自主选用，不能通过收银机选取和使用。</string>
+    <string name="sale_promotion_name">活动名称</string>
+    <string name="sale_promotion_name_comment">活动描述</string>
+    <string name="sale_promotion_pic">图片（仅可添加一张）</string>
+    <string name="suit_shop_title_setting">适用门店</string>
+    <string name="sale_promotion_manjian">促销类型-满减</string>
+    <string name="sale_promotion_jian">满减</string>
+    <string name="sale_promotion_jian_fee">减免金额（元）</string>
+    <string name="sale_promotion_jian_fee_internation">减免金额（%s）</string>
+    <string name="sale_promotion_in_use_way">生效条件</string>
+    <string name="sale_promotion_way_to_use">消费满多少可享受此优惠（元）</string>
+    <string name="sale_promotion_memo">注：此数字代表每单减免的封顶金额。如，满100减10元，如果最多减免金额是8元，那此单只能减8元。</string>
+    <string name="sale_promotion_most_fee">每单最多可减金额（元）</string>
+    <string name="sale_promotion_discount">促销类型-打折</string>
+    <string name="sale_promotion_discount_txt">打折</string>
+    <string name="sale_promotion_shengxiao_way">生效条件</string>
+    <string name="sale_promotion_no_tongji">不计入消费额的商品</string>
+    <string name="sale_promotion_memo1">注：以上优惠中，如果有选择“消费金额满足条件时生效”，此处设置的商品不计入消费金额。</string>
+    <string name="sale_promotion_not_houdong">不参加此优惠活动的日期</string>
+    <string name="sale_promition_tip_2">注：您可以通过“公众号营销”模块，将您创建的促销活动发消息给您的微信粉丝，帮助您的促销活动更好的宣传。</string>
+    <string name="sale_promotion_no_way">无条件生效</string>
+    <string name="sale_promotion_toolong">活动名称超过了10个字符了。</string>
+    <string name="sale_promotion_accive_way">消费金额满足条件生效</string>
+    <string name="sale_promotion_zero">0项</string>
+    <string formatted="false" name="coupon_not_null">%s不能为空</string>
+    <string name="suit_shop_valid">适用门店不能为空</string>
+    <string formatted="false" name="coupon_not_zer0">%s不能为0</string>
+    <string name="sale_promotion_pubish">发布</string>
+    <string name="sale_have_no">无</string>
+    <string name="sale_promotion_delete_confirm_tip">确定要删除促销活动吗？删除后促销活动将停止使用。</string>
+    <string name="sale_promotion_status_2">未开始</string>
+    <string name="sale_promotion_status_6">进行中</string>
+    <string name="sale_promotion_status_4">已过期</string>
+    <string formatted="false" name="coupon_module_youxiaoqi">有效期：%s-%s</string>
+    <string name="sale_promotion_huodong">参加活动订单数(个)</string>
+    <string name="sale_promotion_youhui">优惠总金额(元)</string>
+    <string name="maxItemTip">最多只能添加%d条记录!</string>
+    <string name="consumeActDesc">消费有礼是店家吸引用户的一种营销手段，可以针对开业、换季、节假日、新品上市等设置相应的活动。商家可针对顾客消费的实际情况，设置满额、满次条件下可使用的优惠方案。</string>
+    <string name="activityTime">活动时间: %s</string>
+    <string name="fresherActTitle">新客有礼</string>
+    <string name="freshCardTitle">开卡有礼</string>
+    <string name="consumeActTitle">消费有礼</string>
+    <string name="festivalActTitle">节日营销</string>
+    <string name="fresherActCountInTotal">共有%d个新客有礼活动</string>
+    <string name="consumeActCountInTotal">共有%d个消费有礼活动</string>
+    <string name="freshcardActCountInTotal">共有%d个开卡有礼活动</string>
+    <string name="fresherActShortDesc">连锁可以统一管理各个品牌门店的营销活动。可以设置换季、节假日、新品上市等新客有礼活动。连锁新客有礼活动只能在顾客扫码点餐时使用，不能通过收银机选取和使用。</string>
+    <string name="consumeActShortDesc">连锁可以统一管理各个品牌门店的消费有礼活动。可以设置换季、节假日、新品上市等消费活动。连锁活动只能在顾客扫码点餐时适用，不能通过收银机选取和使用。</string>
+    <string name="festivalActShortDesc">商家通过群发消息，在节日时对顾客送去关心和祝福，并赠送相应优惠券，提高顾客对店铺的忠诚度和归属感。</string>
+    <string name="couponCount">优惠券数量(张)</string>
+
+
+    <string name="couponSingleNum">单张券需要多少分数兑换(分)</string>
+    <string name="couponTicketNum">本次活动可发放券(张)</string>
+    <string name="reset">重置</string>
+    <string name="freshCradDesc">开卡送优惠是一种能有效提高店铺会员粘性的活动，通过用户激活会员卡，能将普通用户转化为会员卡用户，提高用户来店消费的频率。此活动支持送优惠券、送积分、送卡余额三种优惠方案，商家可根据情况自行设置。</string>
+    <string name="freshCardShareTitle">领卡送好礼</string>
+    <string name="freshcardShareContent">优惠多多, 再不来大奖被别人抢光啦~</string>
+    <string name="freshActDesc">店家可以针对未在本店铺线上支付过的新客人设置新客专享优惠。新客专享优惠支持进店即送、消费后赠送两种模式，支持满减、打折、赠送优惠券、赠送会员卡四种优惠方式，活动开始后将在次日显示统计...</string>
+    <string name="fresherActShareContent">新人有专享优惠啦，赶快加入尝尝鲜～</string>
+    <string formatted="false" name="coupon_module_youxiaoqi1"> 有效期：领券后%s天内有效</string>
+    <string name="consumeToAmount">消费满%s元</string>
+    <string name="presentCouponsCount">赠送优惠券：%d张</string>
+    <string name="presentMoney">立减：%s元</string>
+    <string name="presentDiscountRate">折扣：%s折</string>
+    <string name="presentDiscountRate_international">折扣：%s%% off</string>
+    <string name="presentPoints" formatted="false">赠送积分：%1$s元%2$s积分</string>
+    <string name="consumeToTimes">在店消费满%d次</string>
+    <string name="selectAccount">选择您要设置的公众号</string>
+    <string name="selectActivityType">选择活动类型</string>
+    <string name="wx_games_coupons_memo">本优惠券每人仅限1张</string>
+    <string name="clickToSeeMoreHistory">点击查看更多历史数据</string>
+    <string name="activityName">活动名称: %s</string>
+    <string name="activityTemplet">活动模板: %s</string>
+    <string name="wxGameReport">查看活动报表</string>
+    <string name="wxGameListTitle">微信小游戏</string>
+    <string name="wxGameEditTitle">微信小游戏活动设置</string>
+    <string name="wxGamesNoPublicMsg">您还没有授权公众号，无法发布微信小游戏，请前往【公众号营销】模块中授权。</string>
+    <string name="wxGameModifySuccess">活动修改成功!</string>
+    <string name="wxGameBuildSuccess">活动创建成功!</string>
+    <string name="wx_game_title">微信小游戏是在微信公众号中运营的互动小游戏，店家可以设置不同的发奖规则，放在公众号里或由到店的顾客扫码参与，此活动可以促进公众号吸粉、给店里带来流量和曝光。</string>
+    <string name="noActTip">还没有活动, 请点击添加按钮创建新活动</string>
+    <string name="wxGameReportTitle">微信小游戏数据报表</string>
+    <string name="wxGameCopySuccess">活动链接已复制成功!</string>
+    <string name="wx_open_public_msg">抱歉，您尚未开通%s!</string>
+    <string name="wxGamesNoPublicMsg2">您还没有授权公众号，请前往【公众号营销】模块中授权。</string>
+    <string name="activityPublicName">活动公众号: %s</string>
+    <string name="wxGameBuildSuccessPutPublic">将此活动链接放入我的公众号</string>
+    <string name="addAmountPrivilege">添加满额优惠</string>
+    <string name="addTimesPrivilege">添加满次优惠</string>
+    <string name="editPostCard">修改卡片内容</string>
+    <string name="title_gift_info2">积分兑换设置</string>
+    <string name="credits_exchange_card">卡金额</string>
+    <string name="credits_exchange_card_add">添加兑换卡金额</string>
+    <string name="credits_exchange_things_add">添加兑换物品</string>
+    <string name="credits_exchange_privilege_add">添加兑换优惠券</string>
+    <string name="credits_exchange_things">线下物品</string>
+    <string name="credits_exchange_privilege">优惠券</string>
+    <string name="credits_unit_exhchage">分</string>
+    <string name="credits_exchange_title">卡里的积分可兑换成卡金额，同时还可兑换成线上设置的优惠券以及兑换成线下物品。在掌柜端设置完成后，用户可以通过小二端的积分商城来自由兑换。</string>
+    <string name="credits_exchange_title_retail">卡里的积分可兑换成卡余额，同时还可兑换成线上设置的优惠券。在掌柜端设置完成后，用户可以在微店或火小二的积分商城来自由兑换。</string>
+    <string name="mb_credits_exchange_title_shoppingmall">卡里的积分可兑换成卡余额，同时还可兑换成线下物品，在掌柜端设置完成后，用户可以通过前端积分商城来自由兑换。</string>
+
+    <string name="singleCashDesc_1" formatted="false">%2$s元现金券（%1$s等商品）</string>
+    <string name="singleDiscountDesc_1" formatted="false">%2$s折折扣券（%1$s等商品）</string>
+    <string name="singleExchangeDesc_1" formatted="false">%2$s元兑换券（%1$s等商品）</string>
+    <string name="singleSaleDesc_1" formatted="false">%2$s元特价券（%1$s等商品）</string>
+    <string name="member_coupon_style_settings_note">此设置对当前品牌下所有优惠券都生效，一旦设置并保存后，原有的优惠券和新建的优惠券均默认展示此样式。</string>
+
+    <!-- 整合           temp_string             end-->
+
+    <!--hard code 提取 2017.12.12-->
+    <string name="deng">等</string>
+    <string name="zai">在</string>
+    <string name="jia_men_dian_zhong_chuang_jian_le_ci_shang_pin">家门店中创建了此商品，请前往口碑操作</string>
+    <string name="chu_shi_zhuang_tai">初始状态</string>
+    <string name="yi_sheng_xiao">已生效</string>
+    <string name="zan_ting_shou_mai">暂停售卖</string>
+    <string name="yi_dong_jie">已冻结</string>
+    <string name="yi_shi_xiao">已失效</string>
+    <string name="ru_xu_shang_xia_jia_qing_dao_kou_bei_hou_tai_cao_zuo">如需上下架请到口碑后台操作</string>
+    <string name="quan_bu">全部工具</string>
+    <string name="intelligentMarketing">智能营销</string>
+    <string name="re_men">热门</string>
+    <string name="wo_de">我的</string>
+    <string name="nian">yyyy年MM月dd日</string>
+    <string name="ji_fen">积分</string>
+    <string name="qing_xian_jin_xing_gong_zhong_hao_shou_quan">请先授权公众号</string>
+    <string name="kai_shi_shi_jian_bu_neng_da_yu_jie_shu_shi_jian">开始时间不能大于结束时间</string>
+    <string name="jie_shu_shi_jian_bu_neng_xiao_yu_dang_qian_ri_qi">结束时间不能小于当前日期</string>
+    <string name="she_zhi_zi_dong_hui_fu_nei_rong">设置自动回复内容</string>
+    <string name="bu_neng_wei_kong">不能为空</string>
+    <string name="hui_yuan_qia_bu_neng_wei_kong">会员卡不能为空</string>
+    <string name="you_hui_quan_bu_neng_wei_kong">优惠券不能为空</string>
+    <string name="nei_rong_bu_neng_wei_kong">内容不能为空</string>
+    <string name="lian_jie_bu_neng_wei_kong">链接不能为空</string>
+    <string name="member_hui_yuan_qia">会员卡</string>
+    <string name="you_hui_quan">优惠券</string>
+    <string name="wen_ben">文本</string>
+    <string name="gai">该%s已设置，请重新选择</string>
+    <string name="que_ren_shan_chu_gai_guan_zhu_gong_zhong_hao_zi_dong_hui_fu_she_zhi_ma">确认删除该关注公众号自动回复设置吗?</string>
+    <string name="member_yuan">元</string>
+    <string name="member_shan_chu">删除</string>
+    <string name="shi_shi_xiao">使失效</string>
+    <string name="ri_qi_bu_neng_wei_kong">日期不能为空</string>
+    <string name="ling_qu_lei_xing_bu_neng_wei_kong">领取类型不能为空</string>
+    <string name="ji_fen_bu_neng_wei_kong">积分不能为空</string>
+    <string name="que_ding_yao_shan_chu_ci_she_zhi_ma">确定要删除此设置吗？</string>
+    <string name="que_ding_yao_shi_ci_she_zhi_shi_xiao_ma">确定要使此设置失效吗？</string>
+    <string name="qing_zai_wei_xin_zhi_fu_te_yue_shang_hu_shen_qing_tong_guo_hou_zai_cao_zuo">请在微信支付特约商户申请通过后再操作！</string>
+    <string name="fa_song_cheng_gong">发送成功</string>
+    <string name="wu_ming_shi">无名氏</string>
+    <string name="ji_fen_1">积分：0</string>
+    <string name="ji_fen_2">积分：%s</string>
+    <string name="que_ding_zhong_fa_ci_qia">确定重发此卡？</string>
+    <string name="yi_ling_qia">已领卡:</string>
+    <string name="wei_ling_qia">未领卡</string>
+    <string name="shou_ji_hao_bu_neng_wei_kong">手机号不能为空</string>
+    <string name="huo_dong_zeng_song">活动赠送</string>
+    <string name="ling_qu">领取</string>
+    <string name="member_wu">无</string>
+    <string name="nian_1">yyyy年MM月</string>
+    <string name="hard_code_nian">yyyy年</string>
+    <string name="hard_code_nian_3">yyyy年M月</string>
+    <string name="previewCoupon">预览优惠券</string>
+    <string name="menuAndSoOn">等%d个商品</string>
+    <!--hard code 提取 2017.12.12-->
+
+
+    <!--刮刮乐-->
+    <string name="raffle_setting_title">刮刮乐活动</string>
+    <string name="raffle_setting_going_title">刮刮乐活动进行中</string>
+    <string name="raffle_setting_base_rule">活动规则设置</string>
+    <string name="raffle_setting_active_time">活动时间</string>
+    <string name="raffle_setting_active_time_dot">活动时间：</string>
+    <string name="raffle_setting_active">长期有效</string>
+    <string name="raffle_setting_partin_shop">参与门店</string>
+    <string name="raffle_setting_activity_entrance">活动入口选择</string>
+    <string name="raffle_setting_menu_page">菜单页</string>
+    <string name="raffle_setting_line_page">排队页</string>
+    <string name="raffle_setting_first_in_shop">首次进店扫码用户赠送一次刮奖机会</string>
+    <string name="raffle_setting_first_in_shop_memo">注：此开关开启时，活动数据将统计进店扫码用户人数</string>
+    <string name="raffle_setting_first_take_order">每次订单支付完成用户赠送一次刮奖机会</string>
+    <string name="raffle_setting_first_take_order_memo">注：此开关开启时，活动数据将统计进店支付后刮奖人数</string>
+    <string name="raffle_setting_exchange_integral">开启积分购买刮奖机会</string>
+    <string name="raffle_setting_exchange_integral_memo">注：此开关开启时报告数据将统计积分消耗人次</string>
+    <string name="raffle_setting_exchange_integral_consume">购买一次刮奖机会需消耗积分</string>
+    <string name="raffle_setting_award">奖品设置</string>
+    <string name="raffle_setting_add_award">添选新奖品</string>
+    <string name="raffle_setting_award_period">奖池周期设置</string>
+    <string formatted="false" name="raffle_setting_award_period_memo">注：奖池设置张数为周期张数，例：红烧肉购买券中奖比例为1%，红烧鱼现金券中奖比例为19%设置1000张奖池，即每1000次总刮奖次数中将会出现10张红烧肉购买券，190张红烧鱼现金券</string>
+    <string formatted="false" name="raffle_setting_total_probability">总中奖概率（不得低于25%）</string>
+    <string name="raffle_setting_terminal">停止活动</string>
+    <string name="raffle_setting_share">活动分享</string>
+    <string name="raffle_setting_preview_poster">活动海报预览</string>
+    <string name="raffle_setting_poster_share">链接及分享</string>
+    <string name="raffle_setting_proposal">方案</string>
+    <string name="raffle_setting_proposal_name">《刮刮乐优惠活动》</string>
+    <string name="raffle_setting_poster_template">海报模版</string>
+    <string name="choose_report_date">选择报告时间</string>
+    <string name="customer_analysis">顾客分析</string>
+    <string name="member_increase">会员增长</string>
+    <string name="total_sale_amount">累计营业额(元)</string>
+    <string name="no_data">暂无</string>
+    <string name="current_month_summary">本月总结</string>
+    <string name="open_raffle_total_report">查看我的活动总报告</string>
+    <string name="stop_raffle">停止活动</string>
+    <string name="setting">设置</string>
+    <string name="month">月份</string>
+    <string name="create_award_coupon">创建奖品</string>
+    <string name="format_total_sale_money">共%s元</string>
+    <string name="format_total_sale_ratio">占比%s%%</string>
+    <string name="coupon_cancel_count">券的核销数</string>
+    <string name="set_award_probability">设置刮中概率</string>
+    <string name="forecast_award_value">预计每张券刮奖收入</string>
+    <string name="raffle_activity_protocol_title">刮刮乐优惠活动规则如下：</string>
+    <string name="raffle_activity_protocol">1.活动期间，用户根据您设置的活动参与方案可获得刮奖机会，刮奖机会次数无限制，
+\n2.用户于0:00-24:00之间获得的刮奖机会仅在获得时间起至第二天凌晨2:00.
+\n3.用户刮奖概率若因您的下列操作引起关联影响本司概不负责：
+ \n\t a.修改活动商品属性
+ \n\t b.删除或下架活动商品
+\n4.用户刮中分享您店铺的参与机会后，分享给其他用户，第一位点击分享链接的用户将免费获得您店铺本活动的一次刮奖机会，
+\n5.刮奖活动均以优惠券形式发放，本活动中券使用以优惠券规则为准，优惠券将放入用户的本店二维火账户，到店手机扫码点餐即可使用优惠券，
+\n6.本人同意并确认对优惠券的图文不符以实物为准，
+\n7.用户积分购买刮奖次数后，概不退换，
+\n8.本人同意并确认对活动拥有最终解释权。
+    </string>
+    <string name="raffle_award_coupon_limited">您的券已达到添加上限，请删除部分券再尝试添加</string>
+    <string name="raffle_award_suit_shop_limited">请先选择参与门店</string>
+    <string name="raffle_total_report">活动总报告</string>
+    <string name="raffle_total_summary">活动总结</string>
+    <string name="coupon_valid_date_format" formatted="false">有效期：%1$s-%2$s</string>
+    <string name="customer_analysis_item_format_1" formatted="false">用户消费时间集中在%1$s，消费时间段集中在%2$s。</string>
+    <string name="customer_analysis_item_format_2" formatted="false">用户活动期间平均消费%1$s元高于平时平均消费%2$s元，活动期间用平均消费%3$s道菜高于平时平均消费%4$s道菜。</string>
+    <string name="customer_analysis_item_format_3" formatted="false">活动期间平均每日订单%1$s单，平时每日平均订单%2$s单。</string>
+    <string name="customer_analysis_item_format_4" formatted="false">活动吸引了%1$s人参与，分享次数%2$s次，参与次数达%3$s次，累计消费%4$s元。</string>
+    <string name="customer_summary_item_format_1">实现了会员数量增长%s人，</string>
+    <string name="customer_summary_item_format_2">实现了券发放数%s张，</string>
+    <string name="customer_summary_item_format_3">实现了刮奖收入%s元，</string>
+    <string name="customer_summary_item_format_4">拉动了消费金额%s元，</string>
+    <string name="customer_summary_item_format_5">预计未来将继续拉动消费%s元。</string>
+    <string name="close_raffle_tips">是否预约于第二天凌晨02:00停止活动</string>
+    <string name="view_empty_content">您还没有发布过任何活动，赶快添加一个吧！</string>
+
+    <string name="valid_raffle_setting_shops">您未设置参与门店，请设置</string>
+    <string name="valid_raffle_setting_entrance">您未选择活动入口，请选择</string>
+    <string name="valid_raffle_setting_integral">您未填写购买一次刮奖积分需消耗积分，请填写</string>
+    <string formatted="false" name="valid_raffle_setting_probability_limit">您未设置刮奖概率达25%，请重新设置</string>
+    <string name="valid_raffle_setting_total_probability_exceed">您设置的刮奖概率超过100%，请重新设置</string>
+    <string name="valid_raffle_setting_protocol_agree">您未勾选我已阅读并同意《刮刮乐优惠活动》方案，请勾选</string>
+
+    <string formatted="false" name="format_raffle_setting_partin_shops">已选择%d家</string>
+    <string formatted="false" name="raffle_activity_name">刮刮乐活动</string>
+    <string name="chain_going_tips">本店目前使用品牌总部的刮刮乐活动，无法单独设置，如需改变请至总部进行设置</string>
+    <string formatted="false" name="raffle_activity_coupon_del_confirm">是否确认删除此券？</string>
+    <string name="raffle_activity_coupon_set_proba">设置刮中概率</string>
+    <string name="raffle_activity_coupon_set_period">设置奖池周期</string>
+    <string name="coupon_validInDays">有效期：领取后%s天内有效</string>
+    <string name="coupon_realPriceAndMinus">(原价%1$s元, 立减%2$s元)</string>
+
+
+    <string name="raffle_share_wx_title">吃货刮刮乐 好礼“刮”不停</string>
+    <string name="raffle_share_wx_content1">优惠多多，再不来大奖被别人抢光啦～</string>
+    <string name="raffle_activity_copy_qrcode_url">活动链接已经复制到剪贴板</string>
+    <string name="raffle_activity_copy_poster_url">海报下载链接已经复制到剪贴板</string>
+    <string name="zhou_yi">周一</string>
+    <string name="zhou_er">周二</string>
+    <string name="zhou_san">周三</string>
+    <string name="zhou_si">周四</string>
+    <string name="zhou_wu">周五</string>
+    <string name="zhou_liu">周六</string>
+    <string name="zhou_ri">周日</string>
+    <string name="ri">01日</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_cancel">取消分享</string>
+    <string name="qrcode_download_success">二维码下载成功</string>
+    <string name="qrcode_download_failure">二维码下载失败,请重试</string>
+    <string name="download">下载</string>
+    <string name="copy_download_link">复制下载链接</string>
+    <string name="copy_link_tips" formatted="false">海报和二维码链接复制成功\n海报下载地址为%1$s\n高清活动二维码下载地址为%2$s</string>
+
+    <string name="raffle_entry_has_not_choose_tips">您未选择活动入口，请选择</string>
+
+
+    <string name="cannotAccessSdcardPermission">无法获取访问存储设备的权限</string>
+    <string name="raffle_activity_no_set_operation">预约停止时间为次日凌晨两点，在此之前不能再次启动活动，停止时间过后可再次启动活动</string>
+    <string name="item_raffle_activity_partin_mems">活动参与人数(次)</string>
+    <string name="item_raffle_activity_coupon_nums">活动发券数(张)</string>
+    <string name="item_raffle_activity_consume_coupons">核销券数(张)</string>
+    <string name="item_raffle_activity_income">刮奖收入(元)</string>
+    <string name="item_raffle_activity_title">刮刮乐活动</string>
+    <string formatted="false" name="item_raffle_activity_coupon_menu_price_unit">%.2f元</string>
+
+    <string name="reffle_list_title">刮刮乐活动</string>
+    <string name="member_reffle_list_head_description">刮刮乐活动能快速有效的提高客户对本店新菜品和利润大的菜类的关注，能提高门店会员的粘性以及增加用户二次消费，能增加用户之间的传播。</string>
+    <string name="rafftle_doing_title">刮刮乐活动进行中</string>
+    <string name="raffle_member_increase_desc">活动期间会员增长数</string>
+    <string name="common_member_increase_desc">平时会员增长数</string>
+    <string name="first_lottery_count">首次进店刮奖次数：</string>
+    <string name="order_paid_member_lottery_count">订单支付后会员刮奖次数：</string>
+    <string name="paid_member_lottery_count">积分购买刮奖次数：</string>
+    <string name="share_member_lottery_count">分享会员刮奖次数：</string>
+    <string name="raffle_driven_consumption">活动拉动消费额</string>
+    <string name="raffle_cost_of_cancellation">活动券核销成本</string>
+    <string name="income_from_raffle">活动刮奖收入</string>
+    <string name="income_from_non_raffle">非该活动营业收入</string>
+    <string name="coupon_statistics">券的统计</string>
+
+    <string name="coupon_provide_count">券的发放数</string>
+    <string name="coupon_integral_income">券的积分收入</string>
+    <string name="qrcode_is_empty">程序员小哥跟你开了个玩笑，请等待片刻再尝试哦！</string>
+    <string name="single_exchange_coupon_desc">可以直接购买指定商品的优惠券</string>
+    <string name="whole_cash_coupon_desc">设定相关商品可以减免金额的优惠券</string>
+    <string name="choose_shops_zero">已选择0家</string>
+    <string name="confirm_publish">您是否确认发布</string>
+    <string name="confirm_publish_going">活动正在进行中，是否确定发布修改</string>
+    <string name="activity_going_choose_shop_tips">活动进行中不能编辑修改参与门店，请在活动完全停止后再编辑修改</string>
+    <string name="coupon_invalid_desc">券已失效需要重新添加</string>
+    <string name="scheme_protocol_agree">我已阅读并同意</string>
+    <string name="cai_dan_ru_kou_kai_guan">菜单入口开关</string>
+    <string name="pai_dui_ru_kou_kai_guan">排队入口开关</string>
+    <string name="shou_ci_jin_dian_sao_ma_zeng_song">首次进店扫码赠送X次</string>
+    <string name="zhi_fu_wan_cheng_zeng_song">支付完成赠送X次</string>
+    <string name="ji_fen_dui_huan_yi_yuan_gou_chou_jiang_ji_hui_kai_guan">积分兑换一元购抽奖机会开关</string>
+    <!-- “火小二”.积分兑换 -->
+    <string name="lbl_gift_type">兑换类型</string>
+    <string name="memo_gift_card_exchange_use">注：此处设置为小二积分商城和收银端用积分兑换卡金额时使用。</string>
+    <string name="memo_gift_card_deduction_use">注：此规则适用于本店发行的所有会员卡。</string>
+    <string name="lbl_gift_card_deduct_value">商城兑换面值（元）</string>
+    <string name="lbl_gift_card_deduct_integral">需扣除积分（分）</string>
+    <string name="lbl_gift_coupon_exchange">兑换的优惠券</string>
+    <string name="title_gift_add_card">添加兑换卡金额</string>
+    <string name="title_gift_add_product">添加兑换物品</string>
+    <string name="title_gift_add_coupon">添加兑换优惠券</string>
+    <string name="valid_gift_exchange_value_is_zero">兑换面值不能为0元</string>
+    <string name="valid_gift_integral_value_is_zero">需扣除积分不能为0分</string>
+    <string name="valid_gift_name_is_required">物品名称为必填。</string>
+    <string name="valid_gift_coupon_is_required">还未添选优惠券。</string>
+    <string name="valid_gift_name_is_cn_en">只能输入中英文字符</string>
+    <string name="credits_exchange_product">物品</string>
+    <string name="credits_privilege_add">添加优惠券</string>
+    <string name="credits_exchange_things_img">选择物品图片</string>
+    <string name="lbl_product_name">物品名称</string>
+    <string name="error_fetch_data">数据读取出错了。</string>
+    <string name="credits_upload_image_failure">图片上传失败!</string>
+    <string name="credits_format_unit_money">%s元</string>
+    <string name="exchange_gift_delete_confirm">确认要删除\"%s\"吗？</string>
+    <string name="mb_leastPriceDesc">满%d元可用</string>
+    <string name="mb_comma">, </string>
+    <string name="mb_whole_available">全场可用</string>
+    <string name="mb_part_available">部分商品可用</string>
+    <string name="mb_discountDesc">折扣券%d折</string>
+    <string name="mb_menuPriceDesc">价值%s元商品</string>
+    <string name="mb_singleExchangePriceDesc">兑换券仅售%s元</string>
+    <string name="mb_singleSalePriceDesc">凭券特价%s元</string>
+    <string name="mb_useInShop">仅到店点餐</string>
+    <string name="mb_useOutSide">仅外卖</string>
+
+
+    <!-- 日常1季度3期-->
+    <string name="member_card_validity_title">会员卡有效期</string>
+    <string name="member_card_validity_memo1">选择此项，会员卡可以永久使用。</string>
+    <string name="member_card_validity_memo2">选择此项，可设置有效天数，从最近一次使用会员卡开始计算，超过时间的会员卡会被冻结，无法使用。押金和卡余额会被计入卡逾期报表中。</string>
+    <string name="member_card_validity_day_title">有效天数（天）</string>
+    <string name="mb_couponNotSupportedByDirectMarket">该优惠券无法使用精准营销进行分享</string>
+    <string name="mb_coupon_send">优惠券发放</string>
+    <string name="mb_sendSuccessfully">发送成功</string>
+    <string name="mb_sendEmailSuccessfully">发送成功，请注意查收</string>
+    <string name="mb_searchNoMember">抱歉, 没有查询到该会员信息</string>
+    <string name="mb_wxSpecifyCode">专用吸粉码</string>
+    <string name="mb_wxSpecifyCodeDesc">支持微信扫码关注公众号再点餐</string>
+    <string name="mb_wxSpecifyCodeTitle">专用吸粉码</string>
+    <string name="mb_wxSpecifyCodeTip1">此二维码仅支持微信扫码点餐时使用，顾客扫码后会先引导他关注店铺的微信公众号，然后再进行点餐。</string>
+    <string name="mb_wxSpecifyCodeTip2">如果取消授权公众号，或者换绑公众号，此二维码将失效，需重新下载打印。专用吸粉码包括桌位码、店铺码、外卖码。</string>
+    <string name="mb_codeStyle">二维码样式</string>
+    <string name="mb_mailBox">邮箱</string>
+    <string name="mb_mailHint">请输入邮箱地址~</string>
+    <string name="mb_wxCodeMailTip">仅支持输入一个邮箱, 我们会将所选店铺所有的微信专用桌贴发送到您的邮箱, 请查收后打印桌贴, 贴与您的桌位上.</string>
+    <string name="mb_mailCountMaxTip">最多支持输入%d个邮箱</string>
+    <string name="mb_mailNotValid">请输入正确的邮箱地址</string>
+    <string name="mb_sendAllWxCodeToMail">发送所有二维码到邮箱</string>
+
+    <!-- 日常1季度5期-->
+    <string name="mb_refund_card_money">会员退卡余额</string>
+    <string name="mb_refund_card_money2">退卡余额</string>
+    <string name="mb_refund_card_money_success">退卡余额成功</string>
+    <string formatted="false" name="mb_chuzhi_tuikuan">退款:-¥%s</string>
+    <string name="validity_time">有效期: %s</string>
+
+    <string name="mb_transformMemberSubmitTip">选择好会员等级后不可修改，被转移的原有会员卡也将被删除，确定要保存吗？</string>
+    <string name="update_shop_card_brand_title">单店会员卡升级连锁卡</string>
+    <string name="update_shop_accquire_verification_code_memo">门店绑定的手机号码：%1$s 会收到一条验证码短信，需联系此手机用户获得验证码才能升级成功。</string>
+    <string name="update_shop_card_phone_null">此店铺没有绑定过手机，无法获得验证码。</string>
+    <string name="update_shop_card_code">验证码不能为空</string>
+    <string name="update_shop_card_memo">单店卡升级连锁卡，数据将于零点开始升级，会在次日完成升级。升级成功后，如需查阅升级成功连锁卡，请到连锁卡列表中查看。</string>
+    <string name="update_shop_card_upgrade_cancel">取消升级</string>
+    <string name="update_shop_card_upgrade">升级</string>
+    <string name="update_shop_discount">%1$s折</string>
+    <string formatted="false" name="suit_menu_RMB">%s%s</string>
+    <string name="shop_update_card_empty">该店铺还未添加过任何会员卡类型。</string>
+    <string name="update_shop_card_brand">门店卡升级连锁卡</string>
+    <string name="chain_update_confirm_1">确定升级</string>
+    <string name="update_shop_card_store_money">储值总额</string>
+    <string name="update_shop_card_integal">积分总额</string>
+    <string name="update_shop_card_num">发卡数量</string>
+    <string name="update_shop_card_tip1">强烈建议门店先将卡里的账目和连锁结算清楚，再进行卡的升级。</string>
+    <string name="update_shop_card_tip2">门店卡升级连锁卡后，所有会员数据会一并升级到连锁卡。门店卡在原门店会员卡列表中不可见。可用连锁账户登录到连锁卡下查询。</string>
+    <string name="update_shop_card_tip3">升级后此连锁卡的适用门店只有原来门店。要增加更多适用门店。请编辑连锁卡信息。</string>
+    <string name="update_shop_card_tip4">升级成连锁卡后，用户的卡余额在所有适用门店都可以消费。用户进行卡充值，钱将打入连锁账户中。</string>
+    <string name="update_shop_card_tip5">门店卡升级成连锁卡后不能回退。请谨慎升级。</string>
+
+
+    <!--新游戏中心-->
+    <string name="member_game_center_title">游戏中心</string>
+    <string name="flop_game_title">翻牌大作战</string>
+    <string name="data_report">数据报表</string>
+    <string name="flop_game_list_head">翻牌大作战是促进品牌传播，给门店引客的小游戏。通过分享邀好友助力翻牌，翻牌成功好友可领券，分享者集齐所有菜品可领红包，来吸引用户到店消费。</string>
+    <string name="flop_game_title2">标题</string>
+
+    <string name="flop_game_success">成功提示</string>
+    <string name="flop_game_menu_s">菜品%s选择</string>
+    <string name="member_flop_game_set">已设置</string>
+    <string name="member_act_publish_success">活动发布成功</string>
+    <string name="member_act_publish_success_memo">到达活动开始时间后活动自动上线，商家可在活动列表页查看活动数据。</string>
+    <string name="member_add_wx_menu">将此链接放入公众号</string>
+    <string name="member_act_share">分享活动</string>
+
+    <string name="member_act_share2">活动分享</string>
+    <string name="member_act_share_QR_code">活动二维码</string>
+    <string name="member_required_select">必选</string>
+    <string name="member_flop_game_list_null_msg">您还没有创建任何游戏</string>
+    <string name="member_share_txt">分享</string>
+    <string name="member_flop_game_list_liansuo">所有门店均已分配，暂无可用门店。</string>
+    <string name="member_flop_game_list_dandian">已有正在进行中的活动，暂不能添加活动。</string>
+
+
+    <string name="member_saoma_play_game">扫码玩游戏</string>
+    <string name="member_flop_game_success_wx_msg">链接已复制成功，请前往【公众号营销】——自定义公众号菜单中进行黏贴设置</string>
+    <string name="member_go_wxmenu_set">前往公众号菜单</string>
+    <string name="mb_send_to_email">发送到邮箱</string>
+    <string name="mb_send_poster_to_email">发送海报到邮箱</string>
+    <string name="mb_look_all">查看全部</string>
+    <string name="mb_game_lobby">游戏大厅</string>
+    <string name="mb_yesterday_target">昨日指标</string>
+    <string name="mb_yesterday_visitors">昨日访问人数</string>
+    <string name="mb_yesterday_transform">昨日参与顾客</string>
+    <string name="mb_flop_game_share_title">商家可以通过以下渠道，将游戏传播出去，或者下载游戏海报制成物料，方便到店顾客参与游戏。</string>
+    <string name="mb_flop_game_add_menu">请先完善所有菜品设置</string>
+    <string name="mb_flop_game_all_data">游戏数据汇总</string>
+
+    <string name="mb_no_replace">不替换</string>
+    <string name="mb_replace">替换</string>
+    <string name="mb_copy_fail">复制店家优惠领取链接失败</string>
+    <string name="mb_flop_game_single_replace_title">店铺正在进行刮刮乐游戏，是否将菜单页的刮刮乐游戏入口替换成翻牌小游戏。</string>
+    <string formatted="false" name="mb_flop_game_liansuo_replace_title">翻牌游戏适用%s家门店，其中%s家门店正在进行刮刮乐游戏，是否将菜单页刮刮乐游戏入口替换成翻牌小游戏。</string>
+
+    <string name="sale_right_setting_title">单店能添加自己的优惠券/促销活动</string>
+
+    <!-- shopping mall-->
+    <string name="mb_shopping_mall_sms_help">商家可以在会员体系和优惠券设置过程中，打开短信通知提醒，通过短信告知顾客其会员等级变化和优惠券到账和到期信息。 </string>
+    <string name="mb_shopName">店铺名称</string>
+    <string name="mb_couponIntroductionTextForMall">优惠券是最常用的营销功能，商场可设置现金券、折扣券发放给不同的顾客，吸引他们到店消费。</string>
+    <string name="mb_couponIntroductionTextForRetail">优惠券是最常用的营销功能，店家可以设置现金券、折扣券发放给不同的顾客，吸引他们消费。</string>
+
+    <string name="mb_shop_filter_city_title">所在城市（可多选）</string>
+    <string name="mb_levelSystem">会员等级体系</string>
+    <string name="mb_dot">▪</string>
+    <string name="mb_settingLevelsAndRights">设置会员等级及权益</string>
+    <string name="mb_notPublished">未发布</string>
+    <string name="mb_requiredItem">必设项</string>
+    <string name="kabaw_charge_title_add">添加充值优惠</string>
+    <!-- 商家小程序 -->
+    <string name="wx_authorize_tip">如果您需要使用【公众号菜单自定义】、【订单消息推送】、【高级接口对接】和【公众号分析】等功能，请联系客服更换桌码。</string>
+    <string name="already_select_num">已选择%d个</string>
+    <string name="tiny_app_not_auth_desc">公众号菜单功能、扫码就餐自动提醒、高级接口对接、公众号分析等功能暂不可使用，请先授权注册并创建商家小程序，授权后即可使用。</string>
+    <string name="tiny_app_auth_desc">您当前已授权了公众号和小程序，请注意检查公众号后台是否已关联小程序，否则公众号菜单功能、高级接口对接等无法使用。</string>
+    <string name="view_guide">查看完整指南</string>
+    <string name="quick_register_tiny_app">快速注册商家小程序</string>
+    <string name="only_5_s">只需5秒</string>
+    <string name="wx_tiny_app_guide">公众号+商家小程序指南</string>
+    <string name="wx_auth_guide">公众号授权引导</string>
+    <string name="mb_runningWays">进行中的活动</string>
+    <string name="mb_advanceWays">一键提升</string>
+    <string name="mb_industryWays">同行推荐</string>
+    <string name="mb_marketingScore">营销健康分</string>
+    <string name="mb_myTotalScore">本店总得分：%d分</string>
+    <string name="mb_averageScore">行业平均：%d分</string>
+    <string name="mb_maxScore">满分：%d分</string>
+    <string name="mb_marketingPerformanceTipTitle">营销健康分指标说明</string>
+    <string name="mb_view">查看</string>
+    <string name="mb_recentlyUsed">最近使用</string>
+    <string name="parking_fee">停车缴费</string>
+    <string name="member_reduction">会员减免</string>
+    <string name="member_reduction_memo">可对不同会员等级设置不同的停车优惠特权</string>
+    <string name="point_reduction">积分减免</string>
+    <string name="point_reduction_memo">可自由设置积分抵扣停车费规则</string>
+    <string name="consume_reduction">消费减免</string>
+    <string name="consume_reduction_memo">可选择哪些店铺参与消费减免停车费活动</string>
+    <string name="parking_fee_header_msg">关于停车缴费系统支持三种停车缴费优惠方式，你可在此模块统一管理停车费减免优惠</string>
+    <string name="point_parking_fee">积分抵扣停车费规则设置</string>
+    <string name="mb_title_register_result_917">917美食烽火榜报名</string>
+    <string name="mb_tip_office_wechat_number">官方人员微信号：%s</string>
+    <string name="mb_tip_register_ing_btn">修改提交信息</string>
+    <string name="mb_tip_register_success_btn">查看报名信息</string>
+    <string name="mb_tip_register_error_btn">再次报名</string>
+    <string name="mb_value_register_ing">提交成功，审核中</string>
+    <string name="mb_value_register_success">审核通过</string>
+    <string name="mb_value_register_error">审核未通过</string>
+    <string name="mb_tip_register_ing">您已提交成功，请耐心等待1-3个工作日，我们会尽快审核，可添加官方人员微信咨询报名进度。</string>
+    <string name="mb_tip_register_success">恭喜您通过本次报名审核，请加入官方活动群，接收更多活动相关奖励和流程通知</string>
+    <string name="mb_tip_register_error">抱歉，您未通过本次报名审核，可能原因：１、报名城市未达到10家餐厅，无法生成投票页；\n 2、未开通公众号营销基础版，顾客投票后无法关注餐厅公众号。如需了解更多情况，可咨询官方人员</string>
+    <string name="mb_register_ing_add_wechat">添加好友备注：报名活动</string>
+    <string name="mb_register_success_add_wechat">进群如有问题，可添加官方人员微信咨询，添加时请备注：审核通过</string>
+    <string name="mb_register_error_add_wechat">添加好友请备注：未通过咨询</string>
+    <string name="mb_function_wechat_marketing_liansuo">公众号营销基础连锁版</string>
+    <string name="mb_function_wechat_marketing_mendian">公众号营销基础门店版</string>
+    <string name="mb_function_wechat_marketing_must">顾客投票后关注餐厅公众号必须开通此功能。</string>
+    <string name="mb_function_member_manager_liansuo">会员管理连锁版</string>
+    <string name="mb_function_member_manager_mendian">会员管理门店版</string>
+    <string name="mb_function_member_manager_nomust">如餐厅需要将领券顾客直接转化成餐厅新会员，需要开通此功能</string>
+    <string name="mb_open_must">必须开通</string>
+    <string name="mb_open_option">建议开通</string>
+    <string name="mb_copy_success_wechat">微信号复制成功</string>
+    <string name="mb_plate_list_with_status_des">每个品牌可报名１次，请选择品牌</string>
+    <string name="mb_register_un">未报名</string>
+    <string name="mb_register_ing">审核中</string>
+    <string name="mb_register_success">已通过</string>
+    <string name="mb_register_error">未通过</string>
+    <string name="mb_publishSuccessfully">发布成功</string>
+    <string name="mb_memberSystemPublishedDesc">当前会员体系发布成功，可在数据分析页查看相关会员数据。</string>
+    <string name="mb_addMemberCenterToWxMenuTip">若在公众号菜单中已设置了会员中心跳转链接，为避免出现问题，请将跳转链接替换成此体系卡对应的会员中心</string>
+    <string name="mb_putMemberCenterToWxMenu">将会员中心放入微信菜单</string>
+
+    <!-- 会员信息管理new-->
+    <string name="mb_base_info">基本信息</string>
+    <string name="mb_card_info">卡信息</string>
+    <string name="mb_integral_info">积分信息</string>
+    <string name="mb_coupon_info">优惠券信息</string>
+
+    <string name="mb_pack_up">收起</string>
+    <string name="mb_unfold">展开</string>
+
+    <string name="mb_consume_store">消费储值情况</string>
+    <string name="mb_groups">用户标签：</string>
+    <string name="mb_groups_1">用户标签：未设置任何标签</string>
+    <string name="mb_month">月份</string>
+    <string name="mb_customer_info">顾客信息</string>
+
+    <string name="mb_tel_phone">手机号码</string>
+    <string name="mb_member_search_hint">输入手机号/会员卡号</string>
+    <string name="mb_modify_info">修改信息</string>
+    <string name="mb_permission_msg">连锁总部尚未开通企业连锁管理，分公司功能无法使用。</string>
+    <string name="mb_filter_sum_filter" formatted="false">当前筛选出%s人,已选条件为：%s</string>
+    <string name="mb_filter_sum_filter2">当前筛选出%s人</string>
+    <string name="mb_filter_sum">全部顾客共%s人</string>
+    <string name="mb_add_filter">添加筛选条件</string>
+
+    <string name="mb_all_customer">综合排序、全部顾客</string>
+    <string name="mb_all_customer2">全部顾客</string>
+    <string name="mb_all_member">综合排序、全部会员</string>
+    <string name="mb_all_member_system">综合排序、全部会员、%s</string>
+
+    <string name="mb_data_update_time">数据更新时间%s</string>
+    <string name="mb_confirm_coupons_msg" formatted="false">确定将优惠券（%s）赠送给顾客（%s）？</string>
+
+
+    <string name="mb_card_detail_yemx">余额明细</string>
+    <string-array name="mb_coupon_status">
+        <item>已核销</item>
+        <item>未使用</item>
+        <item>已过期</item>
+    </string-array>
+    <string name="mb_format_year_month">%1$d年%2$d月</string>
+    <string name="mb_flow_status_hongchong">去红冲</string>
+    <string name="mb_flow_hongchong_success">红冲成功</string>
+    <string name="mb_flow_status_hongchonged">已红冲</string>
+    <string name="mb_flow_status_huichong">已回冲</string>
+    <string name="mb_coupon_flow_detail">优惠券明细</string>　
+    <string name="mb_send_coupon_success">赠券成功</string>
+
+    <string name="valid_edit_hint">请输入标题内容～</string>
+    <string name="tip_validate_empty">内容不能为空</string>
+    <string name="tip_format_validate_count">内容字数不能超过%d字</string>
+    <string name="title_program_release_success">方案发布完成</string>
+    <string name="tip_program_release_success">发布完成</string>
+    <string name="tip_open_interface">了解公众号营销</string>
+    <string name="tip_view_release_program">查看发布方案</string>
+    <string name="tip_return_marketing_home">返回营销方案首页</string>
+    <string name="tip_program_release_success_no_advance">发布完成！您可以授权微信公众号，通过公众号发送消息。</string>
+    <string name="title_program_gongzhong_message">公众号消息内容</string>
+    <string name="title_program_released_list">已发布方案列表</string>
+    <string name="tip_format_program_report_label"><![CDATA[%1$s　<font color="#ff0033">%2$s</font>]]></string>
+    <string name="tip_use_program_help_ruler">该方案只能在单个品牌内使用，请选择您想使用该方案的品牌</string>
+    <string name="tip_warn_save_no_validate">请检查错误信息</string>
+    <string name="mb_tip_released_program_empty">暂无已发布的营销方案</string>
+    <string name="mb_tip_coupon_had_send">已发放</string>
+    <string name="mb_tip_coupon_had_used">已使用</string>
+    <string name="mb_tip_copy">复制</string>
+    <string name="mb_tip_open_function">投票活动会引导顾客关注餐厅公众号，请开通以上功能</string>
+    <string name="mall_shop_tip">选择参与消费减免活动的店铺，参与活动则店内收银(二维火收银)支持打印消费码，顾客可在商场公众号停车相关菜单页面扫消费码减免停车费。</string>
+    <string name="mb_share_coupon_desc">在线支付完成/下单后，顾客可以获得一次活动机会，活动形式为裂变优惠券。分享给朋友，可以和朋友一起领券，在促进老客回购的同时拓展新客。</string>
+    <string name="mb_title_invite_share_coupon">好友瓜分券</string>
+    <string name="mb_tip_lian_suo">连锁</string>
+    <string name="tip_help_share_coupon">好友瓜分券，可以帮助商家让到店就餐的顾客通过微信邀请他的好友，凑够人数瓜分一个总的代金券宝箱；\n商家可以配置邀请人数，根据店里的客单情况设置；\n在设置活动时，建议商家设置一个比较有吸引力的宝箱金额，并且建议给团长（邀请发起者）一个额度较大的优惠券，来吸引团长帮助店里拉新客；\n参与活动的条件可以在“顾客下单”、“顾客支付”、“顾客评价”中三选一，选择对应的条件后，顾客在操作后会收到活动提醒，让顾客去参与活动；顾客发起的邀请有效期为24小时，如超时没有拉满人数，则判定为活动失败；</string>
+    <string name="tip_helo_share_coupon_title">好友瓜分券功能介绍</string>
+    <string name="mb_plate_list_share_coupon">本活动为“好友瓜分券”，商户可以设置在线支付完成/下单后，让顾客可以获得一次活动机会，分享给朋友，可以和朋友一起领券，在促进老客回购的同时拓展新客。
+查看/创建活动前，请先选择一个品牌来创建活动，品牌下的活动可在品牌的门店中选择适用门店</string>
+    <string name="mb_share_coupon_join_count">参与次数</string>
+    <string name="mb_share_coupon_send_count">优惠券发放</string>
+    <string name="mb_share_coupon_consumed_count">优惠券核销</string>
+    <string name="mb_share_coupon_no_item">还没创建任何活动</string>
+    <string name="mb_share_coupon_join_zero">0 次</string>
+    <string name="mb_share_coupon_count_zero">0 张</string>
+
+    <string name="mb_tip_wechat_marketing">公众号营销</string>
+    <string name="member_card_regular_clean">定期清零</string>
+
+    <!-- 精准营销v1.2-->
+    <string name="mb_continue_add">继续添加</string>
+    <string name="mb_include">包括</string>
+    <string name="mb_shoudong">手动</string>
+    <string name="mb_shoudong_tag">手动标签</string>
+    <string name="mb_zidong">自动</string>
+    <string name="mb_zidong_tag">自动标签</string>
+    <string name="mb_create_zidong">新建自动标签</string>
+    <string name="mb_create_shoudong">新建手动标签</string>
+    <string name="mb_tag_list_memo">手动标签数据不会自动更新，需手动调整；自动标签数据会在每天上午更新(可看到昨日数据)。</string>
+    <string name="mb_select_tags_members">已选%s人(选中多个标签保存时，系统会对已选人数去重)</string>
+    <string name="mb_customer_tag_list_memo">尚无符合该标签的顾客</string>
+    <string name="mb_delete_tag_msg">确定为【%s】删除此标签？</string>
+    <string name="mb_zidong_tag_back_msg">未成功创建标签，若返回则当前筛选条件将被清空只保留已创建完成的标签，确定要返回吗？</string>
+    <string name="mb_tags_list_empty">您还没有创建标签</string>
+    <string name="mb_tags_list_empty2">请到页面右下角“新建标签”内创建标签</string>
+    <string name="mb_tags_select_msg">请至少选择%s个标签</string>
+    <string name="mb_tags_select_msg2">至多选择%s个标签！</string>
+    <string name="mb_create_tags_msg">【%s】筛选条件未保存为标签将无法继续使用，确定给这些筛选条件创建新标签吗？</string>
+
+    <string name="mb_sync_success">注：\n1、体系卡暂不支持在顾客支付时发卡、激活此卡成功时发券以及将发送此卡二维码到邮箱；\n2、如需设置在顾客关注时引导顾客加入会员可在此会员体系基本设置页面进行设置；\n3、如需取消同步可在此会员体系基本设置页面进行设置。</string>
+    <string name="mb_sync_unsucess">注：\n1、体系卡暂不支持在顾客支付时发卡、激活此卡成功时发券以及将发送此卡二维码到邮箱；\n2、如需设置在顾客关注时引导顾客加入会员可在此会员体系基本设置页面进行设置；\n3、如需重新同步可在此会员体系基本设置页面进行设置。</string>
+    <string name="mb_sync_fail">此卡同步到微信卡券失败</string>
+    <string name="mb_tip_jump_setting">开始设置</string>
+    <string name="mb_agree_protocol_please">请同意开通微代理协议</string>
+    <string name="mb_micro_agent_head_tip">微代理是一款帮助您拓展销售渠道的工具，将客户、员工变成微代理，交易成功后给予佣金奖励，裂变传播吸引客流，轻松提升销售业绩。</string>
+
+    <string name="mb_agent_search_hit">输入代理手机号或名称</string>
+    <string name="mb_agent_status_close"><![CDATA[<font color="#ff0033">%1$s</font>]]></string>
+    <string name="mb_agent_status_un_audit"><![CDATA[<font color="#ff9900">%1$s</font>]]></string>
+    <string name="mb_agent_status_normal"><![CDATA[<font color="#333333">%1$s</font>]]></string>
+    <string name="mb_agent_status_normal_00cc33"><![CDATA[<font color="#00cc33">%1$s</font>]]></string>
+    <string name="mb_agent_format_total_tip"><![CDATA[当前筛选出<font color="#ff0033">%1$s</font>位代理]]></string>
+    <string name="mb_agent_format_tip_unit"><![CDATA[<font color="#333333"><strong>%1$s</strong><small>%2$s</small></font>]]></string>
+    <string name="mb_agent_format_un_audit_tip">有%s名代理未审核</string>
+    <string name="mb_micro_agent_title">微代理</string>
+    <string name="mb_title_open_agent">开通微代理</string>
+    <string name="mb_title_opened_agent_list">已开通微代理</string>
+    <string name="mb_title_open_success">开通成功</string>
+    <string name="mb_agent_search_hint">输入代理手机号或名称</string>
+    <string name="mb_agent_remark_no_set">未设置</string>
+    <string name="mb_agent_remark_title">备注名</string>
+    <string name="mb_agent_detail_mobile">手机号码：%s</string>
+    <string name="mb_agent_detail_join_time">加入时间：%s</string>
+    <string name="mb_agent_detail_apply_date">申请时间：%s</string>
+    <string name="mb_copy_success_share_url">已成功复制链接</string>
+    <string name="mb_agent_yuan_format">%s元</string>
+    <string name="mb_agent_unit_format">%s单</string>
+
+    <string name="mb_need_open_micro_store">您需要先开通微店。</string>
+    <string name="mb_open_go">去开通</string>
+    <string name="mb_agent_status_open_un">未开通</string>
+    <string name="mb_agent_status_opened">已开通</string>
+    <string-array name="mb_agent_filter_order">
+        <item>加入时间由近到远 </item>
+        <item>加入时间由远到近</item>
+        <item>累计成交金额由大到小</item>
+        <item>累计成交金额由小到大</item>
+        <item>累计成交单数由大到小</item>
+        <item>累计成交单数由小到大</item>
+    </string-array>
+
+    <!--招募页面设计-->
+    <string name="mb_agent_move_down">下移</string>
+    <string name="mb_agent_move_up">上移</string>
+    <string name="mb_agent_replace">替换</string>
+    <string name="mb_agent_recruitment_page_design">招募页面设计</string>
+    <string name="mb_agent_add_img_note">图片格式为png,jpeg,jpg,gif；需小于5MB ；建议使用png格式图片，以保持最佳效果；上传彩色图片。</string>
+    <string name="mb_agent_photo_format_error_note">上传图片格式不符，请重新上传</string>
+    <string name="mb_agent_unaudit_text">待审核</string>
+    <string name="mb_agent_unaudit_agent_title">待审核代理</string>
+    <string name="mb_agent_select_agent">选择代理</string>
+    <string name="mb_agent_select_operation_text">请选择操作内容</string>
+    <string name="mb_agent_pass_audit">确认审核通过</string>
+    <string name="mb_agent_pass_audit_text">审核通过后，代理即可以通过代理商品获得佣金，确定审核通过？</string>
+    <string name="mb_agent_nopass_audit">确认审核不通过</string>
+    <string name="mb_agent_nopass_audit_text">审核不通过，代理无法查看代理商品并通过代理获得佣金，确定审核不通过？</string>
+    <string name="mb_agent_please_select_agent">请先选择代理。</string>
+    <string name="mb_agent_content_modify_text">内容有变更尚未保存，确定要退出吗？</string>
+    <string name="mb_agent_detail_statistic_title">本店代理业绩</string>
+    <string name="mb_agent_detail_base_title">基本信息</string>
+    <string name="mb_agent_audit_pass">通过</string>
+    <string name="mb_agent_audit_reject">不通过</string>
+    <string name="mb_agent_un_frozen">解冻</string>
+    <string name="mb_agent_un_frozen_confirm">确认解冻</string>
+    <string name="mb_agent_frozen">冻结</string>
+    <string name="mb_agent_frozen_confirm">确认冻结</string>
+    <string name="mb_agent_un_frozen_des">解冻后，该代理可以继续推广商品获得佣金</string>
+    <string name="mb_agent_un_frozen_tip">解冻后，该代理可以继续推广商品获得佣金，确认解冻？</string>
+    <string name="mb_agent_frozen_des">冻结后，代理无法再推广商品获得佣金，已经产生的交易不受影响</string>
+    <string name="mb_agent_frozen_tip">冻结后，代理无法再推广商品获得佣金，已经产生的交易不受影响，确认冻结？</string>
+    <string name="mb_agent_detail_summary_title">代理概况</string>
+    <string name="mb_agent_consume_statstic_title">本店消费概况</string>
+    <string name="mb_agent_detail_title">代理详细资料</string>
+    <string name="mb_agent_list_empty">暂无代理，您可以开始招募代理</string>
+    <string name="mb_agent_go_recruitment">开始招募代理</string>
+    <string name="mb_tip_go_audit">去审核</string>
+    <string name="mb_agent_forzen_ed">代理已冻结</string>
+    <string name="mb_agent_un_freezed">代理已解冻</string>
+    <string name="mb_agent_unaudit_pass">代理已审核通过</string>
+    <string name="mb_agent_unaudit_reject">代理审核未通过</string>
+    <string name="mb_agent_id_error">代理id异常，请重新加载</string>
+    <string name="mb_agent_phone_text">手机号码：</string>
+    <string name="mb_agent_save_fail_tip">保存失败，请重新尝试</string>
+    <string name="mb_agent_recruitment_preview_page">招募页面预览</string>
+    <string name="mb_agent_preview_url_empty_tip">预览页面链接不存在</string>
+    <string name="mb_qr_share_copy">复制链接</string>
+    <string name="mb_qr_share_down_image">下载二维码</string>
+    <string name="mb_qr_share_wechat_moment">微信朋友圈</string>
+    <string name="mb_ar_share_wechat_friend">微信好友</string>
+    <string name="mb_agent_goods_or_barcode">商品/条形码</string>
+    <string name="mb_agent_added">已加入</string>
+    <string name="mb_agent_unadd">未加入</string>
+    <string name="mb_agent_goods">代理商品</string>
+    <string name="mb_agent_modify_commission">修改佣金比例</string>
+    <string name="mb_agent_remove_agent_goods">从代理商品中移除</string>
+    <string name="mb_agent_remove_title">确定移除</string>
+    <string name="mb_agent_remove_goods_tip">移除后代理将不能再通过该商品获得佣金，但已发生的交易不受影响。</string>
+    <string name="mb_agent_commission_persent">佣金比例(%)</string>
+    <string name="mb__agent_commission_range">0.01～50</string>
+    <string name="mb_agent_modify_commission_tip1">请填写佣金比例。</string>
+    <string name="mb_agent_modify_commission_tip2">佣金比例请输入0.01~50之间的值。</string>
+    <string name="mb_agent_add_goods">添加代理商品</string>
+    <string name="mb_agent_set_commission_fault_tip">设置佣金比例失败，请尝试重新设置。</string>
+    <string name="mb_agent_remove_goods_fault_tip">移除商品失败，请重新尝试一下。</string>
+    <string name="mb_agent_please_select_agent_goods">请先选择代理商品。</string>
+    <string name="mb_agent_please_select_add_agent_goods">请先选择需要添加的代理商品。</string>
+
+
+</resources>

@@ -1,0 +1,74 @@
+#!/usr/bin/python
+# _*_ coding: UTF-8 _*_
+
+print("hello world 你好 世界")
+
+if True:
+    print("Answer")
+    print("True")
+else:
+    print("Answer")
+    print("false")
+# 打印
+a = 11
+print("打印类型"+str(isinstance(a, int)))
+
+# 字符串类型
+str1 = 'this runoob'
+print(str1)
+print(str1[0:-1])  # 输出第一个 ～ 倒数第二个字符
+print(str1[0])  # 输出第一个字符
+print(str1[2:5])  # 输出 从 第三个开始到第五个的字符
+print(str1[2:])  # 输出从第三个开始的后的所有字符
+print(str1*2)  # 输出字符串 2 次
+print(str1+"test")  # 链接字符串
+
+
+# 转义字符
+print('Ru\noob')
+print(r'Ru\noob')
+
+# list
+list = ["abcd", "123", 11, 40.2]
+tinyList = [1, 2, 3]
+print(list)
+print(list[0])
+print(list+tinyList)
+
+
+# Tuple(元组) 与 list 类似 不可更改
+tuple = ("abcd", "234", 123)
+print(tuple)
+
+
+# set
+
+student = {'tom', 'jim', 'jack'}
+print(student)
+if 'jack' in student:
+    print("jack 在set 集合中")
+else:
+    print('jack 不在集合中')
+
+# set 可以进行集合运算
+a = set('abcdefghaig')
+b = set('ade')
+print(a)
+print(a-b)
+print(a | b)
+
+# dictionary 字典
+dict = {}
+dict["one"] = "1 -个类型"
+dict["two"] = "2 -个类型"
+dict[2] = "2 -个类型"
+print(dict["one"])
+print(dict[2])
+print(dict.keys())
+print(dict.values())
+
+# 数据转换
+print(int("0"))
+print(float("0"))
+print(complex("2"))
+print(str(True))
